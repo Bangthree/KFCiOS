@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Pop Up appear
+- All component appears correctly
+- able to redeem
+</description>
+   <name>3. Redeem Voucher from Voucher LIst</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b40916f7-4de7-40a0-8b34-1dd91e46a163</testCaseGuid>
+</TestCaseEntity>

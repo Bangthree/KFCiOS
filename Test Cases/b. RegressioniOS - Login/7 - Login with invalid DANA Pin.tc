@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Reached DANA PIN PAGE using valid Credential
+input invalid DANA PIN ONCE
+CHECK BEHAVIOUR AFTER INVALID</description>
+   <name>7 - Login with invalid DANA Pin</name>
+   <tag>Login, Dana, PIN</tag>
+   <comment>Login USER 085643628232
+Redirect to DANA LOGIN PAGE
+DANA PIN INPUT</comment>
+   <testCaseGuid>2f149ab8-1b41-4d0a-a8cf-37734690f3ed</testCaseGuid>
+</TestCaseEntity>

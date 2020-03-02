@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login Screen Behaviour When no data inputed</description>
+   <name>4 - Login without any Login details</name>
+   <tag>Login Screen</tag>
+   <comment>Empty Phone Number and Password
+Check Error Messages - Empty field</comment>
+   <testCaseGuid>bbac8a04-efd0-48a1-bc43-be9fc2432a52</testCaseGuid>
+</TestCaseEntity>

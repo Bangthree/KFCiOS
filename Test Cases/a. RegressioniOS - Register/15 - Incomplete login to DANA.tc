@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Confirmation appear
+- Risk Challenge appear
+- Able to select NO and redirected to the login page</description>
+   <name>15 - Incomplete login to DANA</name>
+   <tag>Login, Dana, No, Yes, Confirmation. Risk Challange</tag>
+   <comment></comment>
+   <testCaseGuid>0ef14927-60e2-4a0b-8071-e4c0315e2df2</testCaseGuid>
+</TestCaseEntity>

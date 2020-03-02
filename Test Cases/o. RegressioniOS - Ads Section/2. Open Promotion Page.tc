@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Promotion Page Redirection
+- Load more button function</description>
+   <name>2. Open Promotion Page</name>
+   <tag>Promotion, Ads, Banner</tag>
+   <comment></comment>
+   <testCaseGuid>1cc9d8fc-10e5-4b1f-abc4-c5ca58679e2b</testCaseGuid>
+</TestCaseEntity>

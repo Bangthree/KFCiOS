@@ -1,0 +1,1130 @@
+[35m[Appium][39m Welcome to Appium v1.15.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 55709
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   chromeDriverPort: 55710
+[35m[Appium][39m   tmpDir: /var/folders/5x/xgrvn9_j439fxnt_sf6vk2sw0000gq/T//Katalon/Appium/Temp1583121528112
+[35m[Appium][39m   webkitDebugProxyPort: 55707
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:55709
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m6 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"newCommandTimeout":1800,"realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","platformVersion":"13.3","automationName":"XCUITest","bundleId":"com.kfcjv.staging","waitForAppScript":"true;","platformName":"iOS","deviceName":"iPhone 8","platform":"IOS","wdaLocalPort":55706},"capabilities":{"firstMatch":[{"appium:automationName":"XCUITest","appium:bundleId":"com.kfcjv.staging","appium:deviceName":"iPhone 8","appium:newCommandTimeout":1800,"platform":"IOS","platformName":"ios","appium:platformVersion":"13.3","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","appium:waitForAppScript":"true;","appium:wdaLocalPort":55706}]}}[39m
+[35m[BaseDriver][39m The capabilities ["platform","realDeviceLogger"] are not standard capabilities and should have an extension prefix
+[35m[Appium][39m Appium v1.15.1 creating new XCUITestDriver (v2.133.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7
+[35m[XCUITest][39m iOS SDK Version set to '13.2'
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 11.3.1 with udid '6A6E4FBE-0C14-4933-955B-2AC434E45FAC'
+[35m[XCUITest][39m Determining device to run tests on: udid: '6A6E4FBE-0C14-4933-955B-2AC434E45FAC', real device: false
+[35m[XCUITest][39m Setting up simulator
+[35m[iOSSim][39m Both Simulator with UDID 6A6E4FBE-0C14-4933-955B-2AC434E45FAC and the UI client are currently running
+[35m[XCUITest][39m idb will not be used for Simulator interaction. Original error: 'idb' has not been found in PATH. Is it installed? Read https://www.fbidb.io for more details
+[35m[XCUITest][39m Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[XCUITest][39m Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[35m[DevCon Factory][39m Requesting connection for device 6A6E4FBE-0C14-4933-955B-2AC434E45FAC on local port 55706, device port 55706
+[35m[DevCon Factory][39m Successfully requested the connection for 6A6E4FBE-0C14-4933-955B-2AC434E45FAC:55706
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":55706}
+[35m[XCUITest][39m Launching WebDriverAgent on the device
+[35m[WebDriverAgent][39m Fetching dependencies
+[35m[WebDriverAgent][39m Dependencies up-to-date
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":55706}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":55706}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":55706}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":55706}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":55706}
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[35m[Appium][39m New XCUITestDriver session created successfully, session be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m13973 ms - 638[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Merging WDA caps over Appium caps for session detail response
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7 [39m[32m200[39m [90m210 ms - 595[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Merging WDA caps over Appium caps for session detail response
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7 [39m[32m200[39m [90m3 ms - 595[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/appium/device/activate_app[39m
+[35m[HTTP][39m [90m{"bundleId":"com.kfcjv.staging"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/appium/device/activate_app [39m[32m200[39m [90m117 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m86 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeAlert"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1356 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeAlert"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1167 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[RemoteDebugger][39m Remote Debugger version 5.7.0
+[35m[RemoteDebugger][39m Setting communication protocol: using full Web Inspector protocol communication
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/contexts [39m[32m200[39m [90m80 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/screenshot [39m[32m200[39m [90m71 ms - 265640[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m75 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeImage[@name = 'login_kfcLogo_imgV']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1406 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/11000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/11000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m161 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m85 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Login' and @name = 'login_login_button']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1404 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/15000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/15000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m136 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m79 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'WELCOME' and @name = 'WELCOME']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1397 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/0E000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/0E000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m143 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m69 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'WELCOME' and @name = 'WELCOME']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1492 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/0E000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/0E000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m162 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/0E000000-0000-0000-B19E-000000000000/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (be4b44be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId D676D8C0-FA34-4E70-93CE-73A72C549888 with be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/0E000000-0000-0000-B19E-000000000000/displayed [39m[32m200[39m [90m142 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m81 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'WELCOME' and @name = 'WELCOME']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1418 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/0E000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/0E000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m146 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/0E000000-0000-0000-B19E-000000000000/text[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (be4b44be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId D676D8C0-FA34-4E70-93CE-73A72C549888 with be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/0E000000-0000-0000-B19E-000000000000/text [39m[32m200[39m [90m127 ms - 70[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m75 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Login' and @name = 'login_login_button']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1398 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/15000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/15000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m128 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m5 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m70 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Login' and @name = 'login_login_button']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1371 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/15000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/15000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m127 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/15000000-0000-0000-B19E-000000000000/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (be4b44be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId D676D8C0-FA34-4E70-93CE-73A72C549888 with be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/15000000-0000-0000-B19E-000000000000/displayed [39m[32m200[39m [90m162 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m80 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Login' and @name = 'Login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1397 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/21000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/21000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m129 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m5 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m73 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Login' and @name = 'Login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1350 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/21000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/21000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m122 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/21000000-0000-0000-B19E-000000000000/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (be4b44be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId D676D8C0-FA34-4E70-93CE-73A72C549888 with be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/21000000-0000-0000-B19E-000000000000/displayed [39m[32m200[39m [90m130 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m69 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Login' and @name = 'Login']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1423 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/21000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/21000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m140 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/21000000-0000-0000-B19E-000000000000/text[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (be4b44be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId D676D8C0-FA34-4E70-93CE-73A72C549888 with be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/21000000-0000-0000-B19E-000000000000/text [39m[32m200[39m [90m148 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m73 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Forgot Password' and @name = 'login_login_button']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1401 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/16000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/16000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m124 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m73 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Forgot Password' and @name = 'login_login_button']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1374 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/16000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/16000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m123 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/16000000-0000-0000-B19E-000000000000/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (be4b44be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId D676D8C0-FA34-4E70-93CE-73A72C549888 with be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/16000000-0000-0000-B19E-000000000000/displayed [39m[32m200[39m [90m140 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m70 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Forgot Password' and @name = 'Forgot Password']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1340 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/22000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/22000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m171 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m96 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Forgot Password' and @name = 'Forgot Password']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1547 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/22000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/22000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m122 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/22000000-0000-0000-B19E-000000000000/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (be4b44be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId D676D8C0-FA34-4E70-93CE-73A72C549888 with be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/22000000-0000-0000-B19E-000000000000/displayed [39m[32m200[39m [90m156 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m5 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m80 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Forgot Password' and @name = 'Forgot Password']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1387 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/22000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/22000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m124 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/22000000-0000-0000-B19E-000000000000/text[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (be4b44be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId D676D8C0-FA34-4E70-93CE-73A72C549888 with be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/22000000-0000-0000-B19E-000000000000/text [39m[32m200[39m [90m128 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m67 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeImage[@name = 'login_threeStripe_imgV']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1406 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/19000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/19000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m141 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m80 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'PLEASE LOGIN TO YOUR ACCOUNT' and @name = 'login_title_lable']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1435 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/12000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/12000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m148 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m78 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'PLEASE LOGIN TO YOUR ACCOUNT' and @name = 'login_title_lable']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1355 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/12000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/12000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m144 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/12000000-0000-0000-B19E-000000000000/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (be4b44be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId D676D8C0-FA34-4E70-93CE-73A72C549888 with be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/12000000-0000-0000-B19E-000000000000/displayed [39m[32m200[39m [90m135 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m109 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'PLEASE LOGIN TO YOUR ACCOUNT' and @name = 'login_title_lable']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1361 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/12000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/12000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m125 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/12000000-0000-0000-B19E-000000000000/text[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (be4b44be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId D676D8C0-FA34-4E70-93CE-73A72C549888 with be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/12000000-0000-0000-B19E-000000000000/text [39m[32m200[39m [90m130 ms - 91[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m81 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeImage[@name = 'login_kfcLogo_imgV']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1386 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/11000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/11000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m150 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m130 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeImage[@name = 'password']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1399 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/1E000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/1E000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m131 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m73 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeImage[@name = 'password']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1394 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/1E000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/1E000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m133 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m76 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'show' and @name = 'login_eye_button']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1417 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/20000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/20000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m137 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/20000000-0000-0000-B19E-000000000000/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (be4b44be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId D676D8C0-FA34-4E70-93CE-73A72C549888 with be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/20000000-0000-0000-B19E-000000000000/displayed [39m[32m200[39m [90m189 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m97 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'show' and @name = 'login_eye_button']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1380 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/20000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/20000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m120 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/20000000-0000-0000-B19E-000000000000/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (be4b44be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId D676D8C0-FA34-4E70-93CE-73A72C549888 with be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/20000000-0000-0000-B19E-000000000000/displayed [39m[32m200[39m [90m152 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m90 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeSecureTextField[@name = 'login_password_textField']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1396 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/1F000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/1F000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m149 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m103 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeSecureTextField[@name = 'login_password_textField']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1404 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/1F000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/1F000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m123 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/1F000000-0000-0000-B19E-000000000000/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (be4b44be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId D676D8C0-FA34-4E70-93CE-73A72C549888 with be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/1F000000-0000-0000-B19E-000000000000/displayed [39m[32m200[39m [90m154 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m77 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeImage[@name = 'phone']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1389 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/1B000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/1B000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m122 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m73 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeTextField[@name = 'login_mobileNumber_textField']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1374 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/1C000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/1C000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m122 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m70 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeTextField[@name = 'login_mobileNumber_textField']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1387 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/1C000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/1C000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m174 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/1C000000-0000-0000-B19E-000000000000/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (be4b44be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId D676D8C0-FA34-4E70-93CE-73A72C549888 with be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/1C000000-0000-0000-B19E-000000000000/displayed [39m[32m200[39m [90m181 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m116 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Register' and @name = 'login_register_button']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1411 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/17000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/17000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m150 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m77 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Register' and @name = 'login_register_button']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1437 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/17000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/17000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m122 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/17000000-0000-0000-B19E-000000000000/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (be4b44be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId D676D8C0-FA34-4E70-93CE-73A72C549888 with be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/17000000-0000-0000-B19E-000000000000/displayed [39m[32m200[39m [90m148 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m77 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Register' and @name = 'Register']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1379 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/23000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/23000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m124 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m75 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Register' and @name = 'Register']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1393 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/23000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/23000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m139 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/23000000-0000-0000-B19E-000000000000/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (be4b44be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId D676D8C0-FA34-4E70-93CE-73A72C549888 with be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/23000000-0000-0000-B19E-000000000000/displayed [39m[32m200[39m [90m145 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m124 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Register' and @name = 'Register']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1598 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/23000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/23000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m132 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/23000000-0000-0000-B19E-000000000000/text[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (be4b44be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId D676D8C0-FA34-4E70-93CE-73A72C549888 with be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/23000000-0000-0000-B19E-000000000000/text [39m[32m200[39m [90m129 ms - 71[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m76 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'By logging or registering, you agree to our Terms & Conditions and Privacy Policy.' and @name = 'login_benfits_lable']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1419 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/18000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/18000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m144 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m76 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'By logging or registering, you agree to our Terms & Conditions and Privacy Policy.' and @name = 'login_benfits_lable']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1469 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/18000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/18000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m155 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/18000000-0000-0000-B19E-000000000000/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (be4b44be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId D676D8C0-FA34-4E70-93CE-73A72C549888 with be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/18000000-0000-0000-B19E-000000000000/displayed [39m[32m200[39m [90m149 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m6 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/window/rect [39m[32m200[39m [90m99 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'By logging or registering, you agree to our Terms & Conditions and Privacy Policy.' and @name = 'login_benfits_lable']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/elements [39m[32m200[39m [90m1450 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/18000000-0000-0000-B19E-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/18000000-0000-0000-B19E-000000000000/location [39m[32m200[39m [90m148 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/18000000-0000-0000-B19E-000000000000/text[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (be4b44be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId D676D8C0-FA34-4E70-93CE-73A72C549888 with be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/be4b44be-3a8c-4bf4-a6a8-9c2b978b5ab7/element/18000000-0000-0000-B19E-000000000000/text [39m[32m200[39m [90m140 ms - 145[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m4 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"newCommandTimeout":1800,"realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","platformVersion":"13.3","automationName":"XCUITest","bundleId":"com.kfcjv.staging","waitForAppScript":"true;","platformName":"iOS","deviceName":"iPhone 8","platform":"IOS","wdaLocalPort":55747},"capabilities":{"firstMatch":[{"appium:automationName":"XCUITest","appium:bundleId":"com.kfcjv.staging","appium:deviceName":"iPhone 8","appium:newCommandTimeout":1800,"platform":"IOS","platformName":"ios","appium:platformVersion":"13.3","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","appium:waitForAppScript":"true;","appium:wdaLocalPort":55747}]}}[39m
+[35m[BaseDriver][39m The capabilities ["platform","realDeviceLogger"] are not standard capabilities and should have an extension prefix
+[35m[Appium][39m Appium v1.15.1 creating new XCUITestDriver (v2.133.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 6a268ad6-a066-4547-abe9-21ac51d0d707
+[35m[XCUITest][39m iOS SDK Version set to '13.2'
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 11.3.1 with udid '6A6E4FBE-0C14-4933-955B-2AC434E45FAC'
+[35m[XCUITest][39m Determining device to run tests on: udid: '6A6E4FBE-0C14-4933-955B-2AC434E45FAC', real device: false
+[35m[XCUITest][39m Setting up simulator
+[35m[iOSSim][39m Both Simulator with UDID 6A6E4FBE-0C14-4933-955B-2AC434E45FAC and the UI client are currently running
+[35m[XCUITest][39m idb will not be used for Simulator interaction. Original error: 'idb' has not been found in PATH. Is it installed? Read https://www.fbidb.io for more details
+[35m[XCUITest][39m Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[XCUITest][39m Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[35m[DevCon Factory][39m Requesting connection for device 6A6E4FBE-0C14-4933-955B-2AC434E45FAC on local port 55747, device port 55747
+[35m[DevCon Factory][39m Successfully requested the connection for 6A6E4FBE-0C14-4933-955B-2AC434E45FAC:55747
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":55747}
+[35m[XCUITest][39m Launching WebDriverAgent on the device
+[35m[WebDriverAgent][39m Fetching dependencies
+[35m[WebDriverAgent][39m Dependencies up-to-date
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":55747}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":55747}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":55747}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":55747}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":55747}
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[35m[Appium][39m New XCUITestDriver session created successfully, session 6a268ad6-a066-4547-abe9-21ac51d0d707 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m12827 ms - 638[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Merging WDA caps over Appium caps for session detail response
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707 [39m[32m200[39m [90m192 ms - 595[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Merging WDA caps over Appium caps for session detail response
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707 [39m[32m200[39m [90m2 ms - 595[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/appium/device/activate_app[39m
+[35m[HTTP][39m [90m{"bundleId":"com.kfcjv.staging"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/appium/device/activate_app [39m[32m200[39m [90m135 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/window/rect [39m[32m200[39m [90m184 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Login' and @name = 'login_login_button']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/elements [39m[32m200[39m [90m1455 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/element/15000000-0000-0000-E59F-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/element/15000000-0000-0000-E59F-000000000000/location [39m[32m200[39m [90m142 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/window/rect [39m[32m200[39m [90m81 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeTextField[@name = 'login_mobileNumber_textField']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/elements [39m[32m200[39m [90m1470 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/element/1C000000-0000-0000-E59F-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/element/1C000000-0000-0000-E59F-000000000000/location [39m[32m200[39m [90m154 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/element/1C000000-0000-0000-E59F-000000000000/clear[39m
+[35m[HTTP][39m [90m{"id":"1C000000-0000-0000-E59F-000000000000"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/element/1C000000-0000-0000-E59F-000000000000/clear [39m[32m200[39m [90m101 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/element/1C000000-0000-0000-E59F-000000000000/value[39m
+[35m[HTTP][39m [90m{"id":"1C000000-0000-0000-E59F-000000000000","text":"085643628232","value":["0","8","5","6","4","3","6","2","8","2","3","2"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/element/1C000000-0000-0000-E59F-000000000000/value [39m[32m200[39m [90m1786 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/window/rect [39m[32m200[39m [90m101 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeSecureTextField[@name = 'login_password_textField']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/elements [39m[32m200[39m [90m2727 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/element/1F000000-0000-0000-E59F-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/element/1F000000-0000-0000-E59F-000000000000/location [39m[32m200[39m [90m198 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/element/1F000000-0000-0000-E59F-000000000000/clear[39m
+[35m[HTTP][39m [90m{"id":"1F000000-0000-0000-E59F-000000000000"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/element/1F000000-0000-0000-E59F-000000000000/clear [39m[32m200[39m [90m127 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/element/1F000000-0000-0000-E59F-000000000000/value[39m
+[35m[HTTP][39m [90m{"id":"1F000000-0000-0000-E59F-000000000000","text":"111111","value":["1","1","1","1","1","1"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/element/1F000000-0000-0000-E59F-000000000000/value [39m[32m200[39m [90m1004 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/window/rect [39m[32m200[39m [90m113 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Login' and @name = 'login_login_button']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/elements [39m[32m200[39m [90m3299 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/element/15000000-0000-0000-E59F-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/element/15000000-0000-0000-E59F-000000000000/location [39m[32m200[39m [90m207 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"15000000-0000-0000-E59F-000000000000"}},{"action":"release","options":{}}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/touch/perform [39m[32m200[39m [90m303 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/window/rect [39m[32m200[39m [90m543 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'enter your DANA PIN' and @name = 'enter your DANA PIN']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6a268ad6-a066-4547-abe9-21ac51d0d707/elements [39m[32m-[39m [90m- ms - -[39m
+[35m[HTTP][39m [90m[39m

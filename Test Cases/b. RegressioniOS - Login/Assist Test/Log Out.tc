@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Log Out from Main menu, Reach Login Page</description>
+   <name>Log Out</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>da638236-2f49-40de-9628-e484c9711a0b</testCaseGuid>
+</TestCaseEntity>

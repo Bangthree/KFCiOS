@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Check Splash Screen
+- Check Login Page Component ID
+- Check Login Page Component EN</description>
+   <name>1- Open The Login Page</name>
+   <tag>Login Page</tag>
+   <comment>Login Test Started</comment>
+   <testCaseGuid>0abd21c8-9fe2-431a-8797-1693b2bbcc68</testCaseGuid>
+</TestCaseEntity>

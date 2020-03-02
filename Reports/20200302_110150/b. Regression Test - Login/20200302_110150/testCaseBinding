@@ -1,0 +1,6 @@
+{"testCaseName":"Test Cases/b. RegressioniOS - Login/1- Open The Login Page","testCaseId":"Test Cases/b. RegressioniOS - Login/1- Open The Login Page"}
+{"testCaseName":"Test Cases/b. RegressioniOS - Login/3 - Login with a valid phone number and password as DANA","testCaseId":"Test Cases/b. RegressioniOS - Login/3 - Login with a valid phone number and password as DANA"}
+{"testCaseName":"Test Cases/b. RegressioniOS - Login/4 - Login without any Login details","testCaseId":"Test Cases/b. RegressioniOS - Login/4 - Login without any Login details"}
+{"testCaseName":"Test Cases/b. RegressioniOS - Login/5 - Login with an unregistered phone number","testCaseId":"Test Cases/b. RegressioniOS - Login/5 - Login with an unregistered phone number"}
+{"testCaseName":"Test Cases/b. RegressioniOS - Login/6 - Login with invalid password","testCaseId":"Test Cases/b. RegressioniOS - Login/6 - Login with invalid password"}
+{"testCaseName":"Test Cases/b. RegressioniOS - Login/7 - Login with invalid DANA Pin","testCaseId":"Test Cases/b. RegressioniOS - Login/7 - Login with invalid DANA Pin"}

@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression Test - Loyality and Rewards" time="111.175" tests="4" failures="4" errors="0">
+   <testsuite name="Regression Test - Loyality and Rewards" tests="4" failures="4" errors="0" time="111.175" timestamp="2020-02-28 10:27:50" hostname="bambangtripamungkas - 192.168.1.5" id="Test Suites/Regression Test - Loyality and Rewards">
+      <properties>
+         <property name="deviceName" value="iPhone 8"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741"/>
+         <property name="logFiles" value="/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/execution0.log, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/appium.log, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/appium-proxy-server.log"/>
+         <property name="attachments" value="/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860493393.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860495533.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860495751.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860502343.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860504311.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860506231.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860508082.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860509891.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860511848.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860513727.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860515575.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860517421.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860519249.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860521539.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860524626.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860527418.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860529401.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860531255.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860533082.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860534856.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860536673.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860538447.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860540359.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860542285.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860544111.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860545843.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860547611.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860549382.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860551101.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860552873.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860554611.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860556446.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860558139.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860559901.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860561662.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860566585.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860566749.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860569277.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860569482.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860578768.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860580479.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860580682.png"/>
+         <property name="hostName" value="bambangtripamungkas - 192.168.1.5"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.15.1\&quot;}},\&quot;sessionId\&quot;:null,\&quot;status\&quot;:0}"/>
+         <property name="katalonVersion" value="7.1.1.1"/>
+         <property name="deviceOS" value="iOS"/>
+         <property name="appiumVersion" value="1.15.1"/>
+         <property name="deviceModel" value="Not available for Simulator"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="deviceManufacturer" value="Apple"/>
+         <property name="deviceId" value="null"/>
+         <property name="deviceName" value="iPhone 8"/>
+         <property name="deviceOSVersion" value="13.3"/>
+      </properties>
+      <testcase name="Test Cases/RegressioniOS - Loyality and Rewards/1. Open Loyality Page" time="24.735" classname="Test Cases/RegressioniOS - Loyality and Rewards/1. Open Loyality Page" status="FAILED">
+         <failure type="FAILED" message="Test Cases/RegressioniOS - Loyality and Rewards/1. Open Loyality Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/iOS/Home Page/home_topbar_btnProfile' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:640)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at 1. Open Loyality Page.run(1. Open Loyality Page:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582860461715.run(TempTestSuite1582860461715.groovy:36)
+"/>
+         <system-out><![CDATA[2020-02-28 10:27:51 - [TEST_CASE][FAILED] - Test Cases/RegressioniOS - Loyality and Rewards/1. Open Loyality Page: Test Cases/RegressioniOS - Loyality and Rewards/1. Open Loyality Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/iOS/Home Page/home_topbar_btnProfile' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:640)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at 1. Open Loyality Page.run(1. Open Loyality Page:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582860461715.run(TempTestSuite1582860461715.groovy:36)
+
+
+2020-02-28 10:27:51 - [TEST_STEP][PASSED] - startExistingApplication("com.kfcjv.staging"): Starting app with application ID: 'com.kfcjv.staging'
+
+2020-02-28 10:27:52 - [MESSAGE][INFO] - ios_webkit_debug_proxy server started on port 64735
+
+2020-02-28 10:27:54 - [MESSAGE][INFO] - Appium server started on port 64,737
+
+2020-02-28 10:28:10 - [MESSAGE][PASSED] - Starting app with application ID: 'com.kfcjv.staging'
+
+2020-02-28 10:28:10 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("iOS/Home Page/home_topbar_btnProfile"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_topbar_btnProfile' not found
+
+2020-02-28 10:28:13 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Home Page/home_topbar_btnProfile' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860493393.png]]
+
+2020-02-28 10:28:13 - [TEST_STEP][FAILED] - tap(findTestObject("iOS/Home Page/home_topbar_btnProfile"), 1, STOP_ON_FAILURE): Failed to tap on element 'Object Repository/iOS/Home Page/home_topbar_btnProfile' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/iOS/Home Page/home_topbar_btnProfile not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:506)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at 1. Open Loyality Page.run(1. Open Loyality Page:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582860461715.run(TempTestSuite1582860461715.groovy:36)
+)
+
+2020-02-28 10:28:15 - [MESSAGE][FAILED] - Object Object Repository/iOS/Home Page/home_topbar_btnProfile not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860495533.png]]
+
+2020-02-28 10:28:15 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/iOS/Home Page/home_topbar_btnProfile' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/iOS/Home Page/home_topbar_btnProfile not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:506)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at 1. Open Loyality Page.run(1. Open Loyality Page:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582860461715.run(TempTestSuite1582860461715.groovy:36)
+)
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860495751.png]]]]></system-out>
+         <system-err><![CDATA[2020-02-28 10:27:51 - [TEST_CASE][FAILED] - Test Cases/RegressioniOS - Loyality and Rewards/1. Open Loyality Page: Test Cases/RegressioniOS - Loyality and Rewards/1. Open Loyality Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/iOS/Home Page/home_topbar_btnProfile' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:640)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at 1. Open Loyality Page.run(1. Open Loyality Page:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582860461715.run(TempTestSuite1582860461715.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RegressioniOS - Loyality and Rewards/2. View Vouchers List" time="70.946" classname="Test Cases/RegressioniOS - Loyality and Rewards/2. View Vouchers List" status="FAILED">
+         <failure type="FAILED" message="Test Cases/RegressioniOS - Loyality and Rewards/2. View Vouchers List FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/iOS/Voucher List Page/vouchlist_header_title_voucher' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:640)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at 2. View Vouchers List.run(2. View Vouchers List:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582860461715.run(TempTestSuite1582860461715.groovy:36)
+"/>
+         <system-out><![CDATA[2020-02-28 10:28:16 - [TEST_CASE][FAILED] - Test Cases/RegressioniOS - Loyality and Rewards/2. View Vouchers List: Test Cases/RegressioniOS - Loyality and Rewards/2. View Vouchers List FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/iOS/Voucher List Page/vouchlist_header_title_voucher' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:640)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at 2. View Vouchers List.run(2. View Vouchers List:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582860461715.run(TempTestSuite1582860461715.groovy:36)
+
+
+2020-02-28 10:28:16 - [TEST_STEP][PASSED] - comment("Voucher List Page Check"): Voucher List Page Check
+
+2020-02-28 10:28:16 - [MESSAGE][INFO] - Voucher List Page Check
+
+2020-02-28 10:28:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_title"), 1, CONTINUE_ON_FAILURE): Object Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title not found
+
+2020-02-28 10:28:18 - [MESSAGE][WARNING] - Object Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title not found
+
+2020-02-28 10:28:18 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher List Page/vouchlist_header_btnBack"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_header_btnBack' is exist
+
+2020-02-28 10:28:20 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_header_btnBack' is exist
+
+2020-02-28 10:28:20 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("iOS/Voucher List Page/vouchlist_header_title_voucher"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_header_title_voucher' not found
+
+2020-02-28 10:28:22 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_header_title_voucher' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860502343.png]]
+
+2020-02-28 10:28:22 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("iOS/Voucher List Page/vouchlist_header_title_voucher"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_header_title_voucher' not found
+
+2020-02-28 10:28:24 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_header_title_voucher' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860504311.png]]
+
+2020-02-28 10:28:24 - [TEST_STEP][FAILED] - getText(findTestObject("iOS/Voucher List Page/vouchlist_header_title_voucher"), 1, CONTINUE_ON_FAILURE): Object Object Repository/iOS/Voucher List Page/vouchlist_header_title_voucher not found
+
+2020-02-28 10:28:26 - [MESSAGE][FAILED] - Object Object Repository/iOS/Voucher List Page/vouchlist_header_title_voucher not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860506231.png]]
+
+2020-02-28 10:28:26 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("iOS/Voucher List Page/vouchlist_points_title"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_points_title' not found
+
+2020-02-28 10:28:28 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_points_title' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860508082.png]]
+
+2020-02-28 10:28:28 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("iOS/Voucher List Page/vouchlist_points_title"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_points_title' not found
+
+2020-02-28 10:28:30 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_points_title' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860509891.png]]
+
+2020-02-28 10:28:30 - [TEST_STEP][FAILED] - getText(findTestObject("iOS/Voucher List Page/vouchlist_points_title"), 1, CONTINUE_ON_FAILURE): Object Object Repository/iOS/Voucher List Page/vouchlist_points_title not found
+
+2020-02-28 10:28:32 - [MESSAGE][FAILED] - Object Object Repository/iOS/Voucher List Page/vouchlist_points_title not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860511848.png]]
+
+2020-02-28 10:28:32 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("iOS/Voucher List Page/vouchlist_points_desc_pointexpired"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_points_desc_pointexpired' not found
+
+2020-02-28 10:28:33 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_points_desc_pointexpired' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860513727.png]]
+
+2020-02-28 10:28:33 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("iOS/Voucher List Page/vouchlist_points_desc_pointexpired"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_points_desc_pointexpired' not found
+
+2020-02-28 10:28:35 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_points_desc_pointexpired' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860515575.png]]
+
+2020-02-28 10:28:35 - [TEST_STEP][FAILED] - getText(findTestObject("iOS/Voucher List Page/vouchlist_points_desc_pointexpired"), 1, CONTINUE_ON_FAILURE): Object Object Repository/iOS/Voucher List Page/vouchlist_points_desc_pointexpired not found
+
+2020-02-28 10:28:37 - [MESSAGE][FAILED] - Object Object Repository/iOS/Voucher List Page/vouchlist_points_desc_pointexpired not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860517421.png]]
+
+2020-02-28 10:28:37 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("iOS/Voucher List Page/vouchlist_points_desc_dynamicpoint"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_points_desc_dynamicpoint' not found
+
+2020-02-28 10:28:39 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_points_desc_dynamicpoint' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860519249.png]]
+
+2020-02-28 10:28:39 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("iOS/Voucher List Page/vouchlist_points_desc_dynamicpoint"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_points_desc_dynamicpoint' not found
+
+2020-02-28 10:28:41 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_points_desc_dynamicpoint' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860521539.png]]
+
+2020-02-28 10:28:41 - [TEST_STEP][FAILED] - getText(findTestObject("iOS/Voucher List Page/vouchlist_points_desc_dynamicpoint"), 1, CONTINUE_ON_FAILURE): Object Object Repository/iOS/Voucher List Page/vouchlist_points_desc_dynamicpoint not found
+
+2020-02-28 10:28:44 - [MESSAGE][FAILED] - Object Object Repository/iOS/Voucher List Page/vouchlist_points_desc_dynamicpoint not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860524626.png]]
+
+2020-02-28 10:28:44 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("iOS/Voucher List Page/vouchlist_title_redeemyour"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_title_redeemyour' not found
+
+2020-02-28 10:28:47 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_title_redeemyour' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860527418.png]]
+
+2020-02-28 10:28:47 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("iOS/Voucher List Page/vouchlist_title_redeemyour"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_title_redeemyour' not found
+
+2020-02-28 10:28:49 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_title_redeemyour' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860529401.png]]
+
+2020-02-28 10:28:49 - [TEST_STEP][FAILED] - getText(findTestObject("iOS/Voucher List Page/vouchlist_title_redeemyour"), 1, CONTINUE_ON_FAILURE): Object Object Repository/iOS/Voucher List Page/vouchlist_title_redeemyour not found
+
+2020-02-28 10:28:51 - [MESSAGE][FAILED] - Object Object Repository/iOS/Voucher List Page/vouchlist_title_redeemyour not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860531255.png]]
+
+2020-02-28 10:28:51 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("iOS/Voucher List Page/vouchlist_desc_youcan"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_desc_youcan' not found
+
+2020-02-28 10:28:53 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_desc_youcan' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860533082.png]]
+
+2020-02-28 10:28:53 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("iOS/Voucher List Page/vouchlist_desc_youcan"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_desc_youcan' not found
+
+2020-02-28 10:28:55 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_desc_youcan' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860534856.png]]
+
+2020-02-28 10:28:55 - [TEST_STEP][FAILED] - getText(findTestObject("iOS/Voucher List Page/vouchlist_desc_youcan"), 1, CONTINUE_ON_FAILURE): Object Object Repository/iOS/Voucher List Page/vouchlist_desc_youcan not found
+
+2020-02-28 10:28:56 - [MESSAGE][FAILED] - Object Object Repository/iOS/Voucher List Page/vouchlist_desc_youcan not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860536673.png]]
+
+2020-02-28 10:28:56 - [TEST_STEP][PASSED] - comment("Voucher 1 Check"): Voucher 1 Check
+
+2020-02-28 10:28:56 - [MESSAGE][INFO] - Voucher 1 Check
+
+2020-02-28 10:28:56 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_title"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title' not found
+
+2020-02-28 10:28:58 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860538447.png]]
+
+2020-02-28 10:28:58 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_title"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title' not found
+
+2020-02-28 10:29:00 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860540359.png]]
+
+2020-02-28 10:29:00 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_title"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title' not found
+
+2020-02-28 10:29:02 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860542285.png]]
+
+2020-02-28 10:29:02 - [TEST_STEP][FAILED] - getText(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_redeemamt"), 1, CONTINUE_ON_FAILURE): Object Object Repository/iOS/Voucher List Page/vouchlist_vouch1_redeemamt not found
+
+2020-02-28 10:29:04 - [MESSAGE][FAILED] - Object Object Repository/iOS/Voucher List Page/vouchlist_vouch1_redeemamt not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860544111.png]]
+
+2020-02-28 10:29:04 - [TEST_STEP][FAILED] - getText(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_redeemamt"), 1, CONTINUE_ON_FAILURE): Object Object Repository/iOS/Voucher List Page/vouchlist_vouch1_redeemamt not found
+
+2020-02-28 10:29:06 - [MESSAGE][FAILED] - Object Object Repository/iOS/Voucher List Page/vouchlist_vouch1_redeemamt not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860545843.png]]
+
+2020-02-28 10:29:06 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_redeemamt"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_redeemamt' not found
+
+2020-02-28 10:29:07 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_redeemamt' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860547611.png]]
+
+2020-02-28 10:29:07 - [TEST_STEP][FAILED] - getText(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_desc_price"), 1, CONTINUE_ON_FAILURE): Object Object Repository/iOS/Voucher List Page/vouchlist_vouch1_desc_price not found
+
+2020-02-28 10:29:09 - [MESSAGE][FAILED] - Object Object Repository/iOS/Voucher List Page/vouchlist_vouch1_desc_price not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860549382.png]]
+
+2020-02-28 10:29:09 - [TEST_STEP][FAILED] - getText(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_desc_price"), 1, CONTINUE_ON_FAILURE): Object Object Repository/iOS/Voucher List Page/vouchlist_vouch1_desc_price not found
+
+2020-02-28 10:29:11 - [MESSAGE][FAILED] - Object Object Repository/iOS/Voucher List Page/vouchlist_vouch1_desc_price not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860551101.png]]
+
+2020-02-28 10:29:11 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_desc_price"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_desc_price' not found
+
+2020-02-28 10:29:13 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_desc_price' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860552873.png]]
+
+2020-02-28 10:29:13 - [TEST_STEP][FAILED] - getText(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_btnRedeem_text"), 1, CONTINUE_ON_FAILURE): Object Object Repository/iOS/Voucher List Page/vouchlist_vouch1_btnRedeem_text not found
+
+2020-02-28 10:29:14 - [MESSAGE][FAILED] - Object Object Repository/iOS/Voucher List Page/vouchlist_vouch1_btnRedeem_text not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860554611.png]]
+
+2020-02-28 10:29:14 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_btnRedeem_text"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_btnRedeem_text' not found
+
+2020-02-28 10:29:16 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_btnRedeem_text' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860556446.png]]
+
+2020-02-28 10:29:16 - [TEST_STEP][FAILED] - getText(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_btnRedeem_text"), 1, CONTINUE_ON_FAILURE): Object Object Repository/iOS/Voucher List Page/vouchlist_vouch1_btnRedeem_text not found
+
+2020-02-28 10:29:18 - [MESSAGE][FAILED] - Object Object Repository/iOS/Voucher List Page/vouchlist_vouch1_btnRedeem_text not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860558139.png]]
+
+2020-02-28 10:29:18 - [TEST_STEP][FAILED] - getText(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_btnRedeem"), 1, CONTINUE_ON_FAILURE): Object Object Repository/iOS/Voucher List Page/vouchlist_vouch1_btnRedeem not found
+
+2020-02-28 10:29:20 - [MESSAGE][FAILED] - Object Object Repository/iOS/Voucher List Page/vouchlist_vouch1_btnRedeem not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860559901.png]]
+
+2020-02-28 10:29:20 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_btnRedeem"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_btnRedeem' not found
+
+2020-02-28 10:29:21 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_btnRedeem' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860561662.png]]
+
+2020-02-28 10:29:21 - [TEST_STEP][PASSED] - swipe(100, 600, 100, 50, CONTINUE_ON_FAILURE): Swiped from 100,600 to 100,50
+
+2020-02-28 10:29:22 - [MESSAGE][PASSED] - Swiped from 100,600 to 100,50
+
+2020-02-28 10:29:22 - [TEST_STEP][PASSED] - swipe(100, 600, 100, 50, CONTINUE_ON_FAILURE): Swiped from 100,600 to 100,50
+
+2020-02-28 10:29:23 - [MESSAGE][PASSED] - Swiped from 100,600 to 100,50
+
+2020-02-28 10:29:23 - [TEST_STEP][FAILED] - tap(findTestObject("iOS/Voucher List Page/vouchlist_unbuyablevouch_text_550KFC"), 2, STOP_ON_FAILURE): Failed to tap on element 'Object Repository/iOS/Voucher List Page/vouchlist_unbuyablevouch_text_550KFC' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/iOS/Voucher List Page/vouchlist_unbuyablevouch_text_550KFC not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:506)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at 2. View Vouchers List.run(2. View Vouchers List:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582860461715.run(TempTestSuite1582860461715.groovy:36)
+)
+
+2020-02-28 10:29:26 - [MESSAGE][FAILED] - Object Object Repository/iOS/Voucher List Page/vouchlist_unbuyablevouch_text_550KFC not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860566585.png]]
+
+2020-02-28 10:29:26 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/iOS/Voucher List Page/vouchlist_unbuyablevouch_text_550KFC' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/iOS/Voucher List Page/vouchlist_unbuyablevouch_text_550KFC not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:506)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at 2. View Vouchers List.run(2. View Vouchers List:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582860461715.run(TempTestSuite1582860461715.groovy:36)
+)
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860566749.png]]]]></system-out>
+         <system-err><![CDATA[2020-02-28 10:28:16 - [TEST_CASE][FAILED] - Test Cases/RegressioniOS - Loyality and Rewards/2. View Vouchers List: Test Cases/RegressioniOS - Loyality and Rewards/2. View Vouchers List FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/iOS/Voucher List Page/vouchlist_header_title_voucher' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:640)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at 2. View Vouchers List.run(2. View Vouchers List:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582860461715.run(TempTestSuite1582860461715.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RegressioniOS - Loyality and Rewards/3. Verify all buttons on the rewards page" time="3.048" classname="Test Cases/RegressioniOS - Loyality and Rewards/3. Verify all buttons on the rewards page" status="FAILED">
+         <failure type="FAILED" message="Test Cases/RegressioniOS - Loyality and Rewards/3. Verify all buttons on the rewards page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:506)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at 3. Verify all buttons on the rewards page.run(3. Verify all buttons on the rewards page:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582860461715.run(TempTestSuite1582860461715.groovy:36)
+"/>
+         <system-out><![CDATA[2020-02-28 10:29:26 - [TEST_CASE][FAILED] - Test Cases/RegressioniOS - Loyality and Rewards/3. Verify all buttons on the rewards page: Test Cases/RegressioniOS - Loyality and Rewards/3. Verify all buttons on the rewards page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:506)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at 3. Verify all buttons on the rewards page.run(3. Verify all buttons on the rewards page:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582860461715.run(TempTestSuite1582860461715.groovy:36)
+
+
+2020-02-28 10:29:27 - [TEST_STEP][PASSED] - comment("Voucher Detail Page Check"): Voucher Detail Page Check
+
+2020-02-28 10:29:27 - [MESSAGE][INFO] - Voucher Detail Page Check
+
+2020-02-28 10:29:27 - [TEST_STEP][FAILED] - tap(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_title"), 1, STOP_ON_FAILURE): Failed to tap on element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:506)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at 3. Verify all buttons on the rewards page.run(3. Verify all buttons on the rewards page:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582860461715.run(TempTestSuite1582860461715.groovy:36)
+)
+
+2020-02-28 10:29:29 - [MESSAGE][FAILED] - Object Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860569277.png]]
+
+2020-02-28 10:29:30 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:506)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at 3. Verify all buttons on the rewards page.run(3. Verify all buttons on the rewards page:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582860461715.run(TempTestSuite1582860461715.groovy:36)
+)
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860569482.png]]]]></system-out>
+         <system-err><![CDATA[2020-02-28 10:29:26 - [TEST_CASE][FAILED] - Test Cases/RegressioniOS - Loyality and Rewards/3. Verify all buttons on the rewards page: Test Cases/RegressioniOS - Loyality and Rewards/3. Verify all buttons on the rewards page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:506)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at 3. Verify all buttons on the rewards page.run(3. Verify all buttons on the rewards page:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582860461715.run(TempTestSuite1582860461715.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RegressioniOS - Loyality and Rewards/4. Verify Rewards Detail Page" time="10.834" classname="Test Cases/RegressioniOS - Loyality and Rewards/4. Verify Rewards Detail Page" status="FAILED">
+         <failure type="FAILED" message="Test Cases/RegressioniOS - Loyality and Rewards/4. Verify Rewards Detail Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:640)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at 4. Verify Rewards Detail Page.run(4. Verify Rewards Detail Page:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582860461715.run(TempTestSuite1582860461715.groovy:36)
+"/>
+         <system-out><![CDATA[2020-02-28 10:29:30 - [TEST_CASE][FAILED] - Test Cases/RegressioniOS - Loyality and Rewards/4. Verify Rewards Detail Page: Test Cases/RegressioniOS - Loyality and Rewards/4. Verify Rewards Detail Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:640)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at 4. Verify Rewards Detail Page.run(4. Verify Rewards Detail Page:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582860461715.run(TempTestSuite1582860461715.groovy:36)
+
+
+2020-02-28 10:29:30 - [TEST_STEP][PASSED] - comment("Voucher Detail Page Check"): Voucher Detail Page Check
+
+2020-02-28 10:29:30 - [MESSAGE][INFO] - Voucher Detail Page Check
+
+2020-02-28 10:29:30 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-02-28 10:29:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-02-28 10:29:35 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_title"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title' not found
+
+2020-02-28 10:29:38 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860578768.png]]
+
+2020-02-28 10:29:38 - [TEST_STEP][FAILED] - tap(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_title"), 1, STOP_ON_FAILURE): Failed to tap on element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:506)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at 4. Verify Rewards Detail Page.run(4. Verify Rewards Detail Page:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582860461715.run(TempTestSuite1582860461715.groovy:36)
+)
+
+2020-02-28 10:29:40 - [MESSAGE][FAILED] - Object Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860580479.png]]
+
+2020-02-28 10:29:40 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:506)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at 4. Verify Rewards Detail Page.run(4. Verify Rewards Detail Page:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582860461715.run(TempTestSuite1582860461715.groovy:36)
+)
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_102741/Regression Test - Loyality and Rewards/20200228_102741/1582860580682.png]]]]></system-out>
+         <system-err><![CDATA[2020-02-28 10:29:30 - [TEST_CASE][FAILED] - Test Cases/RegressioniOS - Loyality and Rewards/4. Verify Rewards Detail Page: Test Cases/RegressioniOS - Loyality and Rewards/4. Verify Rewards Detail Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:640)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at 4. Verify Rewards Detail Page.run(4. Verify Rewards Detail Page:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582860461715.run(TempTestSuite1582860461715.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-28 10:27:50 - [TEST_SUITE][FAILED] - Regression Test - Loyality and Rewards: Test Cases/RegressioniOS - Loyality and Rewards/1. Open Loyality Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/iOS/Home Page/home_topbar_btnProfile' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:640)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at 1. Open Loyality Page.run(1. Open Loyality Page:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582860461715.run(TempTestSuite1582860461715.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-02-28 10:27:50 - [TEST_SUITE][FAILED] - Regression Test - Loyality and Rewards: Test Cases/RegressioniOS - Loyality and Rewards/1. Open Loyality Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/iOS/Home Page/home_topbar_btnProfile' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:640)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at 1. Open Loyality Page.run(1. Open Loyality Page:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582860461715.run(TempTestSuite1582860461715.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

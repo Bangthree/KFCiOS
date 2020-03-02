@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Already used phone number (085643628232)
+- Error message Appear
+- User cannot proceed the register process</description>
+   <name>5 - Register with Registered Phone Number</name>
+   <tag>Register, Registered, Phone, Number, Error</tag>
+   <comment>Register Test Started
+Registered phone number done, Next to Invalid phone number</comment>
+   <testCaseGuid>3d6b8ffc-7665-4d5b-a0f6-a0446488d02c</testCaseGuid>
+</TestCaseEntity>

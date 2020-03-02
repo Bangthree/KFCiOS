@@ -1,0 +1,330 @@
+[35m[Appium][39m Welcome to Appium v1.15.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 62359
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   chromeDriverPort: 62360
+[35m[Appium][39m   tmpDir: /var/folders/5x/xgrvn9_j439fxnt_sf6vk2sw0000gq/T//Katalon/Appium/Temp1582855144775
+[35m[Appium][39m   webkitDebugProxyPort: 62357
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:62359
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m7 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"newCommandTimeout":1800,"realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","platformVersion":"13.3","automationName":"XCUITest","bundleId":"com.kfcjv.staging","waitForAppScript":"true;","platformName":"iOS","deviceName":"iPhone 11 Pro Max","platform":"IOS","wdaLocalPort":62356},"capabilities":{"firstMatch":[{"appium:automationName":"XCUITest","appium:bundleId":"com.kfcjv.staging","appium:deviceName":"iPhone 11 Pro Max","appium:newCommandTimeout":1800,"platform":"IOS","platformName":"ios","appium:platformVersion":"13.3","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","appium:waitForAppScript":"true;","appium:wdaLocalPort":62356}]}}[39m
+[35m[BaseDriver][39m The capabilities ["platform","realDeviceLogger"] are not standard capabilities and should have an extension prefix
+[35m[Appium][39m Appium v1.15.1 creating new XCUITestDriver (v2.133.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: e4ede271-924a-48ac-8224-0bed082e1884
+[35m[XCUITest][39m iOS SDK Version set to '13.2'
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 11.3.1 with udid 'D8D6CEE1-10D3-4991-BC37-558821C766BB'
+[35m[XCUITest][39m Determining device to run tests on: udid: 'D8D6CEE1-10D3-4991-BC37-558821C766BB', real device: false
+[35m[XCUITest][39m Setting up simulator
+[35m[iOSSim][39m Both Simulator with UDID D8D6CEE1-10D3-4991-BC37-558821C766BB and the UI client are currently running
+[35m[XCUITest][39m idb will not be used for Simulator interaction. Original error: 'idb' has not been found in PATH. Is it installed? Read https://www.fbidb.io for more details
+[35m[XCUITest][39m Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[XCUITest][39m Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[35m[DevCon Factory][39m Requesting connection for device D8D6CEE1-10D3-4991-BC37-558821C766BB on local port 62356, device port 62356
+[35m[DevCon Factory][39m Successfully requested the connection for D8D6CEE1-10D3-4991-BC37-558821C766BB:62356
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":62356}
+[35m[XCUITest][39m Launching WebDriverAgent on the device
+[35m[WebDriverAgent][39m Fetching dependencies
+[35m[WebDriverAgent][39m Dependencies up-to-date
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":62356}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":62356}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":62356}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":62356}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":62356}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":62356}
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[35m[Appium][39m New XCUITestDriver session created successfully, session e4ede271-924a-48ac-8224-0bed082e1884 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m18000 ms - 647[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Merging WDA caps over Appium caps for session detail response
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884 [39m[32m200[39m [90m280 ms - 605[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Merging WDA caps over Appium caps for session detail response
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884 [39m[32m200[39m [90m5 ms - 605[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/appium/device/activate_app[39m
+[35m[HTTP][39m [90m{"bundleId":"com.kfcjv.staging"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/appium/device/activate_app [39m[32m200[39m [90m139 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/window/rect [39m[32m200[39m [90m99 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeAlert"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/elements [39m[32m200[39m [90m1832 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/context [39m[32m200[39m [90m4 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[RemoteDebugger][39m Remote Debugger version 5.7.0
+[35m[RemoteDebugger][39m Setting communication protocol: using full Web Inspector protocol communication
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/contexts [39m[32m200[39m [90m1457 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/screenshot [39m[32m200[39m [90m190 ms - 481392[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/window/rect [39m[32m200[39m [90m188 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'WELCOME' and @name = 'WELCOME']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/elements [39m[32m200[39m [90m1811 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/element/0E000000-0000-0000-0559-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/element/0E000000-0000-0000-0559-000000000000/location [39m[32m200[39m [90m172 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4ede271-924a-48ac-8224-0bed082e1884/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"newCommandTimeout":1800,"realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","platformVersion":"13.3","automationName":"XCUITest","bundleId":"com.kfcjv.staging","waitForAppScript":"true;","platformName":"iOS","deviceName":"iPhone 11 Pro Max","platform":"IOS","wdaLocalPort":62412},"capabilities":{"firstMatch":[{"appium:automationName":"XCUITest","appium:bundleId":"com.kfcjv.staging","appium:deviceName":"iPhone 11 Pro Max","appium:newCommandTimeout":1800,"platform":"IOS","platformName":"ios","appium:platformVersion":"13.3","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","appium:waitForAppScript":"true;","appium:wdaLocalPort":62412}]}}[39m
+[35m[BaseDriver][39m The capabilities ["platform","realDeviceLogger"] are not standard capabilities and should have an extension prefix
+[35m[Appium][39m Appium v1.15.1 creating new XCUITestDriver (v2.133.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: a326faff-50ab-42d5-8e41-5397473d3bf5
+[35m[XCUITest][39m iOS SDK Version set to '13.2'
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 11.3.1 with udid 'D8D6CEE1-10D3-4991-BC37-558821C766BB'
+[35m[XCUITest][39m Determining device to run tests on: udid: 'D8D6CEE1-10D3-4991-BC37-558821C766BB', real device: false
+[35m[XCUITest][39m Setting up simulator
+[35m[iOSSim][39m Both Simulator with UDID D8D6CEE1-10D3-4991-BC37-558821C766BB and the UI client are currently running
+[35m[XCUITest][39m idb will not be used for Simulator interaction. Original error: 'idb' has not been found in PATH. Is it installed? Read https://www.fbidb.io for more details
+[35m[XCUITest][39m Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[XCUITest][39m Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[35m[DevCon Factory][39m Requesting connection for device D8D6CEE1-10D3-4991-BC37-558821C766BB on local port 62412, device port 62412
+[35m[DevCon Factory][39m Successfully requested the connection for D8D6CEE1-10D3-4991-BC37-558821C766BB:62412
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":62412}
+[35m[XCUITest][39m Launching WebDriverAgent on the device
+[35m[WebDriverAgent][39m Fetching dependencies
+[35m[WebDriverAgent][39m Dependencies up-to-date
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":62412}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":62412}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":62412}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":62412}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":62412}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":62412}
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[35m[Appium][39m New XCUITestDriver session created successfully, session a326faff-50ab-42d5-8e41-5397473d3bf5 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m16047 ms - 647[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Merging WDA caps over Appium caps for session detail response
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5 [39m[32m200[39m [90m191 ms - 605[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Merging WDA caps over Appium caps for session detail response
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5 [39m[32m200[39m [90m3 ms - 605[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/appium/device/activate_app[39m
+[35m[HTTP][39m [90m{"bundleId":"com.kfcjv.staging"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/appium/device/activate_app [39m[32m200[39m [90m107 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/window/rect [39m[32m200[39m [90m78 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Login' and @name = 'login_login_button']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/elements [39m[32m200[39m [90m1605 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/element/16000000-0000-0000-9C59-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/element/16000000-0000-0000-9C59-000000000000/location [39m[32m200[39m [90m137 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/window/rect [39m[32m200[39m [90m67 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeTextField[@name = 'login_mobileNumber_textField']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/elements [39m[32m200[39m [90m1468 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/element/1D000000-0000-0000-9C59-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/element/1D000000-0000-0000-9C59-000000000000/location [39m[32m200[39m [90m165 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/element/1D000000-0000-0000-9C59-000000000000/clear[39m
+[35m[HTTP][39m [90m{"id":"1D000000-0000-0000-9C59-000000000000"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/element/1D000000-0000-0000-9C59-000000000000/clear [39m[32m200[39m [90m100 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/element/1D000000-0000-0000-9C59-000000000000/value[39m
+[35m[HTTP][39m [90m{"id":"1D000000-0000-0000-9C59-000000000000","text":"085643628232","value":["0","8","5","6","4","3","6","2","8","2","3","2"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/element/1D000000-0000-0000-9C59-000000000000/value [39m[32m200[39m [90m2155 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/window/rect [39m[32m200[39m [90m109 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeSecureTextField[@name = 'login_password_textField']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/elements [39m[32m200[39m [90m2877 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/element/20000000-0000-0000-9C59-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/element/20000000-0000-0000-9C59-000000000000/location [39m[32m200[39m [90m222 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/element/20000000-0000-0000-9C59-000000000000/clear[39m
+[35m[HTTP][39m [90m{"id":"20000000-0000-0000-9C59-000000000000"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/element/20000000-0000-0000-9C59-000000000000/clear [39m[32m200[39m [90m146 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/element/20000000-0000-0000-9C59-000000000000/value[39m
+[35m[HTTP][39m [90m{"id":"20000000-0000-0000-9C59-000000000000","text":"111111","value":["1","1","1","1","1","1"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/element/20000000-0000-0000-9C59-000000000000/value [39m[32m200[39m [90m1472 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/window/rect [39m[32m200[39m [90m121 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Login' and @name = 'login_login_button']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/elements [39m[32m200[39m [90m3115 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/element/16000000-0000-0000-9C59-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/element/16000000-0000-0000-9C59-000000000000/location [39m[32m200[39m [90m240 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"16000000-0000-0000-9C59-000000000000"}},{"action":"release","options":{}}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/touch/perform [39m[32m200[39m [90m436 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/window/rect [39m[32m200[39m [90m541 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[3]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeKeyboard[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeKey[2]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/elements [39m[32m200[39m [90m44449 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/context [39m[32m200[39m [90m5 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[RemoteDebugger][39m Remote Debugger version 5.7.0
+[35m[RemoteDebugger][39m Setting communication protocol: using full Web Inspector protocol communication
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/contexts [39m[32m200[39m [90m9922 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/context [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/screenshot [39m[32m200[39m [90m290 ms - 2305364[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/context [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/context [39m[32m200[39m [90m3 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[RemoteDebugger][39m Remote Debugger version 5.7.0
+[35m[RemoteDebugger][39m Setting communication protocol: using full Web Inspector protocol communication
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a326faff-50ab-42d5-8e41-5397473d3bf5/contexts [39m[32m-[39m [90m- ms - -[39m
+[35m[HTTP][39m [90m[39m

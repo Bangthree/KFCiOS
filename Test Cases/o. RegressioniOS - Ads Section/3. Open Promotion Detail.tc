@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- URL Redirection Correct
+- Load speed</description>
+   <name>3. Open Promotion Detail</name>
+   <tag>Promo, Banner, Ads, URL, Speed</tag>
+   <comment></comment>
+   <testCaseGuid>4af60c88-3655-4918-94fe-07d939e3b78f</testCaseGuid>
+</TestCaseEntity>

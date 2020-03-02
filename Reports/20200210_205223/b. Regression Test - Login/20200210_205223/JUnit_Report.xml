@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="b. Regression Test - Login" time="25.481" tests="2" failures="1" errors="1">
+   <testsuite name="b. Regression Test - Login" tests="2" failures="1" errors="1" time="25.481" timestamp="2020-02-10 20:52:36" hostname="bambangtripamungkas - 192.168.1.9" id="Test Suites/b. Regression Test - Login">
+      <properties>
+         <property name="deviceName" value="Xiaomi Redmi Note 4 (Android 7.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/bambangtripamungkas/Katalon Studio/Android_Regression/Reports/20200210_205223/b. Regression Test - Login/20200210_205223"/>
+         <property name="logFiles" value="/Users/bambangtripamungkas/Katalon Studio/Android_Regression/Reports/20200210_205223/b. Regression Test - Login/20200210_205223/execution0.log, /Users/bambangtripamungkas/Katalon Studio/Android_Regression/Reports/20200210_205223/b. Regression Test - Login/20200210_205223/appium.log"/>
+         <property name="attachments" value="/Users/bambangtripamungkas/Katalon Studio/Android_Regression/Reports/20200210_205223/b. Regression Test - Login/20200210_205223/1581342775949.png"/>
+         <property name="hostName" value="bambangtripamungkas - 192.168.1.9"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.15.1\&quot;}},\&quot;sessionId\&quot;:null,\&quot;status\&quot;:0}"/>
+         <property name="katalonVersion" value="7.1.1.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.15.1"/>
+         <property name="deviceModel" value="Redmi Note 4"/>
+         <property name="hostAddress" value="192.168.1.9"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="226551449804"/>
+         <property name="deviceName" value="Xiaomi Redmi Note 4 (Android 7.0)"/>
+         <property name="deviceOSVersion" value="7.0"/>
+      </properties>
+      <testcase name="Test Cases/b. RegressionAndroid - Login/1- Open The Login Page" time="23.869" classname="Test Cases/b. RegressionAndroid - Login/1- Open The Login Page" status="FAILED">
+         <failure type="FAILED" message="Test Cases/b. RegressionAndroid - Login/1- Open The Login Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Session Time Out/Session Time Out - Title' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:640)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at 1- Open The Login Page.run(1- Open The Login Page:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1581342743848.run(TempTestSuite1581342743848.groovy:36)
+"/>
+         <system-out><![CDATA[2020-02-10 20:52:36 - [TEST_CASE][FAILED] - Test Cases/b. RegressionAndroid - Login/1- Open The Login Page: Test Cases/b. RegressionAndroid - Login/1- Open The Login Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Session Time Out/Session Time Out - Title' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:640)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at 1- Open The Login Page.run(1- Open The Login Page:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1581342743848.run(TempTestSuite1581342743848.groovy:36)
+
+
+2020-02-10 20:52:37 - [TEST_STEP][PASSED] - startExistingApplication("com.kfc.mobile.hkStaging", STOP_ON_FAILURE): Starting app with application ID: 'com.kfc.mobile.hkStaging'
+
+2020-02-10 20:52:39 - [MESSAGE][INFO] - Appium server started on port 58,762
+
+2020-02-10 20:52:53 - [MESSAGE][PASSED] - Starting app with application ID: 'com.kfc.mobile.hkStaging'
+
+2020-02-10 20:52:53 - [TEST_STEP][PASSED] - comment("Login Test Started"): Login Test Started
+
+2020-02-10 20:52:53 - [MESSAGE][INFO] - Login Test Started
+
+2020-02-10 20:52:53 - [TEST_STEP][FAILED] - if (verifyElementExist(findTestObject("Session Time Out/Session Time Out - Title"), 2, CONTINUE_ON_FAILURE) == true): Element 'Object Repository/Session Time Out/Session Time Out - Title' not found
+
+2020-02-10 20:52:56 - [MESSAGE][FAILED] - Element 'Object Repository/Session Time Out/Session Time Out - Title' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/Katalon Studio/Android_Regression/Reports/20200210_205223/b. Regression Test - Login/20200210_205223/1581342775949.png]]
+
+2020-02-10 20:52:56 - [TEST_STEP][PASSED] - else: null
+
+2020-02-10 20:52:56 - [TEST_STEP][PASSED] - println = "Session is new": null
+
+2020-02-10 20:52:56 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login Page/BTN_LOGIN"), 3): Element 'Object Repository/Login Page/BTN_LOGIN' is present
+
+2020-02-10 20:52:56 - [MESSAGE][PASSED] - Element 'Object Repository/Login Page/BTN_LOGIN' is present
+
+2020-02-10 20:52:56 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Login Page/ICO_KFC"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/Login Page/ICO_KFC' is exist
+
+2020-02-10 20:52:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-10 20:52:57 - [MESSAGE][PASSED] - Element 'Object Repository/Login Page/ICO_KFC' is exist
+
+2020-02-10 20:52:57 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Login Page/ICO_UNDERLINE"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/Login Page/ICO_UNDERLINE' is exist
+
+2020-02-10 20:52:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-10 20:52:57 - [MESSAGE][PASSED] - Element 'Object Repository/Login Page/ICO_UNDERLINE' is exist
+
+2020-02-10 20:52:57 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Login Page/DESC_WELCOME"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/Login Page/DESC_WELCOME' is exist
+
+2020-02-10 20:52:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-10 20:52:58 - [MESSAGE][PASSED] - Element 'Object Repository/Login Page/DESC_WELCOME' is exist
+
+2020-02-10 20:52:58 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Login Page/DESC_PLSLOGIN"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/Login Page/DESC_PLSLOGIN' is exist
+
+2020-02-10 20:52:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-10 20:52:58 - [MESSAGE][PASSED] - Element 'Object Repository/Login Page/DESC_PLSLOGIN' is exist
+
+2020-02-10 20:52:58 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Login Page/BTN_FRGTPASS"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/Login Page/BTN_FRGTPASS' is exist
+
+2020-02-10 20:52:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-10 20:52:58 - [MESSAGE][PASSED] - Element 'Object Repository/Login Page/BTN_FRGTPASS' is exist
+
+2020-02-10 20:52:58 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Login Page/DESC_TCPP"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/Login Page/DESC_TCPP' is exist
+
+2020-02-10 20:52:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-10 20:52:59 - [MESSAGE][PASSED] - Element 'Object Repository/Login Page/DESC_TCPP' is exist
+
+2020-02-10 20:52:59 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Login Page/BTN_LOGIN"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/Login Page/BTN_LOGIN' is exist
+
+2020-02-10 20:52:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-10 20:52:59 - [MESSAGE][PASSED] - Element 'Object Repository/Login Page/BTN_LOGIN' is exist
+
+2020-02-10 20:52:59 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Login Page/BTN_REG"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/Login Page/BTN_REG' is exist
+
+2020-02-10 20:52:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-10 20:52:59 - [MESSAGE][PASSED] - Element 'Object Repository/Login Page/BTN_REG' is exist
+
+2020-02-10 20:52:59 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Login Page/FIELD_MOBILENUMBER"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/Login Page/FIELD_MOBILENUMBER' is exist
+
+2020-02-10 20:52:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-10 20:52:59 - [MESSAGE][PASSED] - Element 'Object Repository/Login Page/FIELD_MOBILENUMBER' is exist
+
+2020-02-10 20:52:59 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Login Page/FIELD_PASS"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/Login Page/FIELD_PASS' is exist
+
+2020-02-10 20:52:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-10 20:53:00 - [MESSAGE][PASSED] - Element 'Object Repository/Login Page/FIELD_PASS' is exist]]></system-out>
+         <system-err><![CDATA[2020-02-10 20:52:36 - [TEST_CASE][FAILED] - Test Cases/b. RegressionAndroid - Login/1- Open The Login Page: Test Cases/b. RegressionAndroid - Login/1- Open The Login Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Session Time Out/Session Time Out - Title' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:640)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at 1- Open The Login Page.run(1- Open The Login Page:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1581342743848.run(TempTestSuite1581342743848.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/b. RegressionAndroid - Login/3 - Login with a valid phone number and password as DANA" time="0.315" classname="Test Cases/b. RegressionAndroid - Login/3 - Login with a valid phone number and password as DANA" status="ERROR">
+         <error type="ERROR" message="Test Cases/b. RegressionAndroid - Login/3 - Login with a valid phone number and password as DANA FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/Users/bambangtripamungkas/Katalon%20Studio/Android_Regression/Scripts/b.%20RegressionAndroid%20-%20Login/3%20-%20Login%20with%20a%20valid%20phone%20number%20and%20password%20as%20DANA/Script1581335915427.groovy: 34: unable to resolve class AndroidDriver 
+ @ line 34, column 18.
+   AndroidDriver&lt;?> driver = MobileDriverFactory.getDriver()
+                    ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1581342743848.run(TempTestSuite1581342743848.groovy:36)
+"/>
+         <system-out><![CDATA[2020-02-10 20:53:00 - [TEST_CASE][ERROR] - Test Cases/b. RegressionAndroid - Login/3 - Login with a valid phone number and password as DANA: Test Cases/b. RegressionAndroid - Login/3 - Login with a valid phone number and password as DANA FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/Users/bambangtripamungkas/Katalon%20Studio/Android_Regression/Scripts/b.%20RegressionAndroid%20-%20Login/3%20-%20Login%20with%20a%20valid%20phone%20number%20and%20password%20as%20DANA/Script1581335915427.groovy: 34: unable to resolve class AndroidDriver 
+ @ line 34, column 18.
+   AndroidDriver<?> driver = MobileDriverFactory.getDriver()
+                    ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1581342743848.run(TempTestSuite1581342743848.groovy:36)]]></system-out>
+         <system-err><![CDATA[2020-02-10 20:53:00 - [TEST_CASE][ERROR] - Test Cases/b. RegressionAndroid - Login/3 - Login with a valid phone number and password as DANA: Test Cases/b. RegressionAndroid - Login/3 - Login with a valid phone number and password as DANA FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/Users/bambangtripamungkas/Katalon%20Studio/Android_Regression/Scripts/b.%20RegressionAndroid%20-%20Login/3%20-%20Login%20with%20a%20valid%20phone%20number%20and%20password%20as%20DANA/Script1581335915427.groovy: 34: unable to resolve class AndroidDriver 
+ @ line 34, column 18.
+   AndroidDriver<?> driver = MobileDriverFactory.getDriver()
+                    ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1581342743848.run(TempTestSuite1581342743848.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-10 20:52:36 - [TEST_SUITE][FAILED] - b. Regression Test - Login: Test Cases/b. RegressionAndroid - Login/1- Open The Login Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Session Time Out/Session Time Out - Title' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:640)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at 1- Open The Login Page.run(1- Open The Login Page:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1581342743848.run(TempTestSuite1581342743848.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-02-10 20:52:36 - [TEST_SUITE][FAILED] - b. Regression Test - Login: Test Cases/b. RegressionAndroid - Login/1- Open The Login Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Session Time Out/Session Time Out - Title' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:640)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at 1- Open The Login Page.run(1- Open The Login Page:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1581342743848.run(TempTestSuite1581342743848.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression Test - QR Page" time="147.467" tests="2" failures="0" errors="0">
+   <testsuite name="Regression Test - QR Page" tests="2" failures="0" errors="0" time="147.467" timestamp="2020-02-28 09:12:27" hostname="bambangtripamungkas - 192.168.1.5" id="Test Suites/Regression Test - QR Page">
+      <properties>
+         <property name="deviceName" value="iPhone 11 Pro Max"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_091219/Regression Test - QR Page/20200228_091219"/>
+         <property name="logFiles" value="/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_091219/Regression Test - QR Page/20200228_091219/execution0.log, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_091219/Regression Test - QR Page/20200228_091219/appium.log, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_091219/Regression Test - QR Page/20200228_091219/appium-proxy-server.log"/>
+         <property name="attachments" value="/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_091219/Regression Test - QR Page/20200228_091219/1582855971115.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_091219/Regression Test - QR Page/20200228_091219/1582855975081.png"/>
+         <property name="hostName" value="bambangtripamungkas - 192.168.1.5"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.15.1\&quot;}},\&quot;sessionId\&quot;:null,\&quot;status\&quot;:0}"/>
+         <property name="katalonVersion" value="7.1.1.1"/>
+         <property name="deviceOS" value="iOS"/>
+         <property name="appiumVersion" value="1.15.1"/>
+         <property name="deviceModel" value="Not available for Simulator"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="deviceManufacturer" value="Apple"/>
+         <property name="deviceId" value="null"/>
+         <property name="deviceName" value="iPhone 11 Pro Max"/>
+         <property name="deviceOSVersion" value="13.3"/>
+      </properties>
+      <testcase name="Test Cases/RegressioniOS - QR Page/1. Open QR Page (Loyality)" time="100.617" classname="Test Cases/RegressioniOS - QR Page/1. Open QR Page (Loyality)" status="PASSED">
+         <system-out><![CDATA[2020-02-28 09:12:28 - [TEST_CASE][PASSED] - Test Cases/RegressioniOS - QR Page/1. Open QR Page (Loyality): Test Cases/RegressioniOS - QR Page/1. Open QR Page (Loyality)
+
+2020-02-28 09:12:28 - [TEST_STEP][PASSED] - comment("Earn Page Components check started"): Earn Page Components check started
+
+2020-02-28 09:12:28 - [MESSAGE][INFO] - Earn Page Components check started
+
+2020-02-28 09:12:28 - [TEST_STEP][PASSED] - startExistingApplication("com.kfcjv.staging", STOP_ON_FAILURE): Starting app with application ID: 'com.kfcjv.staging'
+
+2020-02-28 09:12:29 - [MESSAGE][INFO] - ios_webkit_debug_proxy server started on port 62652
+
+2020-02-28 09:12:31 - [MESSAGE][INFO] - Appium server started on port 62,654
+
+2020-02-28 09:12:47 - [MESSAGE][PASSED] - Starting app with application ID: 'com.kfcjv.staging'
+
+2020-02-28 09:12:47 - [TEST_STEP][PASSED] - comment("Pocket Page Test Started"): Pocket Page Test Started
+
+2020-02-28 09:12:47 - [MESSAGE][INFO] - Pocket Page Test Started
+
+2020-02-28 09:12:47 - [TEST_STEP][PASSED] - if (verifyElementExist(findTestObject("iOS/Login Page/Relogin Alert/reloginalert_alerttype"), 2, OPTIONAL) == true): Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_alerttype' not found
+
+2020-02-28 09:12:51 - [MESSAGE][WARNING] - Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_alerttype' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_091219/Regression Test - QR Page/20200228_091219/1582855971115.png]]
+
+2020-02-28 09:12:51 - [TEST_STEP][PASSED] - else: null
+
+2020-02-28 09:12:51 - [TEST_STEP][PASSED] - println = "Session is new": null
+
+2020-02-28 09:12:51 - [TEST_STEP][PASSED] - if (verifyElementExist(findTestObject("iOS/Login Page/Welcome Page/loginpage_header_titletext_welcome"), 2, OPTIONAL) == true): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_header_titletext_welcome' not found
+
+2020-02-28 09:12:55 - [MESSAGE][WARNING] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_header_titletext_welcome' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_091219/Regression Test - QR Page/20200228_091219/1582855975081.png]]
+
+2020-02-28 09:12:55 - [TEST_STEP][PASSED] - else: null
+
+2020-02-28 09:12:55 - [TEST_STEP][PASSED] - println = "Logged in, Homepage ready": null
+
+2020-02-28 09:12:55 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_bottombar_btnHome"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_bottombar_btnHome' is exist
+
+2020-02-28 09:12:58 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_bottombar_btnHome' is exist
+
+2020-02-28 09:12:58 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Home Page/home_bottombar_btnEarn"), 1, STOP_ON_FAILURE): Tapped on element 'Object Repository/iOS/Home Page/home_bottombar_btnEarn'
+
+2020-02-28 09:13:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Home Page/home_bottombar_btnEarn'
+
+2020-02-28 09:13:02 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-02-28 09:13:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-02-28 09:13:05 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Earn Page/earn_QR_imgKFCRoundRed"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Earn Page/earn_QR_imgKFCRoundRed' is exist
+
+2020-02-28 09:13:07 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Earn Page/earn_QR_imgKFCRoundRed' is exist
+
+2020-02-28 09:13:07 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Earn Page/earn_bottombar_btnEarn"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Earn Page/earn_bottombar_btnEarn' is exist
+
+2020-02-28 09:13:09 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Earn Page/earn_bottombar_btnEarn' is exist
+
+2020-02-28 09:13:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Earn Page/earn_bottombar_btnEarn"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Earn Page/earn_bottombar_btnEarn' is visible
+
+2020-02-28 09:13:10 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Earn Page/earn_bottombar_btnEarn' is visible
+
+2020-02-28 09:13:10 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Earn Page/earn_bottombar_btnHome"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Earn Page/earn_bottombar_btnHome' is exist
+
+2020-02-28 09:13:12 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Earn Page/earn_bottombar_btnHome' is exist
+
+2020-02-28 09:13:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Earn Page/earn_bottombar_btnHome"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Earn Page/earn_bottombar_btnHome' is visible
+
+2020-02-28 09:13:14 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Earn Page/earn_bottombar_btnHome' is visible
+
+2020-02-28 09:13:14 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Earn Page/earn_bottombar_btnVoucher"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Earn Page/earn_bottombar_btnVoucher' is exist
+
+2020-02-28 09:13:16 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Earn Page/earn_bottombar_btnVoucher' is exist
+
+2020-02-28 09:13:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Earn Page/earn_bottombar_btnVoucher"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Earn Page/earn_bottombar_btnVoucher' is visible
+
+2020-02-28 09:13:18 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Earn Page/earn_bottombar_btnVoucher' is visible
+
+2020-02-28 09:13:18 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Earn Page/earn_dismissableinfo"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Earn Page/earn_dismissableinfo' is exist
+
+2020-02-28 09:13:27 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Earn Page/earn_dismissableinfo' is exist
+
+2020-02-28 09:13:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Earn Page/earn_dismissableinfo"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Earn Page/earn_dismissableinfo' is visible
+
+2020-02-28 09:13:37 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Earn Page/earn_dismissableinfo' is visible
+
+2020-02-28 09:13:37 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Earn Page/earn_dismissableinfo_btnX"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Earn Page/earn_dismissableinfo_btnX' is exist
+
+2020-02-28 09:13:38 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Earn Page/earn_dismissableinfo_btnX' is exist
+
+2020-02-28 09:13:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Earn Page/earn_dismissableinfo_btnX"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Earn Page/earn_dismissableinfo_btnX' is visible
+
+2020-02-28 09:13:40 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Earn Page/earn_dismissableinfo_btnX' is visible
+
+2020-02-28 09:13:40 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Earn Page/earn_dismissableinfo_desc_showthis"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Earn Page/earn_dismissableinfo_desc_showthis' is exist
+
+2020-02-28 09:13:42 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Earn Page/earn_dismissableinfo_desc_showthis' is exist
+
+2020-02-28 09:13:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Earn Page/earn_dismissableinfo_desc_showthis"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Earn Page/earn_dismissableinfo_desc_showthis' is visible
+
+2020-02-28 09:13:44 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Earn Page/earn_dismissableinfo_desc_showthis' is visible
+
+2020-02-28 09:13:44 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Earn Page/earn_dismissableinfo_desc_showthis"), 2, STOP_ON_FAILURE): Text of element 'Object Repository/iOS/Earn Page/earn_dismissableinfo_desc_showthis' is: 'Show this QR code to the cashier to get your KFC Points.'
+
+2020-02-28 09:13:46 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Earn Page/earn_dismissableinfo_desc_showthis' is: 'Show this QR code to the cashier to get your KFC Points.'
+
+2020-02-28 09:13:46 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Earn Page/earn_dismissableinfo_imgScanning"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Earn Page/earn_dismissableinfo_imgScanning' is exist
+
+2020-02-28 09:13:48 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Earn Page/earn_dismissableinfo_imgScanning' is exist
+
+2020-02-28 09:13:48 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Earn Page/earn_QR_desctext_youwill"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Earn Page/earn_QR_desctext_youwill' is exist
+
+2020-02-28 09:13:49 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Earn Page/earn_QR_desctext_youwill' is exist
+
+2020-02-28 09:13:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Earn Page/earn_QR_desctext_youwill"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Earn Page/earn_QR_desctext_youwill' is visible
+
+2020-02-28 09:13:51 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Earn Page/earn_QR_desctext_youwill' is visible
+
+2020-02-28 09:13:51 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Earn Page/earn_QR_desctext_youwill"), 2, STOP_ON_FAILURE): Text of element 'Object Repository/iOS/Earn Page/earn_QR_desctext_youwill' is: 'You will get KFC Points after you received your order successfully or maximum 3 working days.'
+
+2020-02-28 09:13:53 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Earn Page/earn_QR_desctext_youwill' is: 'You will get KFC Points after you received your order successfully or maximum 3 working days.'
+
+2020-02-28 09:13:53 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Earn Page/earn_QR_imgQRBlackandWhite"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Earn Page/earn_QR_imgQRBlackandWhite' is exist
+
+2020-02-28 09:13:55 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Earn Page/earn_QR_imgQRBlackandWhite' is exist
+
+2020-02-28 09:13:55 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Earn Page/earn_QR_title_earnKFCPoints"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Earn Page/earn_QR_title_earnKFCPoints' is exist
+
+2020-02-28 09:13:57 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Earn Page/earn_QR_title_earnKFCPoints' is exist
+
+2020-02-28 09:13:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Earn Page/earn_QR_title_earnKFCPoints"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Earn Page/earn_QR_title_earnKFCPoints' is visible
+
+2020-02-28 09:13:59 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Earn Page/earn_QR_title_earnKFCPoints' is visible
+
+2020-02-28 09:13:59 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Earn Page/earn_QR_title_earnKFCPoints"), 2, STOP_ON_FAILURE): Text of element 'Object Repository/iOS/Earn Page/earn_QR_title_earnKFCPoints' is: 'EARN KFC POINTS'
+
+2020-02-28 09:14:01 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Earn Page/earn_QR_title_earnKFCPoints' is: 'EARN KFC POINTS'
+
+2020-02-28 09:14:01 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Earn Page/earn_topbar_title_earn"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Earn Page/earn_topbar_title_earn' is exist
+
+2020-02-28 09:14:03 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Earn Page/earn_topbar_title_earn' is exist
+
+2020-02-28 09:14:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Earn Page/earn_topbar_title_earn"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Earn Page/earn_topbar_title_earn' is visible
+
+2020-02-28 09:14:05 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Earn Page/earn_topbar_title_earn' is visible
+
+2020-02-28 09:14:05 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Earn Page/earn_topbar_title_earn"), 2, STOP_ON_FAILURE): Text of element 'Object Repository/iOS/Earn Page/earn_topbar_title_earn' is: 'EARN'
+
+2020-02-28 09:14:06 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Earn Page/earn_topbar_title_earn' is: 'EARN'
+
+2020-02-28 09:14:06 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Earn Page/earn_bottombar_btnHome"), 1, STOP_ON_FAILURE): Tapped on element 'Object Repository/iOS/Earn Page/earn_bottombar_btnHome'
+
+2020-02-28 09:14:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Earn Page/earn_bottombar_btnHome'
+
+2020-02-28 09:14:08 - [TEST_STEP][PASSED] - comment("Earn Page Components check finished"): Earn Page Components check finished
+
+2020-02-28 09:14:08 - [MESSAGE][INFO] - Earn Page Components check finished]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RegressioniOS - QR Page/3. Tap (x) Button on QR Page" time="45.33" classname="Test Cases/RegressioniOS - QR Page/3. Tap (x) Button on QR Page" status="PASSED">
+         <system-out><![CDATA[2020-02-28 09:14:08 - [TEST_CASE][PASSED] - Test Cases/RegressioniOS - QR Page/3. Tap (x) Button on QR Page: Test Cases/RegressioniOS - QR Page/3. Tap (x) Button on QR Page
+
+2020-02-28 09:14:09 - [TEST_STEP][PASSED] - comment("Tap X button Testing Started"): Tap X button Testing Started
+
+2020-02-28 09:14:09 - [MESSAGE][INFO] - Tap X button Testing Started
+
+2020-02-28 09:14:09 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_bottombar_btnHome"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_bottombar_btnHome' is exist
+
+2020-02-28 09:14:12 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_bottombar_btnHome' is exist
+
+2020-02-28 09:14:12 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Home Page/home_bottombar_btnEarn"), 1, STOP_ON_FAILURE): Tapped on element 'Object Repository/iOS/Home Page/home_bottombar_btnEarn'
+
+2020-02-28 09:14:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Home Page/home_bottombar_btnEarn'
+
+2020-02-28 09:14:16 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-02-28 09:14:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-02-28 09:14:19 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Earn Page/earn_dismissableinfo"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Earn Page/earn_dismissableinfo' is exist
+
+2020-02-28 09:14:28 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Earn Page/earn_dismissableinfo' is exist
+
+2020-02-28 09:14:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Earn Page/earn_dismissableinfo"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Earn Page/earn_dismissableinfo' is visible
+
+2020-02-28 09:14:37 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Earn Page/earn_dismissableinfo' is visible
+
+2020-02-28 09:14:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Earn Page/earn_dismissableinfo_btnX"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Earn Page/earn_dismissableinfo_btnX' is visible
+
+2020-02-28 09:14:39 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Earn Page/earn_dismissableinfo_btnX' is visible
+
+2020-02-28 09:14:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Earn Page/earn_dismissableinfo_desc_showthis"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Earn Page/earn_dismissableinfo_desc_showthis' is visible
+
+2020-02-28 09:14:41 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Earn Page/earn_dismissableinfo_desc_showthis' is visible
+
+2020-02-28 09:14:41 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Earn Page/earn_dismissableinfo_desc_showthis"), 2, STOP_ON_FAILURE): Text of element 'Object Repository/iOS/Earn Page/earn_dismissableinfo_desc_showthis' is: 'Show this QR code to the cashier to get your KFC Points.'
+
+2020-02-28 09:14:43 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Earn Page/earn_dismissableinfo_desc_showthis' is: 'Show this QR code to the cashier to get your KFC Points.'
+
+2020-02-28 09:14:43 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Earn Page/earn_dismissableinfo_imgScanning"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Earn Page/earn_dismissableinfo_imgScanning' is exist
+
+2020-02-28 09:14:45 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Earn Page/earn_dismissableinfo_imgScanning' is exist
+
+2020-02-28 09:14:45 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Earn Page/earn_dismissableinfo_btnX"), 2, STOP_ON_FAILURE): Tapped on element 'Object Repository/iOS/Earn Page/earn_dismissableinfo_btnX'
+
+2020-02-28 09:14:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Earn Page/earn_dismissableinfo_btnX'
+
+2020-02-28 09:14:47 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("iOS/Earn Page/earn_dismissableinfo_btnX"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Earn Page/earn_dismissableinfo_btnX' not found
+
+2020-02-28 09:14:49 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Earn Page/earn_dismissableinfo_btnX' not found
+
+2020-02-28 09:14:49 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("iOS/Earn Page/earn_dismissableinfo_desc_showthis"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Earn Page/earn_dismissableinfo_desc_showthis' not found
+
+2020-02-28 09:14:52 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Earn Page/earn_dismissableinfo_desc_showthis' not found
+
+2020-02-28 09:14:52 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Earn Page/earn_bottombar_btnHome"), 1, STOP_ON_FAILURE): Tapped on element 'Object Repository/iOS/Earn Page/earn_bottombar_btnHome'
+
+2020-02-28 09:14:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Earn Page/earn_bottombar_btnHome'
+
+2020-02-28 09:14:54 - [TEST_STEP][PASSED] - comment("Tap X button Testing Finished"): Tap X button Testing Finished
+
+2020-02-28 09:14:54 - [MESSAGE][INFO] - Tap X button Testing Finished]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-28 09:12:27 - [TEST_SUITE][PASSED] - Regression Test - QR Page: Test Cases/RegressioniOS - QR Page/3. Tap (x) Button on QR Page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

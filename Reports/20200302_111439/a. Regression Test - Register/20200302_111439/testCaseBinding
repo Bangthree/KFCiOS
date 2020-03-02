@@ -1,0 +1,6 @@
+{"testCaseName":"Test Cases/a. RegressioniOS - Register/5 - Register with Registered Phone Number","testCaseId":"Test Cases/a. RegressioniOS - Register/5 - Register with Registered Phone Number"}
+{"testCaseName":"Test Cases/a. RegressioniOS - Register/7 - Register with Invalid Phone Number","testCaseId":"Test Cases/a. RegressioniOS - Register/7 - Register with Invalid Phone Number"}
+{"testCaseName":"Test Cases/a. RegressioniOS - Register/9 - Register Password is not Match","testCaseId":"Test Cases/a. RegressioniOS - Register/9 - Register Password is not Match"}
+{"testCaseName":"Test Cases/a. RegressioniOS - Register/11 - Register with Password less than 6 characters","testCaseId":"Test Cases/a. RegressioniOS - Register/11 - Register with Password less than 6 characters"}
+{"testCaseName":"Test Cases/a. RegressioniOS - Register/15 - Incomplete login to DANA","testCaseId":"Test Cases/a. RegressioniOS - Register/15 - Incomplete login to DANA"}
+{"testCaseName":"Test Cases/a. RegressioniOS - Register/16 - Forgot Password (Component Check)","testCaseId":"Test Cases/a. RegressioniOS - Register/16 - Forgot Password (Component Check)"}

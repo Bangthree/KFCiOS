@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Register with unknown phone number (1234567890)
+- Error Message Appeared
+- Cannot procees registering process</description>
+   <name>7 - Register with Invalid Phone Number</name>
+   <tag>Invalid, Phone, Register, Number, Error</tag>
+   <comment>Invalid phone number done, Next Register Password not Matc</comment>
+   <testCaseGuid>e2028e5d-90af-4f75-9bad-d5dbc64e917e</testCaseGuid>
+</TestCaseEntity>

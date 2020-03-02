@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Check Vouchers list page accessed from profile page
+- Redeem on disabled voucher</description>
+   <name>2. View Vouchers List</name>
+   <tag>Voucher list, Profile page,</tag>
+   <comment>Voucher List Page Check
+Voucher 1 Check</comment>
+   <testCaseGuid>f920ec94-6460-4440-b1bf-b60fd55bbc07</testCaseGuid>
+</TestCaseEntity>

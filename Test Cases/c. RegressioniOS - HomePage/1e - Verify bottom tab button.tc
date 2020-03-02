@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Check Home Button
+- Check Earn &amp; Pay
+- Check Voucher</description>
+   <name>1e - Verify bottom tab button</name>
+   <tag>Bottom, Bar, Home, Earn, Pay, Voucher</tag>
+   <comment></comment>
+   <testCaseGuid>ce2fb315-74f0-4c87-890e-1750d7507d59</testCaseGuid>
+</TestCaseEntity>

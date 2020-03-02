@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="a. Regression Test - Register" time="496.207" tests="6" failures="1" errors="0">
+   <testsuite name="a. Regression Test - Register" tests="6" failures="1" errors="0" time="496.207" timestamp="2020-03-02 11:14:48" hostname="bambangtripamungkas - 192.168.1.9" id="Test Suites/a. Regression Test - Register">
+      <properties>
+         <property name="deviceName" value="iPhone 8"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_111439/a. Regression Test - Register/20200302_111439"/>
+         <property name="logFiles" value="/Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_111439/a. Regression Test - Register/20200302_111439/execution0.log, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_111439/a. Regression Test - Register/20200302_111439/appium.log, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_111439/a. Regression Test - Register/20200302_111439/appium-proxy-server.log"/>
+         <property name="attachments" value="/Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_111439/a. Regression Test - Register/20200302_111439/1583122671275.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_111439/a. Regression Test - Register/20200302_111439/1583122673376.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_111439/a. Regression Test - Register/20200302_111439/1583122673541.png"/>
+         <property name="hostName" value="bambangtripamungkas - 192.168.1.9"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.15.1\&quot;}},\&quot;sessionId\&quot;:null,\&quot;status\&quot;:0}"/>
+         <property name="katalonVersion" value="7.1.1.1"/>
+         <property name="deviceOS" value="iOS"/>
+         <property name="appiumVersion" value="1.15.1"/>
+         <property name="deviceModel" value="Not available for Simulator"/>
+         <property name="hostAddress" value="192.168.1.9"/>
+         <property name="deviceManufacturer" value="Apple"/>
+         <property name="deviceId" value="null"/>
+         <property name="deviceName" value="iPhone 8"/>
+         <property name="deviceOSVersion" value="13.3"/>
+      </properties>
+      <testcase name="Test Cases/a. RegressioniOS - Register/5 - Register with Registered Phone Number" time="62.594" classname="Test Cases/a. RegressioniOS - Register/5 - Register with Registered Phone Number" status="PASSED">
+         <system-out><![CDATA[2020-03-02 11:14:48 - [TEST_CASE][PASSED] - Test Cases/a. RegressioniOS - Register/5 - Register with Registered Phone Number: Test Cases/a. RegressioniOS - Register/5 - Register with Registered Phone Number
+
+2020-03-02 11:14:49 - [TEST_STEP][PASSED] - startExistingApplication("com.kfcjv.staging", STOP_ON_FAILURE): Starting app with application ID: 'com.kfcjv.staging'
+
+2020-03-02 11:14:50 - [MESSAGE][INFO] - ios_webkit_debug_proxy server started on port 55986
+
+2020-03-02 11:14:52 - [MESSAGE][INFO] - Appium server started on port 55,988
+
+2020-03-02 11:15:07 - [MESSAGE][PASSED] - Starting app with application ID: 'com.kfcjv.staging'
+
+2020-03-02 11:15:07 - [TEST_STEP][PASSED] - comment("Register Test Started"): Register Test Started
+
+2020-03-02 11:15:08 - [MESSAGE][INFO] - Register Test Started
+
+2020-03-02 11:15:08 - [TEST_STEP][PASSED] - if (verifyElementExist(findTestObject("iOS/Login Page/Relogin Alert/reloginalert_desc_doyou"), 2, OPTIONAL) == true): null
+
+2020-03-02 11:15:10 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_desc_doyou' is exist
+
+2020-03-02 11:15:10 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-03-02 11:15:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-03-02 11:15:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("b. RegressioniOS - Login/Assist Test/Session Time Out Reset"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/b. RegressioniOS - Login/Assist Test/Session Time Out Reset' successfully
+
+2020-03-02 11:15:12 - [TEST_CASE][PASSED] - Test Cases/b. RegressioniOS - Login/Assist Test/Session Time Out Reset: Test Cases/b. RegressioniOS - Login/Assist Test/Session Time Out Reset
+
+2020-03-02 11:15:13 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-03-02 11:15:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-03-02 11:15:15 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Relogin Alert/reloginalert_desc_doyou"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_desc_doyou' is exist
+
+2020-03-02 11:15:16 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_desc_doyou' is exist
+
+2020-03-02 11:15:16 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Relogin Alert/reloginalert_btnYes"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_btnYes' is exist
+
+2020-03-02 11:15:18 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_btnYes' is exist
+
+2020-03-02 11:15:18 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Relogin Alert/reloginalert_btnNo"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_btnNo' is exist
+
+2020-03-02 11:15:20 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_btnNo' is exist
+
+2020-03-02 11:15:20 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Relogin Alert/reloginalert_alerttype"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_alerttype' is exist
+
+2020-03-02 11:15:22 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_alerttype' is exist
+
+2020-03-02 11:15:22 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Login Page/Relogin Alert/reloginalert_btnNo"), 2, STOP_ON_FAILURE): Tapped on element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_btnNo'
+
+2020-03-02 11:15:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_btnNo'
+
+2020-03-02 11:15:24 - [TEST_STEP][PASSED] - delay(1, CONTINUE_ON_FAILURE): Delayed 1 second(s)
+
+2020-03-02 11:15:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-02 11:15:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/b. RegressioniOS - Login/Assist Test/Session Time Out Reset' successfully
+
+2020-03-02 11:15:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Login Page/Welcome Page/loginpage_register_button"), 3): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_register_button' is present
+
+2020-03-02 11:15:27 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_register_button' is present
+
+2020-03-02 11:15:27 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Login Page/Welcome Page/loginpage_register_button"), 3): Tapped on element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_register_button'
+
+2020-03-02 11:15:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_register_button'
+
+2020-03-02 11:15:29 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Register/Join Us Page/joinus_header_title_joinus"), 3): Element 'Object Repository/iOS/Register/Join Us Page/joinus_header_title_joinus' is present
+
+2020-03-02 11:15:32 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Join Us Page/joinus_header_title_joinus' is present
+
+2020-03-02 11:15:32 - [TEST_STEP][PASSED] - setText(findTestObject("iOS/Register/Join Us Page/joinus_fullname_field_text_typeyour"), "Bang", 2): Text 'Bang' has been set to element 'Object Repository/iOS/Register/Join Us Page/joinus_fullname_field_text_typeyour'
+
+2020-03-02 11:15:36 - [MESSAGE][PASSED] - Text 'Bang' has been set to element 'Object Repository/iOS/Register/Join Us Page/joinus_fullname_field_text_typeyour'
+
+2020-03-02 11:15:36 - [TEST_STEP][PASSED] - setText(findTestObject("iOS/Register/Join Us Page/joinus_mobilenum_field_text_mobilenumber"), "085643628232", 2): Text '085643628232' has been set to element 'Object Repository/iOS/Register/Join Us Page/joinus_mobilenum_field_text_mobilenumber'
+
+2020-03-02 11:15:41 - [MESSAGE][PASSED] - Text '085643628232' has been set to element 'Object Repository/iOS/Register/Join Us Page/joinus_mobilenum_field_text_mobilenumber'
+
+2020-03-02 11:15:41 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Register/Join Us Page/joinus_header_btnNext"), 3): Tapped on element 'Object Repository/iOS/Register/Join Us Page/joinus_header_btnNext'
+
+2020-03-02 11:15:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Register/Join Us Page/joinus_header_btnNext'
+
+2020-03-02 11:15:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Register/Error Handling Pop Up and Red Text/errhandl_alreadyused"), 3): Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/errhandl_alreadyused' is present
+
+2020-03-02 11:15:47 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/errhandl_alreadyused' is present
+
+2020-03-02 11:15:47 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Register/Error Handling Pop Up and Red Text/errhandl_alreadyused"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/errhandl_alreadyused' is exist
+
+2020-03-02 11:15:49 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/errhandl_alreadyused' is exist
+
+2020-03-02 11:15:49 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Register/Error Handling Pop Up and Red Text/errhandl_alreadyused"), 1, STOP_ON_FAILURE): Text of element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/errhandl_alreadyused' is: 'Your mobile number has already been used before'
+
+2020-03-02 11:15:51 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/errhandl_alreadyused' is: 'Your mobile number has already been used before'
+
+2020-03-02 11:15:51 - [TEST_STEP][PASSED] - comment("Registered phone number done, Next to Invalid phone number"): Registered phone number done, Next to Invalid phone number
+
+2020-03-02 11:15:51 - [MESSAGE][INFO] - Registered phone number done, Next to Invalid phone number]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/a. RegressioniOS - Register/7 - Register with Invalid Phone Number" time="26.287" classname="Test Cases/a. RegressioniOS - Register/7 - Register with Invalid Phone Number" status="PASSED">
+         <system-out><![CDATA[2020-03-02 11:15:51 - [TEST_CASE][PASSED] - Test Cases/a. RegressioniOS - Register/7 - Register with Invalid Phone Number: Test Cases/a. RegressioniOS - Register/7 - Register with Invalid Phone Number
+
+2020-03-02 11:15:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-03-02 11:15:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-03-02 11:15:53 - [TEST_STEP][PASSED] - setText(findTestObject("iOS/Register/Join Us Page/joinus_fullname_field_text_typeyour"), "INvalid", 2): Text 'INvalid' has been set to element 'Object Repository/iOS/Register/Join Us Page/joinus_fullname_field_text_typeyour'
+
+2020-03-02 11:15:58 - [MESSAGE][PASSED] - Text 'INvalid' has been set to element 'Object Repository/iOS/Register/Join Us Page/joinus_fullname_field_text_typeyour'
+
+2020-03-02 11:15:58 - [TEST_STEP][PASSED] - setText(findTestObject("iOS/Register/Join Us Page/joinus_mobilenum_field_text_mobilenumber"), "1234567890765", 2): Text '1234567890765' has been set to element 'Object Repository/iOS/Register/Join Us Page/joinus_mobilenum_field_text_mobilenumber'
+
+2020-03-02 11:16:04 - [MESSAGE][PASSED] - Text '1234567890765' has been set to element 'Object Repository/iOS/Register/Join Us Page/joinus_mobilenum_field_text_mobilenumber'
+
+2020-03-02 11:16:04 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Register/Join Us Page/joinus_header_btnNext"), 3): Tapped on element 'Object Repository/iOS/Register/Join Us Page/joinus_header_btnNext'
+
+2020-03-02 11:16:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Register/Join Us Page/joinus_header_btnNext'
+
+2020-03-02 11:16:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Register/Error Handling Pop Up and Red Text/errhandl_incorrectphonnum_redText"), 3): Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/errhandl_incorrectphonnum_redText' is present
+
+2020-03-02 11:16:11 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/errhandl_incorrectphonnum_redText' is present
+
+2020-03-02 11:16:11 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Register/Error Handling Pop Up and Red Text/errhandl_incorrectphonnum_redText"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/errhandl_incorrectphonnum_redText' is exist
+
+2020-03-02 11:16:14 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/errhandl_incorrectphonnum_redText' is exist
+
+2020-03-02 11:16:14 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Register/Error Handling Pop Up and Red Text/errhandl_incorrectphonnum_redText"), 1, STOP_ON_FAILURE): Text of element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/errhandl_incorrectphonnum_redText' is: 'Please type in the correct mobile number'
+
+2020-03-02 11:16:17 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/errhandl_incorrectphonnum_redText' is: 'Please type in the correct mobile number'
+
+2020-03-02 11:16:17 - [TEST_STEP][PASSED] - comment("Invalid phone number done, Next Register Password not Matc"): Invalid phone number done, Next Register Password not Matc
+
+2020-03-02 11:16:17 - [MESSAGE][INFO] - Invalid phone number done, Next Register Password not Matc]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/a. RegressioniOS - Register/9 - Register Password is not Match" time="95.982" classname="Test Cases/a. RegressioniOS - Register/9 - Register Password is not Match" status="FAILED">
+         <failure type="FAILED" message="Test Cases/a. RegressioniOS - Register/9 - Register Password is not Match FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_notmatch_redText_Oops' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:640)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at 9 - Register Password is not Match.run(9 - Register Password is not Match:93)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583122479787.run(TempTestSuite1583122479787.groovy:36)
+"/>
+         <system-out><![CDATA[2020-03-02 11:16:17 - [TEST_CASE][FAILED] - Test Cases/a. RegressioniOS - Register/9 - Register Password is not Match: Test Cases/a. RegressioniOS - Register/9 - Register Password is not Match FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_notmatch_redText_Oops' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:640)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at 9 - Register Password is not Match.run(9 - Register Password is not Match:93)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583122479787.run(TempTestSuite1583122479787.groovy:36)
+
+
+2020-03-02 11:16:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-03-02 11:16:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-03-02 11:16:20 - [TEST_STEP][PASSED] - startExistingApplication("com.kfcjv.staging", STOP_ON_FAILURE): Starting app with application ID: 'com.kfcjv.staging'
+
+2020-03-02 11:16:34 - [MESSAGE][PASSED] - Starting app with application ID: 'com.kfcjv.staging'
+
+2020-03-02 11:16:34 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Login Page/Welcome Page/loginpage_register_button"), 3): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_register_button' is present
+
+2020-03-02 11:16:35 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_register_button' is present
+
+2020-03-02 11:16:35 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Login Page/Welcome Page/loginpage_register_button"), 3): Tapped on element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_register_button'
+
+2020-03-02 11:16:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_register_button'
+
+2020-03-02 11:16:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Register/Join Us Page/joinus_header_title_joinus"), 3): Element 'Object Repository/iOS/Register/Join Us Page/joinus_header_title_joinus' is present
+
+2020-03-02 11:16:39 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Join Us Page/joinus_header_title_joinus' is present
+
+2020-03-02 11:16:39 - [TEST_STEP][PASSED] - setText(findTestObject("iOS/Register/Join Us Page/joinus_fullname_field_text_typeyour"), "Automate" + RandomStringUtils.randomNumeric(3), 2): Text 'Automate289' has been set to element 'Object Repository/iOS/Register/Join Us Page/joinus_fullname_field_text_typeyour'
+
+2020-03-02 11:16:43 - [MESSAGE][PASSED] - Text 'Automate289' has been set to element 'Object Repository/iOS/Register/Join Us Page/joinus_fullname_field_text_typeyour'
+
+2020-03-02 11:16:43 - [TEST_STEP][PASSED] - setText(findTestObject("iOS/Register/Join Us Page/joinus_mobilenum_field_text_mobilenumber"), "0858230" + RandomStringUtils.randomNumeric(6), 2): Text '0858230524767' has been set to element 'Object Repository/iOS/Register/Join Us Page/joinus_mobilenum_field_text_mobilenumber'
+
+2020-03-02 11:16:48 - [MESSAGE][PASSED] - Text '0858230524767' has been set to element 'Object Repository/iOS/Register/Join Us Page/joinus_mobilenum_field_text_mobilenumber'
+
+2020-03-02 11:16:48 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Register/Join Us Page/joinus_header_btnNext"), 3): Tapped on element 'Object Repository/iOS/Register/Join Us Page/joinus_header_btnNext'
+
+2020-03-02 11:16:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Register/Join Us Page/joinus_header_btnNext'
+
+2020-03-02 11:16:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Register/Password Page/passw_logo_imgKfcLogo"), 3): Element 'Object Repository/iOS/Register/Password Page/passw_logo_imgKfcLogo' is present
+
+2020-03-02 11:16:55 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Password Page/passw_logo_imgKfcLogo' is present
+
+2020-03-02 11:16:55 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Register/Password Page/passw_imgThreeStripesRed"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Register/Password Page/passw_imgThreeStripesRed' is exist
+
+2020-03-02 11:16:57 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Password Page/passw_imgThreeStripesRed' is exist
+
+2020-03-02 11:16:57 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Register/Password Page/passw_logo_desctext_createyour"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Register/Password Page/passw_logo_desctext_createyour' is exist
+
+2020-03-02 11:16:59 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Password Page/passw_logo_desctext_createyour' is exist
+
+2020-03-02 11:16:59 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Register/Password Page/passw_header_btnNext"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Register/Password Page/passw_header_btnNext' is exist
+
+2020-03-02 11:17:01 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Password Page/passw_header_btnNext' is exist
+
+2020-03-02 11:17:01 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Register/Password Page/passw_header_btnBack"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Register/Password Page/passw_header_btnBack' is exist
+
+2020-03-02 11:17:03 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Password Page/passw_header_btnBack' is exist
+
+2020-03-02 11:17:03 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Register/Password Page/passw_header_btnNext_text_next"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Register/Password Page/passw_header_btnNext_text_next' is exist
+
+2020-03-02 11:17:04 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Password Page/passw_header_btnNext_text_next' is exist
+
+2020-03-02 11:17:04 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Register/Password Page/passw_header_title_password"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Register/Password Page/passw_header_title_password' is exist
+
+2020-03-02 11:17:06 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Password Page/passw_header_title_password' is exist
+
+2020-03-02 11:17:06 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Register/Password Page/passw_retypepassw_btnShow_enabled"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Register/Password Page/passw_retypepassw_btnShow_enabled' is exist
+
+2020-03-02 11:17:08 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Password Page/passw_retypepassw_btnShow_enabled' is exist
+
+2020-03-02 11:17:08 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Register/Password Page/passw_retypepassw_title"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Register/Password Page/passw_retypepassw_title' is exist
+
+2020-03-02 11:17:10 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Password Page/passw_retypepassw_title' is exist
+
+2020-03-02 11:17:10 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Register/Password Page/passw_typepassw_title"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Register/Password Page/passw_typepassw_title' is exist
+
+2020-03-02 11:17:12 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Password Page/passw_typepassw_title' is exist
+
+2020-03-02 11:17:12 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Register/Password Page/passw_header_title_password"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Register/Password Page/passw_header_title_password' is exist
+
+2020-03-02 11:17:14 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Password Page/passw_header_title_password' is exist
+
+2020-03-02 11:17:14 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Register/Password Page/passw_retypepassw_btnShow_enabled"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Register/Password Page/passw_retypepassw_btnShow_enabled' is exist
+
+2020-03-02 11:17:16 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Password Page/passw_retypepassw_btnShow_enabled' is exist
+
+2020-03-02 11:17:16 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Register/Password Page/passw_retypepassw_field_text_typepassword"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Register/Password Page/passw_retypepassw_field_text_typepassword' is exist
+
+2020-03-02 11:17:18 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Password Page/passw_retypepassw_field_text_typepassword' is exist
+
+2020-03-02 11:17:18 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Register/Password Page/passw_typepassw_btnShow_enabled"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Register/Password Page/passw_typepassw_btnShow_enabled' is exist
+
+2020-03-02 11:17:20 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Password Page/passw_typepassw_btnShow_enabled' is exist
+
+2020-03-02 11:17:20 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Register/Password Page/passw_typepassw_field_text_typepassword"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Register/Password Page/passw_typepassw_field_text_typepassword' is exist
+
+2020-03-02 11:17:22 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Password Page/passw_typepassw_field_text_typepassword' is exist
+
+2020-03-02 11:17:22 - [TEST_STEP][PASSED] - setText(findTestObject("iOS/Register/Password Page/passw_typepassw_field_text_typepassword"), RandomStringUtils.randomAlphabetic(6), 1): Text 'bJLrlv' has been set to element 'Object Repository/iOS/Register/Password Page/passw_typepassw_field_text_typepassword'
+
+2020-03-02 11:17:25 - [MESSAGE][PASSED] - Text 'bJLrlv' has been set to element 'Object Repository/iOS/Register/Password Page/passw_typepassw_field_text_typepassword'
+
+2020-03-02 11:17:25 - [TEST_STEP][PASSED] - setText(findTestObject("iOS/Register/Password Page/passw_retypepassw_field_text_typepassword"), RandomStringUtils.randomAlphabetic(6), 1): Text 'icHMrj' has been set to element 'Object Repository/iOS/Register/Password Page/passw_retypepassw_field_text_typepassword'
+
+2020-03-02 11:17:31 - [MESSAGE][PASSED] - Text 'icHMrj' has been set to element 'Object Repository/iOS/Register/Password Page/passw_retypepassw_field_text_typepassword'
+
+2020-03-02 11:17:31 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Register/Password Page/passw_header_btnNext"), 1, STOP_ON_FAILURE): Tapped on element 'Object Repository/iOS/Register/Password Page/passw_header_btnNext'
+
+2020-03-02 11:17:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Register/Password Page/passw_header_btnNext'
+
+2020-03-02 11:17:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_notmatchorless6char_title_error"), 3, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_notmatchorless6char_title_error' is present
+
+2020-03-02 11:17:37 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_notmatchorless6char_title_error' is present
+
+2020-03-02 11:17:37 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_notmatchorless6char_title_error"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_notmatchorless6char_title_error' is exist
+
+2020-03-02 11:17:40 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_notmatchorless6char_title_error' is exist
+
+2020-03-02 11:17:40 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_notmatch_desc_thepassword"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_notmatch_desc_thepassword' is exist
+
+2020-03-02 11:17:42 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_notmatch_desc_thepassword' is exist
+
+2020-03-02 11:17:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_notmatch_desc_thepassword"), "The password you type does not match", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_notmatch_desc_thepassword' are matched.
+
+2020-03-02 11:17:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_notmatch_desc_thepassword' are matched.
+
+2020-03-02 11:17:44 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_notmatchorless6char_btnOk"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_notmatchorless6char_btnOk' is exist
+
+2020-03-02 11:17:46 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_notmatchorless6char_btnOk' is exist
+
+2020-03-02 11:17:46 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_notmatchorless6char_btnOk"), 1, STOP_ON_FAILURE): Tapped on element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_notmatchorless6char_btnOk'
+
+2020-03-02 11:17:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_notmatchorless6char_btnOk'
+
+2020-03-02 11:17:49 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_notmatch_redText_Oops"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_notmatch_redText_Oops' not found
+
+2020-03-02 11:17:51 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_notmatch_redText_Oops' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_111439/a. Regression Test - Register/20200302_111439/1583122671275.png]]
+
+2020-03-02 11:17:51 - [TEST_STEP][FAILED] - getText(findTestObject("iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_notmatch_redText_Oops"), 1, STOP_ON_FAILURE): Failed to get text from element (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_notmatch_redText_Oops not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:442)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$5.call(Unknown Source)
+	at 9 - Register Password is not Match.run(9 - Register Password is not Match:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583122479787.run(TempTestSuite1583122479787.groovy:36)
+)
+
+2020-03-02 11:17:53 - [MESSAGE][FAILED] - Object Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_notmatch_redText_Oops not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_111439/a. Regression Test - Register/20200302_111439/1583122673376.png]]
+
+2020-03-02 11:17:53 - [MESSAGE][FAILED] - Failed to get text from element (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_notmatch_redText_Oops not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:442)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$5.call(Unknown Source)
+	at 9 - Register Password is not Match.run(9 - Register Password is not Match:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583122479787.run(TempTestSuite1583122479787.groovy:36)
+)
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_111439/a. Regression Test - Register/20200302_111439/1583122673541.png]]]]></system-out>
+         <system-err><![CDATA[2020-03-02 11:16:17 - [TEST_CASE][FAILED] - Test Cases/a. RegressioniOS - Register/9 - Register Password is not Match: Test Cases/a. RegressioniOS - Register/9 - Register Password is not Match FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_notmatch_redText_Oops' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:640)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at 9 - Register Password is not Match.run(9 - Register Password is not Match:93)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583122479787.run(TempTestSuite1583122479787.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/a. RegressioniOS - Register/11 - Register with Password less than 6 characters" time="103.992" classname="Test Cases/a. RegressioniOS - Register/11 - Register with Password less than 6 characters" status="PASSED">
+         <system-out><![CDATA[2020-03-02 11:17:53 - [TEST_CASE][PASSED] - Test Cases/a. RegressioniOS - Register/11 - Register with Password less than 6 characters: Test Cases/a. RegressioniOS - Register/11 - Register with Password less than 6 characters
+
+2020-03-02 11:17:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-03-02 11:17:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-03-02 11:17:56 - [TEST_STEP][PASSED] - startExistingApplication("com.kfcjv.staging", STOP_ON_FAILURE): Starting app with application ID: 'com.kfcjv.staging'
+
+2020-03-02 11:18:10 - [MESSAGE][PASSED] - Starting app with application ID: 'com.kfcjv.staging'
+
+2020-03-02 11:18:10 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Login Page/Welcome Page/loginpage_register_button"), 3): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_register_button' is present
+
+2020-03-02 11:18:12 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_register_button' is present
+
+2020-03-02 11:18:12 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Login Page/Welcome Page/loginpage_register_button"), 3): Tapped on element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_register_button'
+
+2020-03-02 11:18:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_register_button'
+
+2020-03-02 11:18:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Register/Join Us Page/joinus_header_title_joinus"), 3): Element 'Object Repository/iOS/Register/Join Us Page/joinus_header_title_joinus' is present
+
+2020-03-02 11:18:17 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Join Us Page/joinus_header_title_joinus' is present
+
+2020-03-02 11:18:17 - [TEST_STEP][PASSED] - setText(findTestObject("iOS/Register/Join Us Page/joinus_fullname_field_text_typeyour"), "Automate" + RandomStringUtils.randomNumeric(3), 2): Text 'Automate159' has been set to element 'Object Repository/iOS/Register/Join Us Page/joinus_fullname_field_text_typeyour'
+
+2020-03-02 11:18:21 - [MESSAGE][PASSED] - Text 'Automate159' has been set to element 'Object Repository/iOS/Register/Join Us Page/joinus_fullname_field_text_typeyour'
+
+2020-03-02 11:18:21 - [TEST_STEP][PASSED] - setText(findTestObject("iOS/Register/Join Us Page/joinus_mobilenum_field_text_mobilenumber"), "0858230" + RandomStringUtils.randomNumeric(6), 2): Text '0858230163719' has been set to element 'Object Repository/iOS/Register/Join Us Page/joinus_mobilenum_field_text_mobilenumber'
+
+2020-03-02 11:18:27 - [MESSAGE][PASSED] - Text '0858230163719' has been set to element 'Object Repository/iOS/Register/Join Us Page/joinus_mobilenum_field_text_mobilenumber'
+
+2020-03-02 11:18:27 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Register/Join Us Page/joinus_header_btnNext"), 3): Tapped on element 'Object Repository/iOS/Register/Join Us Page/joinus_header_btnNext'
+
+2020-03-02 11:18:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Register/Join Us Page/joinus_header_btnNext'
+
+2020-03-02 11:18:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-03-02 11:18:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-03-02 11:18:33 - [TEST_STEP][PASSED] - setText(findTestObject("iOS/Register/Password Page/passw_typepassw_field_text_typepassword"), "Hello", 1): Text 'Hello' has been set to element 'Object Repository/iOS/Register/Password Page/passw_typepassw_field_text_typepassword'
+
+2020-03-02 11:18:36 - [MESSAGE][PASSED] - Text 'Hello' has been set to element 'Object Repository/iOS/Register/Password Page/passw_typepassw_field_text_typepassword'
+
+2020-03-02 11:18:36 - [TEST_STEP][PASSED] - setText(findTestObject("iOS/Register/Password Page/passw_retypepassw_field_text_typepassword"), "Hello", 1): Text 'Hello' has been set to element 'Object Repository/iOS/Register/Password Page/passw_retypepassw_field_text_typepassword'
+
+2020-03-02 11:18:41 - [MESSAGE][PASSED] - Text 'Hello' has been set to element 'Object Repository/iOS/Register/Password Page/passw_retypepassw_field_text_typepassword'
+
+2020-03-02 11:18:41 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Register/Password Page/passw_header_btnNext"), 3): Tapped on element 'Object Repository/iOS/Register/Password Page/passw_header_btnNext'
+
+2020-03-02 11:18:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Register/Password Page/passw_header_btnNext'
+
+2020-03-02 11:18:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_less6char_alerttype"), 3): Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_less6char_alerttype' is present
+
+2020-03-02 11:18:48 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_less6char_alerttype' is present
+
+2020-03-02 11:18:48 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_less6char_btnOk"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_less6char_btnOk' is exist
+
+2020-03-02 11:18:50 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_less6char_btnOk' is exist
+
+2020-03-02 11:18:50 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_less6char_title"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_less6char_title' is exist
+
+2020-03-02 11:18:53 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_less6char_title' is exist
+
+2020-03-02 11:18:53 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_less6char_desc"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_less6char_desc' is exist
+
+2020-03-02 11:18:55 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_less6char_desc' is exist
+
+2020-03-02 11:18:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_less6char_desc"), "Password should be at least 6 characters", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_less6char_desc' are matched.
+
+2020-03-02 11:18:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_less6char_desc' are matched.
+
+2020-03-02 11:18:58 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_less6char_btnOk"), 1, STOP_ON_FAILURE): Tapped on element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_less6char_btnOk'
+
+2020-03-02 11:19:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_less6char_btnOk'
+
+2020-03-02 11:19:01 - [TEST_STEP][PASSED] - setText(findTestObject("iOS/Register/Password Page/passw_typepassw_field_text_typepassword"), "", 1): Text '' has been set to element 'Object Repository/iOS/Register/Password Page/passw_typepassw_field_text_typepassword'
+
+2020-03-02 11:19:07 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/iOS/Register/Password Page/passw_typepassw_field_text_typepassword'
+
+2020-03-02 11:19:07 - [TEST_STEP][PASSED] - setText(findTestObject("iOS/Register/Password Page/passw_retypepassw_field_text_typepassword"), "", 1): Text '' has been set to element 'Object Repository/iOS/Register/Password Page/passw_retypepassw_field_text_typepassword'
+
+2020-03-02 11:19:19 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/iOS/Register/Password Page/passw_retypepassw_field_text_typepassword'
+
+2020-03-02 11:19:19 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Register/Password Page/passw_header_btnNext"), 3): Tapped on element 'Object Repository/iOS/Register/Password Page/passw_header_btnNext'
+
+2020-03-02 11:19:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Register/Password Page/passw_header_btnNext'
+
+2020-03-02 11:19:23 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_reqfield_title_error"), 3): Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_reqfield_title_error' is present
+
+2020-03-02 11:19:25 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_reqfield_title_error' is present
+
+2020-03-02 11:19:25 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_reqfield_title_error"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_reqfield_title_error' is exist
+
+2020-03-02 11:19:28 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_reqfield_title_error' is exist
+
+2020-03-02 11:19:28 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_reqfield_desc_pleasefill"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_reqfield_desc_pleasefill' is exist
+
+2020-03-02 11:19:30 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_reqfield_desc_pleasefill' is exist
+
+2020-03-02 11:19:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_reqfield_desc_pleasefill"), "Please fill in all of the required fields", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_reqfield_desc_pleasefill' are matched.
+
+2020-03-02 11:19:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_reqfield_desc_pleasefill' are matched.
+
+2020-03-02 11:19:32 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_reqfield_btnOk"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_reqfield_btnOk' is exist
+
+2020-03-02 11:19:35 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_reqfield_btnOk' is exist
+
+2020-03-02 11:19:35 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_reqfield_btnOk"), 1, STOP_ON_FAILURE): Tapped on element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_reqfield_btnOk'
+
+2020-03-02 11:19:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_reqfield_btnOk'
+
+2020-03-02 11:19:37 - [TEST_STEP][PASSED] - comment("Error Handling on Password Done, Next Edit the User Profile"): Error Handling on Password Done, Next Edit the User Profile
+
+2020-03-02 11:19:37 - [MESSAGE][INFO] - Error Handling on Password Done, Next Edit the User Profile]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/a. RegressioniOS - Register/15 - Incomplete login to DANA" time="137.351" classname="Test Cases/a. RegressioniOS - Register/15 - Incomplete login to DANA" status="PASSED">
+         <system-out><![CDATA[2020-03-02 11:19:37 - [TEST_CASE][PASSED] - Test Cases/a. RegressioniOS - Register/15 - Incomplete login to DANA: Test Cases/a. RegressioniOS - Register/15 - Incomplete login to DANA
+
+2020-03-02 11:19:38 - [TEST_STEP][PASSED] - startExistingApplication("com.kfcjv.staging", STOP_ON_FAILURE): Starting app with application ID: 'com.kfcjv.staging'
+
+2020-03-02 11:19:52 - [MESSAGE][PASSED] - Starting app with application ID: 'com.kfcjv.staging'
+
+2020-03-02 11:19:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Login Page/Welcome Page/loginpage_logo_imgKfclogo"), 3): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_logo_imgKfclogo' is present
+
+2020-03-02 11:19:54 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_logo_imgKfclogo' is present
+
+2020-03-02 11:19:54 - [TEST_STEP][PASSED] - comment("Login USER 085643628232"): Login USER 085643628232
+
+2020-03-02 11:19:54 - [MESSAGE][INFO] - Login USER 085643628232
+
+2020-03-02 11:19:54 - [TEST_STEP][PASSED] - setText(findTestObject("iOS/Login Page/Welcome Page/loginpage_phonenum_textfield"), "085643628232", 1): Text '085643628232' has been set to element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_phonenum_textfield'
+
+2020-03-02 11:19:58 - [MESSAGE][PASSED] - Text '085643628232' has been set to element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_phonenum_textfield'
+
+2020-03-02 11:19:58 - [TEST_STEP][PASSED] - setText(findTestObject("iOS/Login Page/Welcome Page/loginpage_passw_textfield"), "111111", 0): Text '111111' has been set to element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_passw_textfield'
+
+2020-03-02 11:19:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-02 11:20:03 - [MESSAGE][PASSED] - Text '111111' has been set to element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_passw_textfield'
+
+2020-03-02 11:20:03 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed"), 2): Tapped on element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed'
+
+2020-03-02 11:20:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed'
+
+2020-03-02 11:20:07 - [TEST_STEP][PASSED] - comment("Redirect to DANA LOGIN PAGE"): Redirect to DANA LOGIN PAGE
+
+2020-03-02 11:20:07 - [MESSAGE][INFO] - Redirect to DANA LOGIN PAGE
+
+2020-03-02 11:20:07 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Login Page/Login to DANA Page/logtodana_header_btnBack"), 0): Element 'Object Repository/iOS/Login Page/Login to DANA Page/logtodana_header_btnBack' is present
+
+2020-03-02 11:20:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-02 11:20:14 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Login to DANA Page/logtodana_header_btnBack' is present
+
+2020-03-02 11:20:14 - [TEST_STEP][PASSED] - comment("DANA PIN INPUT"): DANA PIN INPUT
+
+2020-03-02 11:20:14 - [MESSAGE][INFO] - DANA PIN INPUT
+
+2020-03-02 11:20:14 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2020-03-02 11:20:15 - [MESSAGE][PASSED] - Close app successfully
+
+2020-03-02 11:20:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-03-02 11:20:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-02 11:20:18 - [TEST_STEP][PASSED] - startExistingApplication("com.kfcjv.staging", STOP_ON_FAILURE): Starting app with application ID: 'com.kfcjv.staging'
+
+2020-03-02 11:20:18 - [MESSAGE][INFO] - ios_webkit_debug_proxy server started on port 56120
+
+2020-03-02 11:20:20 - [MESSAGE][INFO] - Appium server started on port 56,123
+
+2020-03-02 11:20:33 - [MESSAGE][PASSED] - Starting app with application ID: 'com.kfcjv.staging'
+
+2020-03-02 11:20:33 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Login Page/Relogin Alert/reloginalert_alerttype"), 3): Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_alerttype' is present
+
+2020-03-02 11:20:37 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_alerttype' is present
+
+2020-03-02 11:20:37 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Relogin Alert/reloginalert_desc_doyou"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_desc_doyou' is exist
+
+2020-03-02 11:20:39 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_desc_doyou' is exist
+
+2020-03-02 11:20:39 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Relogin Alert/reloginalert_btnYes"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_btnYes' is exist
+
+2020-03-02 11:20:41 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_btnYes' is exist
+
+2020-03-02 11:20:41 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Relogin Alert/reloginalert_btnNo"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_btnNo' is exist
+
+2020-03-02 11:20:43 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_btnNo' is exist
+
+2020-03-02 11:20:43 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Login Page/Relogin Alert/reloginalert_desc_doyou"), 1, STOP_ON_FAILURE): Text of element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_desc_doyou' is: 'Do you wish to log in with phone number +6285643628232'
+
+2020-03-02 11:20:45 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_desc_doyou' is: 'Do you wish to log in with phone number +6285643628232'
+
+2020-03-02 11:20:45 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Login Page/Relogin Alert/reloginalert_btnYes"), 1, STOP_ON_FAILURE): Tapped on element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_btnYes'
+
+2020-03-02 11:20:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_btnYes'
+
+2020-03-02 11:20:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-03-02 11:20:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-03-02 11:20:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Login Page/Login to DANA Page/logtodana_header_btnBack"), 2): Element 'Object Repository/iOS/Login Page/Login to DANA Page/logtodana_header_btnBack' is present
+
+2020-03-02 11:21:22 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Login to DANA Page/logtodana_header_btnBack' is present
+
+2020-03-02 11:21:22 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2020-03-02 11:21:23 - [MESSAGE][PASSED] - Close app successfully
+
+2020-03-02 11:21:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-03-02 11:21:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-02 11:21:26 - [TEST_STEP][PASSED] - startExistingApplication("com.kfcjv.staging", STOP_ON_FAILURE): Starting app with application ID: 'com.kfcjv.staging'
+
+2020-03-02 11:21:26 - [MESSAGE][INFO] - ios_webkit_debug_proxy server started on port 56166
+
+2020-03-02 11:21:28 - [MESSAGE][INFO] - Appium server started on port 56,169
+
+2020-03-02 11:21:43 - [MESSAGE][PASSED] - Starting app with application ID: 'com.kfcjv.staging'
+
+2020-03-02 11:21:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Login Page/Relogin Alert/reloginalert_alerttype"), 3): Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_alerttype' is present
+
+2020-03-02 11:21:45 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_alerttype' is present
+
+2020-03-02 11:21:45 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Relogin Alert/reloginalert_desc_doyou"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_desc_doyou' is exist
+
+2020-03-02 11:21:47 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_desc_doyou' is exist
+
+2020-03-02 11:21:47 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Relogin Alert/reloginalert_btnYes"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_btnYes' is exist
+
+2020-03-02 11:21:49 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_btnYes' is exist
+
+2020-03-02 11:21:49 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Relogin Alert/reloginalert_btnNo"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_btnNo' is exist
+
+2020-03-02 11:21:51 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_btnNo' is exist
+
+2020-03-02 11:21:51 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Login Page/Relogin Alert/reloginalert_desc_doyou"), 1, STOP_ON_FAILURE): Text of element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_desc_doyou' is: 'Do you wish to log in with phone number +6285643628232'
+
+2020-03-02 11:21:52 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_desc_doyou' is: 'Do you wish to log in with phone number +6285643628232'
+
+2020-03-02 11:21:52 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Login Page/Relogin Alert/reloginalert_btnNo"), 1, STOP_ON_FAILURE): Tapped on element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_btnNo'
+
+2020-03-02 11:21:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_btnNo']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/a. RegressioniOS - Register/16 - Forgot Password (Component Check)" time="68.296" classname="Test Cases/a. RegressioniOS - Register/16 - Forgot Password (Component Check)" status="PASSED">
+         <system-out><![CDATA[2020-03-02 11:21:55 - [TEST_CASE][PASSED] - Test Cases/a. RegressioniOS - Register/16 - Forgot Password (Component Check): Test Cases/a. RegressioniOS - Register/16 - Forgot Password (Component Check)
+
+2020-03-02 11:21:55 - [TEST_STEP][PASSED] - startExistingApplication("com.kfcjv.staging", STOP_ON_FAILURE): Starting app with application ID: 'com.kfcjv.staging'
+
+2020-03-02 11:22:09 - [MESSAGE][PASSED] - Starting app with application ID: 'com.kfcjv.staging'
+
+2020-03-02 11:22:09 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Login Page/Welcome Page/loginpage_logo_imgKfclogo"), 3): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_logo_imgKfclogo' is present
+
+2020-03-02 11:22:11 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_logo_imgKfclogo' is present
+
+2020-03-02 11:22:11 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Login Page/Welcome Page/loginpage_frgtpassw_button"), 3): Tapped on element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_frgtpassw_button'
+
+2020-03-02 11:22:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_frgtpassw_button'
+
+2020-03-02 11:22:13 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Login Page/Forgot Password Page/frgtpassw_header_btnBack"), 3): Element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_header_btnBack' is present
+
+2020-03-02 11:22:16 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_header_btnBack' is present
+
+2020-03-02 11:22:16 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Forgot Password Page/frgtpassw_header_btnBack"), 3): Element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_header_btnBack' is exist
+
+2020-03-02 11:22:17 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_header_btnBack' is exist
+
+2020-03-02 11:22:17 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Forgot Password Page/frgtpassw_header_btnNext"), 3): Element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_header_btnNext' is exist
+
+2020-03-02 11:22:19 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_header_btnNext' is exist
+
+2020-03-02 11:22:19 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Forgot Password Page/frgtpassw_header_btnNext_text_next"), 3): Element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_header_btnNext_text_next' is exist
+
+2020-03-02 11:22:20 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_header_btnNext_text_next' is exist
+
+2020-03-02 11:22:20 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Forgot Password Page/frgtpassw_header_placeholder"), 3): Element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_header_placeholder' is exist
+
+2020-03-02 11:22:22 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_header_placeholder' is exist
+
+2020-03-02 11:22:22 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Forgot Password Page/frgtpassw_header_title_forgotpassword"), 3): Element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_header_title_forgotpassword' is exist
+
+2020-03-02 11:22:23 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_header_title_forgotpassword' is exist
+
+2020-03-02 11:22:23 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Forgot Password Page/frgtpassw_imgThreeStripesRed"), 3): Element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_imgThreeStripesRed' is exist
+
+2020-03-02 11:22:25 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_imgThreeStripesRed' is exist
+
+2020-03-02 11:22:25 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Forgot Password Page/frgtpassw_logo_desctext_pleaseinput"), 3): Element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_logo_desctext_pleaseinput' is exist
+
+2020-03-02 11:22:26 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_logo_desctext_pleaseinput' is exist
+
+2020-03-02 11:22:26 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Forgot Password Page/frgtpassw_logo_imgKfcLogo"), 3): Element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_logo_imgKfcLogo' is exist
+
+2020-03-02 11:22:27 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_logo_imgKfcLogo' is exist
+
+2020-03-02 11:22:27 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Forgot Password Page/frgtpassw_logo_placeholder"), 3): Element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_logo_placeholder' is exist
+
+2020-03-02 11:22:31 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_logo_placeholder' is exist
+
+2020-03-02 11:22:31 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Forgot Password Page/frgtpassw_mobnuminput_field_text_mobilenumber"), 3): Element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_mobnuminput_field_text_mobilenumber' is exist
+
+2020-03-02 11:22:33 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_mobnuminput_field_text_mobilenumber' is exist
+
+2020-03-02 11:22:33 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Forgot Password Page/frgtpassw_mobnuminput_title_mobilenumber"), 3): Element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_mobnuminput_title_mobilenumber' is exist
+
+2020-03-02 11:22:34 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_mobnuminput_title_mobilenumber' is exist
+
+2020-03-02 11:22:34 - [TEST_STEP][PASSED] - setText(findTestObject("iOS/Login Page/Forgot Password Page/frgtpassw_mobnuminput_field_text_mobilenumber"), "000000000", 0): Text '000000000' has been set to element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_mobnuminput_field_text_mobilenumber'
+
+2020-03-02 11:22:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-02 11:22:38 - [MESSAGE][PASSED] - Text '000000000' has been set to element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_mobnuminput_field_text_mobilenumber'
+
+2020-03-02 11:22:38 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Forgot Password Page/frgtpassw_btnCleartext"), 3): Element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_btnCleartext' is exist
+
+2020-03-02 11:22:40 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_btnCleartext' is exist
+
+2020-03-02 11:22:40 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Login Page/Forgot Password Page/frgtpassw_btnCleartext"), 3): Tapped on element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_btnCleartext'
+
+2020-03-02 11:22:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_btnCleartext'
+
+2020-03-02 11:22:44 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Login Page/Forgot Password Page/frgtpassw_header_btnNext"), 3): Tapped on element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_header_btnNext'
+
+2020-03-02 11:22:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_header_btnNext'
+
+2020-03-02 11:22:47 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Forgot Password Page/frgtpassw_err_descFieldisrequired"), 3): Element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_err_descFieldisrequired' is exist
+
+2020-03-02 11:22:50 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_err_descFieldisrequired' is exist
+
+2020-03-02 11:22:50 - [TEST_STEP][PASSED] - setText(findTestObject("iOS/Login Page/Forgot Password Page/frgtpassw_mobnuminput_field_text_mobilenumber"), "000000000", 0): Text '000000000' has been set to element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_mobnuminput_field_text_mobilenumber'
+
+2020-03-02 11:22:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-02 11:22:54 - [MESSAGE][PASSED] - Text '000000000' has been set to element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_mobnuminput_field_text_mobilenumber'
+
+2020-03-02 11:22:54 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Login Page/Forgot Password Page/frgtpassw_header_btnNext"), 3): Tapped on element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_header_btnNext'
+
+2020-03-02 11:22:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_header_btnNext'
+
+2020-03-02 11:22:57 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Forgot Password Page/frgtpassw_err_descIncorrectphonnum"), 3): Element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_err_descIncorrectphonnum' is exist
+
+2020-03-02 11:23:00 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_err_descIncorrectphonnum' is exist
+
+2020-03-02 11:23:00 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Login Page/Forgot Password Page/frgtpassw_header_btnBack"), 3): Tapped on element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_header_btnBack'
+
+2020-03-02 11:23:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Login Page/Forgot Password Page/frgtpassw_header_btnBack']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-02 11:14:48 - [TEST_SUITE][FAILED] - a. Regression Test - Register: Test Cases/a. RegressioniOS - Register/9 - Register Password is not Match FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_notmatch_redText_Oops' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:640)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at 9 - Register Password is not Match.run(9 - Register Password is not Match:93)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583122479787.run(TempTestSuite1583122479787.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-03-02 11:14:48 - [TEST_SUITE][FAILED] - a. Regression Test - Register: Test Cases/a. RegressioniOS - Register/9 - Register Password is not Match FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/iOS/Register/Error Handling Pop Up and Red Text/Password/errhandl_notmatch_redText_Oops' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:640)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at 9 - Register Password is not Match.run(9 - Register Password is not Match:93)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583122479787.run(TempTestSuite1583122479787.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

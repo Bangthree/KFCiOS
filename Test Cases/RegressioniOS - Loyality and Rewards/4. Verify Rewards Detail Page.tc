@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>4. Verify Rewards Detail Page</name>
+   <tag></tag>
+   <comment>Voucher Detail Page Check</comment>
+   <testCaseGuid>7b00e24c-7e04-46fb-84d3-193306e93c60</testCaseGuid>
+</TestCaseEntity>

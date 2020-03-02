@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Reach Home Page Menu</description>
+   <name>1 - Open KFC JV Home Page Menu</name>
+   <tag>Home,</tag>
+   <comment>Quick Check on Delivery Order Button
+Quick Check on Pay &amp; Pick Button
+Quick Check on KFC Points Button
+Quick Check on History Button
+Quick Check on Profile Button
+Quick Check on KFC Logo on Homepage
+Quick Check on Ongoing Promo
+Quick Check on Bottom Bar</comment>
+   <testCaseGuid>05a8ad5b-1076-4e8e-8174-8926751f014a</testCaseGuid>
+</TestCaseEntity>

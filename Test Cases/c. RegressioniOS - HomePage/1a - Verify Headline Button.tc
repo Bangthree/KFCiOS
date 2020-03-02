@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Transaction History is on the left top of the page. Once the button is clicked, screen redirects to the Transaction History page.
+
+- Profile button is on the right top of the page. Once the button is clicked, screen redirects to the Profile page (if the user already logged in) or Login page (if the user has not logged in yet)</description>
+   <name>1a - Verify Headline Button</name>
+   <tag></tag>
+   <comment>Check History Button Existence
+Check History Button Redirection
+Check History Button Back Button Redirection
+Verify Headline Button done</comment>
+   <testCaseGuid>a0c9501c-db9c-48a0-8457-593223fd86f1</testCaseGuid>
+</TestCaseEntity>

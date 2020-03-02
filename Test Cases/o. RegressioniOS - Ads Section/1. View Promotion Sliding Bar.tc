@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Check banner availablility on homepage
+- Banners are scrollable
+- Maximum 5 Banner</description>
+   <name>1. View Promotion Sliding Bar</name>
+   <tag>Banner, Ads, Promo, Slide</tag>
+   <comment>Promotion Sliding Bar Check Started
+Promotion Sliding Bar Check Finished</comment>
+   <testCaseGuid>83f06fd0-f440-4b05-8415-9af204d91b5e</testCaseGuid>
+</TestCaseEntity>

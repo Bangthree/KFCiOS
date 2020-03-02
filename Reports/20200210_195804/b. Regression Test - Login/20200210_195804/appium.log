@@ -1,0 +1,355 @@
+[35m[Appium][39m Welcome to Appium v1.15.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 56306
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   chromeDriverPort: 56308
+[35m[Appium][39m   tmpDir: /var/folders/5x/xgrvn9_j439fxnt_sf6vk2sw0000gq/T//Katalon/Appium/Temp1581339494284
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:56306
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m7 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/bambangtripamungkas/Documents/KATALON/ANDROID/KFCKU HK staging_1.0.3.apk","noReset":true,"deviceName":"Xiaomi Redmi Note 4 (Android 7.0)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"7.0","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"226551449804","systemPort":56305},"capabilities":{"firstMatch":[{"appium:app":"/Users/bambangtripamungkas/Documents/KATALON/ANDROID/KFCKU HK staging_1.0.3.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi Redmi Note 4 (Android 7.0)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"7.0","appium:systemPort":56305,"appium:udid":"226551449804"}]}}[39m
+[35m[BaseDriver][39m The capabilities ["platform"] are not standard capabilities and should have an extension prefix
+[35m[Appium][39m Appium v1.15.1 creating new AndroidUiautomator2Driver (v1.37.2) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: e4179055-6461-4402-a709-cee2c6c65697
+[35m[BaseDriver][39m Using local app '/Users/bambangtripamungkas/Documents/KATALON/ANDROID/KFCKU HK staging_1.0.3.apk'
+[35m[ADB][39m Found 1 'build-tools' folders under '/Users/bambangtripamungkas/.katalon/tools/android_sdk' (newest first):
+[35m[ADB][39m     /Users/bambangtripamungkas/.katalon/tools/android_sdk/build-tools/29.0.2
+[35m[ADB][39m Using 'adb' from '/Users/bambangtripamungkas/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: 226551449804
+[35m[ADB][39m Using 'adb' from '/Users/bambangtripamungkas/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[ADB][39m Using the alternative activity name detection method because of: Could not find 'apkanalyzer' in ["/Users/bambangtripamungkas/.katalon/tools/android_sdk/platform-tools/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/emulator/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/tools/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/tools/bin/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/build-tools/29.0.2/apkanalyzer"]. Do you have Android Build Tools installed at '/Users/bambangtripamungkas/.katalon/tools/android_sdk'?
+[35m[ADB][39m Using 'aapt' from '/Users/bambangtripamungkas/.katalon/tools/android_sdk/build-tools/29.0.2/aapt'
+[35m[ADB][39m Extracting package and launch activity from manifest
+[35m[ADB][39m Package name: 'com.kfc.mobile.hkStaging'
+[35m[ADB][39m Main activity name: 'com.kfc.mobile.presentation.splash.SplashActivity'
+[35m[ADB][39m Cannot extract apk info using apkanalyzer. Falling back to aapt. Original error: Could not find 'apkanalyzer' in ["/Users/bambangtripamungkas/.katalon/tools/android_sdk/platform-tools/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/emulator/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/tools/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/tools/bin/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/build-tools/29.0.2/apkanalyzer"]. Do you have Android Build Tools installed at '/Users/bambangtripamungkas/.katalon/tools/android_sdk'?
+[35m[ADB][39m Cannot extract apk info using apkanalyzer. Falling back to aapt. Original error: Could not find 'apkanalyzer' in ["/Users/bambangtripamungkas/.katalon/tools/android_sdk/platform-tools/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/emulator/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/tools/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/tools/bin/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/build-tools/29.0.2/apkanalyzer"]. Do you have Android Build Tools installed at '/Users/bambangtripamungkas/.katalon/tools/android_sdk'?
+[35m[ADB][39m Using 'apksigner' from '/Users/bambangtripamungkas/.katalon/tools/android_sdk/build-tools/29.0.2/apksigner'
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Cannot extract apk info using apkanalyzer. Falling back to aapt. Original error: Could not find 'apkanalyzer' in ["/Users/bambangtripamungkas/.katalon/tools/android_sdk/platform-tools/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/emulator/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/tools/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/tools/bin/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/build-tools/29.0.2/apkanalyzer"]. Do you have Android Build Tools installed at '/Users/bambangtripamungkas/.katalon/tools/android_sdk'?
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.3.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.3.0.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.kfc.mobile.hkStaging/com.kfc.mobile.presentation.splash.SplashActivity and waiting for 'com.kfc.mobile.hkStaging/com.kfc.mobile.presentation.splash.SplashActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session e4179055-6461-4402-a709-cee2c6c65697 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m12594 ms - 1277[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697 [39m[32m200[39m [90m48 ms - 1209[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697 [39m[32m200[39m [90m9 ms - 1209[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/timeouts [39m[32m200[39m [90m5 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/window/rect [39m[32m200[39m [90m19 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Session Time Out\").resourceId(\"com.kfc.mobile.hkStaging:id/tvTitle\").instance(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/elements [39m[32m200[39m [90m1203 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Session Time Out\").resourceId(\"com.kfc.mobile.hkStaging:id/tvTitle\").instance(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/elements [39m[32m200[39m [90m571 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[AndroidDriver][39m Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/contexts [39m[32m200[39m [90m35 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/screenshot [39m[32m200[39m [90m687 ms - 139638[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/context [39m[32m200[39m [90m7 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[AndroidDriver][39m Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/contexts [39m[32m200[39m [90m66 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/context [39m[32m200[39m [90m10 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/screenshot [39m[32m200[39m [90m627 ms - 139104[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/context [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/window/rect [39m[32m200[39m [90m29 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").text(\"Mobile Number 08xxxxxxxxx\").resourceId(\"com.kfc.mobile.hkStaging:id/etMobileNumber\").instance(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/elements [39m[32m200[39m [90m99 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/element/44224ce6-f7b0-4a47-b59e-cbe0a0b82510/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e4179055)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId c549d999-e9ce-497f-9c72-acc09447a34f with e4179055-6461-4402-a709-cee2c6c65697
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/element/44224ce6-f7b0-4a47-b59e-cbe0a0b82510/location [39m[32m200[39m [90m65 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/element/44224ce6-f7b0-4a47-b59e-cbe0a0b82510/clear[39m
+[35m[HTTP][39m [90m{"id":"44224ce6-f7b0-4a47-b59e-cbe0a0b82510"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/element/44224ce6-f7b0-4a47-b59e-cbe0a0b82510/clear [39m[32m200[39m [90m107 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/window/rect [39m[32m200[39m [90m17 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").text(\"Password\").resourceId(\"com.kfc.mobile.hkStaging:id/etPassword\").instance(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/elements [39m[32m200[39m [90m480 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/element/29b1371a-93af-4f51-b7f1-e1275527f9bd/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e4179055)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId c549d999-e9ce-497f-9c72-acc09447a34f with e4179055-6461-4402-a709-cee2c6c65697
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/element/29b1371a-93af-4f51-b7f1-e1275527f9bd/location [39m[32m200[39m [90m54 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/element/29b1371a-93af-4f51-b7f1-e1275527f9bd/clear[39m
+[35m[HTTP][39m [90m{"id":"29b1371a-93af-4f51-b7f1-e1275527f9bd"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/element/29b1371a-93af-4f51-b7f1-e1275527f9bd/clear [39m[32m200[39m [90m522 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[AndroidDriver][39m Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/contexts [39m[32m200[39m [90m43 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/context [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/screenshot [39m[32m200[39m [90m599 ms - 138948[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4179055-6461-4402-a709-cee2c6c65697/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/bambangtripamungkas/Documents/KATALON/ANDROID/KFCKU HK staging_1.0.3.apk","noReset":true,"deviceName":"Xiaomi Redmi Note 4 (Android 7.0)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"7.0","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"226551449804","systemPort":56440},"capabilities":{"firstMatch":[{"appium:app":"/Users/bambangtripamungkas/Documents/KATALON/ANDROID/KFCKU HK staging_1.0.3.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi Redmi Note 4 (Android 7.0)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"7.0","appium:systemPort":56440,"appium:udid":"226551449804"}]}}[39m
+[35m[BaseDriver][39m The capabilities ["platform"] are not standard capabilities and should have an extension prefix
+[35m[Appium][39m Appium v1.15.1 creating new AndroidUiautomator2Driver (v1.37.2) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 411f367e-f003-4ef8-a9d0-812bc28fcb4d
+[35m[BaseDriver][39m Using local app '/Users/bambangtripamungkas/Documents/KATALON/ANDROID/KFCKU HK staging_1.0.3.apk'
+[35m[ADB][39m Using 'adb' from '/Users/bambangtripamungkas/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: 226551449804
+[35m[ADB][39m Using 'adb' from '/Users/bambangtripamungkas/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[ADB][39m Using the alternative activity name detection method because of: Could not find 'apkanalyzer' in ["/Users/bambangtripamungkas/.katalon/tools/android_sdk/platform-tools/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/emulator/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/tools/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/tools/bin/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/build-tools/29.0.2/apkanalyzer"]. Do you have Android Build Tools installed at '/Users/bambangtripamungkas/.katalon/tools/android_sdk'?
+[35m[ADB][39m Using 'aapt' from '/Users/bambangtripamungkas/.katalon/tools/android_sdk/build-tools/29.0.2/aapt'
+[35m[ADB][39m Extracting package and launch activity from manifest
+[35m[ADB][39m Package name: 'com.kfc.mobile.hkStaging'
+[35m[ADB][39m Main activity name: 'com.kfc.mobile.presentation.splash.SplashActivity'
+[35m[ADB][39m Cannot extract apk info using apkanalyzer. Falling back to aapt. Original error: Could not find 'apkanalyzer' in ["/Users/bambangtripamungkas/.katalon/tools/android_sdk/platform-tools/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/emulator/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/tools/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/tools/bin/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/build-tools/29.0.2/apkanalyzer"]. Do you have Android Build Tools installed at '/Users/bambangtripamungkas/.katalon/tools/android_sdk'?
+[35m[ADB][39m Cannot extract apk info using apkanalyzer. Falling back to aapt. Original error: Could not find 'apkanalyzer' in ["/Users/bambangtripamungkas/.katalon/tools/android_sdk/platform-tools/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/emulator/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/tools/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/tools/bin/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/build-tools/29.0.2/apkanalyzer"]. Do you have Android Build Tools installed at '/Users/bambangtripamungkas/.katalon/tools/android_sdk'?
+[35m[ADB][39m Using 'apksigner' from '/Users/bambangtripamungkas/.katalon/tools/android_sdk/build-tools/29.0.2/apksigner'
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Cannot extract apk info using apkanalyzer. Falling back to aapt. Original error: Could not find 'apkanalyzer' in ["/Users/bambangtripamungkas/.katalon/tools/android_sdk/platform-tools/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/emulator/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/tools/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/tools/bin/apkanalyzer","/Users/bambangtripamungkas/.katalon/tools/android_sdk/build-tools/29.0.2/apkanalyzer"]. Do you have Android Build Tools installed at '/Users/bambangtripamungkas/.katalon/tools/android_sdk'?
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.3.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.3.0.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.kfc.mobile.hkStaging/com.kfc.mobile.presentation.splash.SplashActivity and waiting for 'com.kfc.mobile.hkStaging/com.kfc.mobile.presentation.splash.SplashActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 411f367e-f003-4ef8-a9d0-812bc28fcb4d added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m11238 ms - 1277[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d [39m[32m200[39m [90m12 ms - 1209[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d [39m[32m200[39m [90m10 ms - 1209[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/window/rect [39m[32m200[39m [90m14 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").text(\"Mobile Number 08xxxxxxxxx\").resourceId(\"com.kfc.mobile.hkStaging:id/etMobileNumber\").instance(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/elements [39m[32m200[39m [90m486 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").text(\"Mobile Number 08xxxxxxxxx\").resourceId(\"com.kfc.mobile.hkStaging:id/etMobileNumber\").instance(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/elements [39m[32m200[39m [90m1348 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/element/ee886ce3-7bad-4e44-96c0-ca654f2a9452/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (411f367e)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId d3ad2d26-2c20-46e5-bca6-c5a1aae956f9 with 411f367e-f003-4ef8-a9d0-812bc28fcb4d
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/element/ee886ce3-7bad-4e44-96c0-ca654f2a9452/location [39m[32m200[39m [90m27 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/element/ee886ce3-7bad-4e44-96c0-ca654f2a9452/clear[39m
+[35m[HTTP][39m [90m{"id":"ee886ce3-7bad-4e44-96c0-ca654f2a9452"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/element/ee886ce3-7bad-4e44-96c0-ca654f2a9452/clear [39m[32m200[39m [90m33 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/element/ee886ce3-7bad-4e44-96c0-ca654f2a9452/value[39m
+[35m[HTTP][39m [90m{"id":"ee886ce3-7bad-4e44-96c0-ca654f2a9452","text":"08180181081081080","value":["0","8","1","8","0","1","8","1","0","8","1","0","8","1","0","8","0"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/element/ee886ce3-7bad-4e44-96c0-ca654f2a9452/value [39m[32m200[39m [90m1141 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/window/rect [39m[32m200[39m [90m16 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").text(\"Password\").resourceId(\"com.kfc.mobile.hkStaging:id/etPassword\").instance(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/elements [39m[32m200[39m [90m448 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/element/89cc2327-dce0-43e2-adb9-55c7724e8b03/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (411f367e)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId d3ad2d26-2c20-46e5-bca6-c5a1aae956f9 with 411f367e-f003-4ef8-a9d0-812bc28fcb4d
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/element/89cc2327-dce0-43e2-adb9-55c7724e8b03/location [39m[32m200[39m [90m42 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/element/89cc2327-dce0-43e2-adb9-55c7724e8b03/clear[39m
+[35m[HTTP][39m [90m{"id":"89cc2327-dce0-43e2-adb9-55c7724e8b03"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/element/89cc2327-dce0-43e2-adb9-55c7724e8b03/clear [39m[32m200[39m [90m32 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/element/89cc2327-dce0-43e2-adb9-55c7724e8b03/value[39m
+[35m[HTTP][39m [90m{"id":"89cc2327-dce0-43e2-adb9-55c7724e8b03","text":"111111","value":["1","1","1","1","1","1"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/element/89cc2327-dce0-43e2-adb9-55c7724e8b03/value [39m[32m200[39m [90m1341 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/context [39m[32m200[39m [90m3 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[AndroidDriver][39m Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/contexts [39m[32m200[39m [90m51 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/screenshot [39m[32m200[39m [90m605 ms - 128102[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/window/rect [39m[32m200[39m [90m21 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").text(\"Mobile Number 08xxxxxxxxx\").resourceId(\"com.kfc.mobile.hkStaging:id/etMobileNumber\").instance(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/elements [39m[32m200[39m [90m592 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").text(\"Mobile Number 08xxxxxxxxx\").resourceId(\"com.kfc.mobile.hkStaging:id/etMobileNumber\").instance(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/elements [39m[32m200[39m [90m987 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").text(\"Mobile Number 08xxxxxxxxx\").resourceId(\"com.kfc.mobile.hkStaging:id/etMobileNumber\").instance(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/411f367e-f003-4ef8-a9d0-812bc28fcb4d/elements [39m[32m-[39m [90m- ms - -[39m
+[35m[HTTP][39m [90m[39m

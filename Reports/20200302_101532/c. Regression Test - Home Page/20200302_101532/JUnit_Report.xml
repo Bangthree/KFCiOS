@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="c. Regression Test - Home Page" time="357.03" tests="5" failures="3" errors="0">
+   <testsuite name="c. Regression Test - Home Page" tests="5" failures="3" errors="0" time="357.03" timestamp="2020-03-02 10:15:40" hostname="bambangtripamungkas - 192.168.1.9" id="Test Suites/c. Regression Test - Home Page">
+      <properties>
+         <property name="deviceName" value="iPhone 8"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_101532/c. Regression Test - Home Page/20200302_101532"/>
+         <property name="logFiles" value="/Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_101532/c. Regression Test - Home Page/20200302_101532/execution0.log, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_101532/c. Regression Test - Home Page/20200302_101532/appium.log, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_101532/c. Regression Test - Home Page/20200302_101532/appium-proxy-server.log"/>
+         <property name="attachments" value="/Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_101532/c. Regression Test - Home Page/20200302_101532/1583118963593.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_101532/c. Regression Test - Home Page/20200302_101532/1583119256119.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_101532/c. Regression Test - Home Page/20200302_101532/1583119256312.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_101532/c. Regression Test - Home Page/20200302_101532/1583119291223.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_101532/c. Regression Test - Home Page/20200302_101532/1583119291389.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_101532/c. Regression Test - Home Page/20200302_101532/1583119294360.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_101532/c. Regression Test - Home Page/20200302_101532/1583119295967.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_101532/c. Regression Test - Home Page/20200302_101532/1583119296090.png"/>
+         <property name="hostName" value="bambangtripamungkas - 192.168.1.9"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.15.1\&quot;}},\&quot;sessionId\&quot;:null,\&quot;status\&quot;:0}"/>
+         <property name="katalonVersion" value="7.1.1.1"/>
+         <property name="deviceOS" value="iOS"/>
+         <property name="appiumVersion" value="1.15.1"/>
+         <property name="deviceModel" value="Not available for Simulator"/>
+         <property name="hostAddress" value="192.168.1.9"/>
+         <property name="deviceManufacturer" value="Apple"/>
+         <property name="deviceId" value="null"/>
+         <property name="deviceName" value="iPhone 8"/>
+         <property name="deviceOSVersion" value="13.3"/>
+      </properties>
+      <testcase name="Test Cases/c. RegressioniOS - HomePage/1 - Open KFC JV Home Page Menu" time="180.915" classname="Test Cases/c. RegressioniOS - HomePage/1 - Open KFC JV Home Page Menu" status="PASSED">
+         <system-out><![CDATA[2020-03-02 10:15:40 - [TEST_CASE][PASSED] - Test Cases/c. RegressioniOS - HomePage/1 - Open KFC JV Home Page Menu: Test Cases/c. RegressioniOS - HomePage/1 - Open KFC JV Home Page Menu
+
+2020-03-02 10:15:41 - [TEST_STEP][PASSED] - startExistingApplication("com.kfcjv.staging", STOP_ON_FAILURE): Starting app with application ID: 'com.kfcjv.staging'
+
+2020-03-02 10:15:42 - [MESSAGE][INFO] - ios_webkit_debug_proxy server started on port 55155
+
+2020-03-02 10:15:43 - [MESSAGE][INFO] - Appium server started on port 55,157
+
+2020-03-02 10:15:57 - [MESSAGE][PASSED] - Starting app with application ID: 'com.kfcjv.staging'
+
+2020-03-02 10:15:57 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-03-02 10:16:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-02 10:16:00 - [TEST_STEP][PASSED] - if (verifyElementExist(findTestObject("iOS/Login Page/Welcome Page/loginpage_logo_imgKfclogo"), 2, OPTIONAL) == true): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_logo_imgKfclogo' not found
+
+2020-03-02 10:16:04 - [MESSAGE][WARNING] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_logo_imgKfclogo' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_101532/c. Regression Test - Home Page/20200302_101532/1583118963593.png]]
+
+2020-03-02 10:16:04 - [TEST_STEP][PASSED] - else: null
+
+2020-03-02 10:16:04 - [TEST_STEP][PASSED] - println = "Logged in": null
+
+2020-03-02 10:16:04 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Android/Home Screen/img_kfc_jago"), 2, CONTINUE_ON_FAILURE): Object Object Repository/Android/Home Screen/img_kfc_jago not found
+
+2020-03-02 10:16:06 - [MESSAGE][WARNING] - Object Object Repository/Android/Home Screen/img_kfc_jago not found
+
+2020-03-02 10:16:06 - [TEST_STEP][PASSED] - comment("Quick Check on Delivery Order Button"): Quick Check on Delivery Order Button
+
+2020-03-02 10:16:06 - [MESSAGE][INFO] - Quick Check on Delivery Order Button
+
+2020-03-02 10:16:06 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_delivorder_btnDelivorder"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_delivorder_btnDelivorder' is exist
+
+2020-03-02 10:16:09 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_delivorder_btnDelivorder' is exist
+
+2020-03-02 10:16:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Home Page/home_delivorder_btnDelivorder"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_delivorder_btnDelivorder' is visible
+
+2020-03-02 10:16:13 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_delivorder_btnDelivorder' is visible
+
+2020-03-02 10:16:13 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_delivorder_title"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_delivorder_title' is exist
+
+2020-03-02 10:16:16 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_delivorder_title' is exist
+
+2020-03-02 10:16:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Home Page/home_delivorder_title"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_delivorder_title' is visible
+
+2020-03-02 10:16:19 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_delivorder_title' is visible
+
+2020-03-02 10:16:19 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Home Page/home_delivorder_title"), 0, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Home Page/home_delivorder_title' is: 'DELIVERY ORDER'
+
+2020-03-02 10:16:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-02 10:16:23 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Home Page/home_delivorder_title' is: 'DELIVERY ORDER'
+
+2020-03-02 10:16:23 - [TEST_STEP][PASSED] - comment("Quick Check on Pay & Pick Button"): Quick Check on Pay & Pick Button
+
+2020-03-02 10:16:23 - [MESSAGE][INFO] - Quick Check on Pay & Pick Button
+
+2020-03-02 10:16:23 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_PNP_btnPNP"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_PNP_btnPNP' is exist
+
+2020-03-02 10:16:26 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_PNP_btnPNP' is exist
+
+2020-03-02 10:16:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Home Page/home_PNP_btnPNP"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_PNP_btnPNP' is visible
+
+2020-03-02 10:16:29 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_PNP_btnPNP' is visible
+
+2020-03-02 10:16:29 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_PNP_title"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_PNP_title' is exist
+
+2020-03-02 10:16:33 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_PNP_title' is exist
+
+2020-03-02 10:16:33 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Home Page/home_PNP_title"), 0, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Home Page/home_PNP_title' is: 'PAY 'N PICK'
+
+2020-03-02 10:16:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-02 10:16:36 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Home Page/home_PNP_title' is: 'PAY 'N PICK'
+
+2020-03-02 10:16:36 - [TEST_STEP][PASSED] - comment("Quick Check on KFC Points Button"): Quick Check on KFC Points Button
+
+2020-03-02 10:16:36 - [MESSAGE][INFO] - Quick Check on KFC Points Button
+
+2020-03-02 10:16:36 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_points_imgBackgroundRed"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_points_imgBackgroundRed' is exist
+
+2020-03-02 10:16:39 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_points_imgBackgroundRed' is exist
+
+2020-03-02 10:16:39 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_points_btnRedeem"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_points_btnRedeem' is exist
+
+2020-03-02 10:16:42 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_points_btnRedeem' is exist
+
+2020-03-02 10:16:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Home Page/home_points_btnRedeem"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_points_btnRedeem' is visible
+
+2020-03-02 10:16:46 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_points_btnRedeem' is visible
+
+2020-03-02 10:16:46 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_points_dynamictext_pointsamount"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_points_dynamictext_pointsamount' is exist
+
+2020-03-02 10:16:49 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_points_dynamictext_pointsamount' is exist
+
+2020-03-02 10:16:49 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Home Page/home_points_dynamictext_pointsamount"), 0, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Home Page/home_points_dynamictext_pointsamount' is: '26'
+
+2020-03-02 10:16:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-02 10:16:52 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Home Page/home_points_dynamictext_pointsamount' is: '26'
+
+2020-03-02 10:16:52 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_points_title_KFCPoints"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_points_title_KFCPoints' is exist
+
+2020-03-02 10:16:56 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_points_title_KFCPoints' is exist
+
+2020-03-02 10:16:56 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Home Page/home_points_title_KFCPoints"), 2, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Home Page/home_points_title_KFCPoints' is: 'KFC
+POINTS'
+
+2020-03-02 10:16:59 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Home Page/home_points_title_KFCPoints' is: 'KFC
+POINTS'
+
+2020-03-02 10:16:59 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_points_imgKFCCup"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_points_imgKFCCup' is exist
+
+2020-03-02 10:17:02 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_points_imgKFCCup' is exist
+
+2020-03-02 10:17:02 - [TEST_STEP][PASSED] - comment("Quick Check on History Button"): Quick Check on History Button
+
+2020-03-02 10:17:02 - [MESSAGE][INFO] - Quick Check on History Button
+
+2020-03-02 10:17:02 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_topbar_btnHistory"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_topbar_btnHistory' is exist
+
+2020-03-02 10:17:05 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_topbar_btnHistory' is exist
+
+2020-03-02 10:17:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Home Page/home_topbar_btnHistory"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_topbar_btnHistory' is visible
+
+2020-03-02 10:17:09 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_topbar_btnHistory' is visible
+
+2020-03-02 10:17:09 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_topbar_btnHistory_newHistory"), 2, OPTIONAL): Element 'Object Repository/iOS/Home Page/home_topbar_btnHistory_newHistory' is exist
+
+2020-03-02 10:17:12 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_topbar_btnHistory_newHistory' is exist
+
+2020-03-02 10:17:12 - [TEST_STEP][PASSED] - comment("Quick Check on Profile Button"): Quick Check on Profile Button
+
+2020-03-02 10:17:12 - [MESSAGE][INFO] - Quick Check on Profile Button
+
+2020-03-02 10:17:12 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_topbar_btnProfile"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_topbar_btnProfile' is exist
+
+2020-03-02 10:17:16 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_topbar_btnProfile' is exist
+
+2020-03-02 10:17:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Home Page/home_topbar_btnProfile"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_topbar_btnProfile' is visible
+
+2020-03-02 10:17:19 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_topbar_btnProfile' is visible
+
+2020-03-02 10:17:19 - [TEST_STEP][PASSED] - comment("Quick Check on KFC Logo on Homepage"): Quick Check on KFC Logo on Homepage
+
+2020-03-02 10:17:19 - [MESSAGE][INFO] - Quick Check on KFC Logo on Homepage
+
+2020-03-02 10:17:19 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_logo_imgKfclogo"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_logo_imgKfclogo' is exist
+
+2020-03-02 10:17:23 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_logo_imgKfclogo' is exist
+
+2020-03-02 10:17:23 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_logo_imgHandwrite"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_logo_imgHandwrite' is exist
+
+2020-03-02 10:17:26 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_logo_imgHandwrite' is exist
+
+2020-03-02 10:17:26 - [TEST_STEP][PASSED] - comment("Quick Check on Ongoing Promo"): Quick Check on Ongoing Promo
+
+2020-03-02 10:17:26 - [MESSAGE][INFO] - Quick Check on Ongoing Promo
+
+2020-03-02 10:17:26 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_promo_title_ongoingpromo"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_promo_title_ongoingpromo' is exist
+
+2020-03-02 10:17:30 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_promo_title_ongoingpromo' is exist
+
+2020-03-02 10:17:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Home Page/home_promo_title_ongoingpromo"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_promo_title_ongoingpromo' is visible
+
+2020-03-02 10:17:33 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_promo_title_ongoingpromo' is visible
+
+2020-03-02 10:17:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("iOS/Home Page/home_promo_title_ongoingpromo"), "ONGOING PROMO", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/iOS/Home Page/home_promo_title_ongoingpromo' are matched.
+
+2020-03-02 10:17:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/iOS/Home Page/home_promo_title_ongoingpromo' are matched.
+
+2020-03-02 10:17:36 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_promo_btnViewall"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_promo_btnViewall' is exist
+
+2020-03-02 10:17:40 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_promo_btnViewall' is exist
+
+2020-03-02 10:17:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Home Page/home_promo_btnViewall"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_promo_btnViewall' is visible
+
+2020-03-02 10:17:43 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_promo_btnViewall' is visible
+
+2020-03-02 10:17:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("iOS/Home Page/home_promo_btnViewall_text"), "View All", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/iOS/Home Page/home_promo_btnViewall_text' are matched.
+
+2020-03-02 10:17:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/iOS/Home Page/home_promo_btnViewall_text' are matched.
+
+2020-03-02 10:17:46 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_promo_activepromo_imgPromo"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_promo_activepromo_imgPromo' is exist
+
+2020-03-02 10:17:51 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_promo_activepromo_imgPromo' is exist
+
+2020-03-02 10:17:51 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_promo_pagecontrol"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_promo_pagecontrol' is exist
+
+2020-03-02 10:17:55 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_promo_pagecontrol' is exist
+
+2020-03-02 10:17:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Home Page/home_promo_pagecontrol"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_promo_pagecontrol' is visible
+
+2020-03-02 10:17:58 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_promo_pagecontrol' is visible
+
+2020-03-02 10:17:58 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_promo_slidingsection"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_promo_slidingsection' is exist
+
+2020-03-02 10:18:01 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_promo_slidingsection' is exist
+
+2020-03-02 10:18:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Home Page/home_promo_slidingsection"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_promo_slidingsection' is visible
+
+2020-03-02 10:18:05 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_promo_slidingsection' is visible
+
+2020-03-02 10:18:05 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_promo_nextpromo"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_promo_nextpromo' is exist
+
+2020-03-02 10:18:09 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_promo_nextpromo' is exist
+
+2020-03-02 10:18:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Home Page/home_promo_nextpromo"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_promo_nextpromo' is visible
+
+2020-03-02 10:18:13 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_promo_nextpromo' is visible
+
+2020-03-02 10:18:13 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_promo_nextpromo_imgPromo"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_promo_nextpromo_imgPromo' is exist
+
+2020-03-02 10:18:18 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_promo_nextpromo_imgPromo' is exist
+
+2020-03-02 10:18:18 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_imgBgLong"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_imgBgLong' is exist
+
+2020-03-02 10:18:21 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_imgBgLong' is exist
+
+2020-03-02 10:18:21 - [TEST_STEP][PASSED] - comment("Quick Check on Bottom Bar"): Quick Check on Bottom Bar
+
+2020-03-02 10:18:21 - [MESSAGE][INFO] - Quick Check on Bottom Bar
+
+2020-03-02 10:18:21 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_bottombar_btnHome"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_bottombar_btnHome' is exist
+
+2020-03-02 10:18:24 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_bottombar_btnHome' is exist
+
+2020-03-02 10:18:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Home Page/home_bottombar_btnHome"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_bottombar_btnHome' is visible
+
+2020-03-02 10:18:28 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_bottombar_btnHome' is visible
+
+2020-03-02 10:18:28 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_bottombar_btnEarn"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_bottombar_btnEarn' is exist
+
+2020-03-02 10:18:31 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_bottombar_btnEarn' is exist
+
+2020-03-02 10:18:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Home Page/home_bottombar_btnEarn"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_bottombar_btnEarn' is visible
+
+2020-03-02 10:18:34 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_bottombar_btnEarn' is visible
+
+2020-03-02 10:18:34 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_bottombar_btnVoucher"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_bottombar_btnVoucher' is exist
+
+2020-03-02 10:18:38 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_bottombar_btnVoucher' is exist
+
+2020-03-02 10:18:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Home Page/home_bottombar_btnVoucher"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_bottombar_btnVoucher' is visible
+
+2020-03-02 10:18:41 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_bottombar_btnVoucher' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/c. RegressioniOS - HomePage/1a - Verify Headline Button" time="64.447" classname="Test Cases/c. RegressioniOS - HomePage/1a - Verify Headline Button" status="PASSED">
+         <system-out><![CDATA[2020-03-02 10:18:41 - [TEST_CASE][PASSED] - Test Cases/c. RegressioniOS - HomePage/1a - Verify Headline Button: Test Cases/c. RegressioniOS - HomePage/1a - Verify Headline Button
+
+2020-03-02 10:18:42 - [TEST_STEP][PASSED] - comment("Check History Button Existence"): Check History Button Existence
+
+2020-03-02 10:18:42 - [MESSAGE][INFO] - Check History Button Existence
+
+2020-03-02 10:18:42 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_topbar_btnHistory"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_topbar_btnHistory' is exist
+
+2020-03-02 10:18:45 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_topbar_btnHistory' is exist
+
+2020-03-02 10:18:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Home Page/home_topbar_btnHistory"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_topbar_btnHistory' is visible
+
+2020-03-02 10:18:48 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_topbar_btnHistory' is visible
+
+2020-03-02 10:18:48 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Home Page/home_topbar_btnHistory"), 2): Tapped on element 'Object Repository/iOS/Home Page/home_topbar_btnHistory'
+
+2020-03-02 10:18:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Home Page/home_topbar_btnHistory'
+
+2020-03-02 10:18:52 - [TEST_STEP][PASSED] - comment("Check History Button Redirection"): Check History Button Redirection
+
+2020-03-02 10:18:52 - [MESSAGE][INFO] - Check History Button Redirection
+
+2020-03-02 10:18:52 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Order History Page/ordhis_tab_inProgress"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Order History Page/ordhis_tab_inProgress' is exist
+
+2020-03-02 10:18:56 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Order History Page/ordhis_tab_inProgress' is exist
+
+2020-03-02 10:18:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Order History Page/ordhis_tab_inProgress"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Order History Page/ordhis_tab_inProgress' is visible
+
+2020-03-02 10:19:01 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Order History Page/ordhis_tab_inProgress' is visible
+
+2020-03-02 10:19:01 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Order History Page/ordhis_header_title"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Order History Page/ordhis_header_title' is exist
+
+2020-03-02 10:19:07 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Order History Page/ordhis_header_title' is exist
+
+2020-03-02 10:19:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Order History Page/ordhis_header_title"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Order History Page/ordhis_header_title' is visible
+
+2020-03-02 10:19:12 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Order History Page/ordhis_header_title' is visible
+
+2020-03-02 10:19:12 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Order History Page/ordhis_header_btnBack"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Order History Page/ordhis_header_btnBack' is exist
+
+2020-03-02 10:19:18 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Order History Page/ordhis_header_btnBack' is exist
+
+2020-03-02 10:19:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Order History Page/ordhis_header_btnBack"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Order History Page/ordhis_header_btnBack' is visible
+
+2020-03-02 10:19:23 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Order History Page/ordhis_header_btnBack' is visible
+
+2020-03-02 10:19:23 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Order History Page/ordhis_header_btnBack"), 2): Tapped on element 'Object Repository/iOS/Order History Page/ordhis_header_btnBack'
+
+2020-03-02 10:19:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Order History Page/ordhis_header_btnBack'
+
+2020-03-02 10:19:29 - [TEST_STEP][PASSED] - comment("Check History Button Back Button Redirection"): Check History Button Back Button Redirection
+
+2020-03-02 10:19:29 - [MESSAGE][INFO] - Check History Button Back Button Redirection
+
+2020-03-02 10:19:29 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Home Page/home_logo_imgKfclogo"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_logo_imgKfclogo' is present
+
+2020-03-02 10:19:33 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_logo_imgKfclogo' is present
+
+2020-03-02 10:19:33 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_delivorder_btnDelivorder"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_delivorder_btnDelivorder' is exist
+
+2020-03-02 10:19:36 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_delivorder_btnDelivorder' is exist
+
+2020-03-02 10:19:36 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_delivorder_title"), 2, STOP_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_delivorder_title' is exist
+
+2020-03-02 10:19:39 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_delivorder_title' is exist
+
+2020-03-02 10:19:39 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_PNP_btnPNP"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_PNP_btnPNP' is exist
+
+2020-03-02 10:19:43 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_PNP_btnPNP' is exist
+
+2020-03-02 10:19:43 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_PNP_title"), 2, STOP_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_PNP_title' is exist
+
+2020-03-02 10:19:46 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_PNP_title' is exist
+
+2020-03-02 10:19:46 - [TEST_STEP][PASSED] - comment("Verify Headline Button done"): Verify Headline Button done
+
+2020-03-02 10:19:46 - [MESSAGE][INFO] - Verify Headline Button done]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/c. RegressioniOS - HomePage/1b - Verify Earn, Pay and Redeem" time="70.295" classname="Test Cases/c. RegressioniOS - HomePage/1b - Verify Earn, Pay and Redeem" status="FAILED">
+         <failure type="FAILED" message="Test Cases/c. RegressioniOS - HomePage/1b - Verify Earn, Pay and Redeem FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_redeem_desc' has attribute 'label' with actual value 'CHOOSE ACTION' instead of expected value 'You can redeem your KFC Points with DANA voucher'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:90)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:97)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementAttributeValue(MobileBuiltInKeywords.groovy:1114)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementAttributeValue$6.call(Unknown Source)
+	at 1b - Verify Earn, Pay and Redeem.run(1b - Verify Earn, Pay and Redeem:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583118932069.run(TempTestSuite1583118932069.groovy:36)
+"/>
+         <system-out><![CDATA[2020-03-02 10:19:46 - [TEST_CASE][FAILED] - Test Cases/c. RegressioniOS - HomePage/1b - Verify Earn, Pay and Redeem: Test Cases/c. RegressioniOS - HomePage/1b - Verify Earn, Pay and Redeem FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_redeem_desc' has attribute 'label' with actual value 'CHOOSE ACTION' instead of expected value 'You can redeem your KFC Points with DANA voucher'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:90)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:97)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementAttributeValue(MobileBuiltInKeywords.groovy:1114)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementAttributeValue$6.call(Unknown Source)
+	at 1b - Verify Earn, Pay and Redeem.run(1b - Verify Earn, Pay and Redeem:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583118932069.run(TempTestSuite1583118932069.groovy:36)
+
+
+2020-03-02 10:19:46 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_points_btnRedeem"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_points_btnRedeem' is exist
+
+2020-03-02 10:19:49 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_points_btnRedeem' is exist
+
+2020-03-02 10:19:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Home Page/home_points_btnRedeem"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_points_btnRedeem' is visible
+
+2020-03-02 10:19:53 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_points_btnRedeem' is visible
+
+2020-03-02 10:19:53 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Home Page/home_points_btnRedeem"), 2): Tapped on element 'Object Repository/iOS/Home Page/home_points_btnRedeem'
+
+2020-03-02 10:19:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Home Page/home_points_btnRedeem'
+
+2020-03-02 10:19:56 - [TEST_STEP][PASSED] - comment("Check Choose Action Header"): Check Choose Action Header
+
+2020-03-02 10:19:56 - [MESSAGE][INFO] - Check Choose Action Header
+
+2020-03-02 10:19:56 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/Choose Action Prompt/chaction_header_btnX"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_header_btnX' is exist
+
+2020-03-02 10:19:58 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_header_btnX' is exist
+
+2020-03-02 10:19:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Home Page/Choose Action Prompt/chaction_header_btnX"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_header_btnX' is visible
+
+2020-03-02 10:20:01 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_header_btnX' is visible
+
+2020-03-02 10:20:01 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/Choose Action Prompt/chaction_header_title_chooseaction"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_header_title_chooseaction' is exist
+
+2020-03-02 10:20:03 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_header_title_chooseaction' is exist
+
+2020-03-02 10:20:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Home Page/Choose Action Prompt/chaction_header_title_chooseaction"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_header_title_chooseaction' is visible
+
+2020-03-02 10:20:05 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_header_title_chooseaction' is visible
+
+2020-03-02 10:20:05 - [TEST_STEP][PASSED] - comment("Check Earn on Choose Action"): Check Earn on Choose Action
+
+2020-03-02 10:20:05 - [MESSAGE][INFO] - Check Earn on Choose Action
+
+2020-03-02 10:20:05 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/Choose Action Prompt/chaction_earn_iconKFC"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_earn_iconKFC' is exist
+
+2020-03-02 10:20:08 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_earn_iconKFC' is exist
+
+2020-03-02 10:20:08 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/Choose Action Prompt/chaction_earn_iconKFC_border"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_earn_iconKFC_border' is exist
+
+2020-03-02 10:20:10 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_earn_iconKFC_border' is exist
+
+2020-03-02 10:20:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Home Page/Choose Action Prompt/chaction_earn_iconKFC_border"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_earn_iconKFC_border' is visible
+
+2020-03-02 10:20:13 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_earn_iconKFC_border' is visible
+
+2020-03-02 10:20:13 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/Choose Action Prompt/chaction_earn_imgNext"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_earn_imgNext' is exist
+
+2020-03-02 10:20:15 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_earn_imgNext' is exist
+
+2020-03-02 10:20:15 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/Choose Action Prompt/chaction_earn_title"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_earn_title' is exist
+
+2020-03-02 10:20:17 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_earn_title' is exist
+
+2020-03-02 10:20:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Home Page/Choose Action Prompt/chaction_earn_title"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_earn_title' is visible
+
+2020-03-02 10:20:20 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_earn_title' is visible
+
+2020-03-02 10:20:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("iOS/Home Page/Choose Action Prompt/chaction_earn_title"), "Earn", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_earn_title' are matched.
+
+2020-03-02 10:20:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_earn_title' are matched.
+
+2020-03-02 10:20:22 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/Choose Action Prompt/chaction_earn_desc"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_earn_desc' is exist
+
+2020-03-02 10:20:24 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_earn_desc' is exist
+
+2020-03-02 10:20:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Home Page/Choose Action Prompt/chaction_earn_desc"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_earn_desc' is visible
+
+2020-03-02 10:20:26 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_earn_desc' is visible
+
+2020-03-02 10:20:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("iOS/Home Page/Choose Action Prompt/chaction_earn_desc"), "Show QR to the cashier to earn KFC Points for cash and non-cash payments", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_earn_desc' are matched.
+
+2020-03-02 10:20:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_earn_desc' are matched.
+
+2020-03-02 10:20:29 - [TEST_STEP][PASSED] - comment("Check Redeem on Choose Action"): Check Redeem on Choose Action
+
+2020-03-02 10:20:29 - [MESSAGE][INFO] - Check Redeem on Choose Action
+
+2020-03-02 10:20:29 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/Choose Action Prompt/chaction_redeem_iconCoupon"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_redeem_iconCoupon' is exist
+
+2020-03-02 10:20:31 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_redeem_iconCoupon' is exist
+
+2020-03-02 10:20:31 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/Choose Action Prompt/chaction_redeem_iconCoupon_border"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_redeem_iconCoupon_border' is exist
+
+2020-03-02 10:20:34 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_redeem_iconCoupon_border' is exist
+
+2020-03-02 10:20:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Home Page/Choose Action Prompt/chaction_redeem_iconCoupon_border"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_redeem_iconCoupon_border' is visible
+
+2020-03-02 10:20:36 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_redeem_iconCoupon_border' is visible
+
+2020-03-02 10:20:36 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/Choose Action Prompt/chaction_redeem_btnNext"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_redeem_btnNext' is exist
+
+2020-03-02 10:20:39 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_redeem_btnNext' is exist
+
+2020-03-02 10:20:39 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/Choose Action Prompt/chaction_redeem_title"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_redeem_title' is exist
+
+2020-03-02 10:20:41 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_redeem_title' is exist
+
+2020-03-02 10:20:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Home Page/Choose Action Prompt/chaction_redeem_title"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_redeem_title' is visible
+
+2020-03-02 10:20:43 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_redeem_title' is visible
+
+2020-03-02 10:20:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("iOS/Home Page/Choose Action Prompt/chaction_redeem_title"), "Redeem", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_redeem_title' are matched.
+
+2020-03-02 10:20:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_redeem_title' are matched.
+
+2020-03-02 10:20:45 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/Choose Action Prompt/chaction_redeem_desc"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_redeem_desc' is exist
+
+2020-03-02 10:20:49 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_redeem_desc' is exist
+
+2020-03-02 10:20:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Home Page/Choose Action Prompt/chaction_redeem_desc"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_redeem_desc' is visible
+
+2020-03-02 10:20:52 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_redeem_desc' is visible
+
+2020-03-02 10:20:52 - [TEST_STEP][FAILED] - verifyElementAttributeValue(findTestObject("iOS/Home Page/Choose Action Prompt/chaction_redeem_desc"), "label", "You can redeem your KFC Points with DANA voucher", 0): Unable to verify if object 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_redeem_desc' has attribute 'label' with value 'You can redeem your KFC Points with DANA voucher' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_redeem_desc' has attribute 'label' with actual value 'CHOOSE ACTION' instead of expected value 'You can redeem your KFC Points with DANA voucher'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:90)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:97)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementAttributeValue(MobileBuiltInKeywords.groovy:1114)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementAttributeValue$6.call(Unknown Source)
+	at 1b - Verify Earn, Pay and Redeem.run(1b - Verify Earn, Pay and Redeem:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583118932069.run(TempTestSuite1583118932069.groovy:36)
+)
+
+2020-03-02 10:20:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-02 10:20:56 - [MESSAGE][FAILED] - Object 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_redeem_desc' has attribute 'label' with actual value 'CHOOSE ACTION' instead of expected value 'You can redeem your KFC Points with DANA voucher'
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_101532/c. Regression Test - Home Page/20200302_101532/1583119256119.png]]
+
+2020-03-02 10:20:56 - [MESSAGE][FAILED] - Unable to verify if object 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_redeem_desc' has attribute 'label' with value 'You can redeem your KFC Points with DANA voucher' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_redeem_desc' has attribute 'label' with actual value 'CHOOSE ACTION' instead of expected value 'You can redeem your KFC Points with DANA voucher'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:90)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:97)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementAttributeValue(MobileBuiltInKeywords.groovy:1114)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementAttributeValue$6.call(Unknown Source)
+	at 1b - Verify Earn, Pay and Redeem.run(1b - Verify Earn, Pay and Redeem:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583118932069.run(TempTestSuite1583118932069.groovy:36)
+)
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_101532/c. Regression Test - Home Page/20200302_101532/1583119256312.png]]]]></system-out>
+         <system-err><![CDATA[2020-03-02 10:19:46 - [TEST_CASE][FAILED] - Test Cases/c. RegressioniOS - HomePage/1b - Verify Earn, Pay and Redeem: Test Cases/c. RegressioniOS - HomePage/1b - Verify Earn, Pay and Redeem FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_redeem_desc' has attribute 'label' with actual value 'CHOOSE ACTION' instead of expected value 'You can redeem your KFC Points with DANA voucher'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:90)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:97)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementAttributeValue(MobileBuiltInKeywords.groovy:1114)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementAttributeValue$6.call(Unknown Source)
+	at 1b - Verify Earn, Pay and Redeem.run(1b - Verify Earn, Pay and Redeem:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583118932069.run(TempTestSuite1583118932069.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/c. RegressioniOS - HomePage/1e - Verify bottom tab button" time="35.018" classname="Test Cases/c. RegressioniOS - HomePage/1e - Verify bottom tab button" status="FAILED">
+         <failure type="FAILED" message="Test Cases/c. RegressioniOS - HomePage/1e - Verify bottom tab button FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/iOS/Earn Page/earn_QR_imgKFCRoundRed' is NOT visible
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:78)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:916)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at 1e - Verify bottom tab button.run(1e - Verify bottom tab button:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583118932069.run(TempTestSuite1583118932069.groovy:36)
+"/>
+         <system-out><![CDATA[2020-03-02 10:20:56 - [TEST_CASE][FAILED] - Test Cases/c. RegressioniOS - HomePage/1e - Verify bottom tab button: Test Cases/c. RegressioniOS - HomePage/1e - Verify bottom tab button FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/iOS/Earn Page/earn_QR_imgKFCRoundRed' is NOT visible
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:78)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:916)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at 1e - Verify bottom tab button.run(1e - Verify bottom tab button:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583118932069.run(TempTestSuite1583118932069.groovy:36)
+
+
+2020-03-02 10:20:56 - [TEST_STEP][PASSED] - startExistingApplication("com.kfcjv.staging", STOP_ON_FAILURE): Starting app with application ID: 'com.kfcjv.staging'
+
+2020-03-02 10:21:11 - [MESSAGE][PASSED] - Starting app with application ID: 'com.kfcjv.staging'
+
+2020-03-02 10:21:11 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_bottombar_btnHome"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_bottombar_btnHome' is exist
+
+2020-03-02 10:21:14 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_bottombar_btnHome' is exist
+
+2020-03-02 10:21:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Home Page/home_bottombar_btnHome"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_bottombar_btnHome' is visible
+
+2020-03-02 10:21:18 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_bottombar_btnHome' is visible
+
+2020-03-02 10:21:18 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Home Page/home_bottombar_btnHome"), 1, STOP_ON_FAILURE): Text of element 'Object Repository/iOS/Home Page/home_bottombar_btnHome' is: '1'
+
+2020-03-02 10:21:21 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Home Page/home_bottombar_btnHome' is: '1'
+
+2020-03-02 10:21:21 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Home Page/home_bottombar_btnEarn"), 1, STOP_ON_FAILURE): Tapped on element 'Object Repository/iOS/Home Page/home_bottombar_btnEarn'
+
+2020-03-02 10:21:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Home Page/home_bottombar_btnEarn'
+
+2020-03-02 10:21:24 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-03-02 10:21:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-02 10:21:27 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Earn Page/earn_QR_imgKFCRoundRed"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Earn Page/earn_QR_imgKFCRoundRed' is exist
+
+2020-03-02 10:21:29 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Earn Page/earn_QR_imgKFCRoundRed' is exist
+
+2020-03-02 10:21:29 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("iOS/Earn Page/earn_QR_imgKFCRoundRed"), 2, STOP_ON_FAILURE): Failed to check for element 'Object Repository/iOS/Earn Page/earn_QR_imgKFCRoundRed' visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/iOS/Earn Page/earn_QR_imgKFCRoundRed' is NOT visible
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:78)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:916)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at 1e - Verify bottom tab button.run(1e - Verify bottom tab button:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583118932069.run(TempTestSuite1583118932069.groovy:36)
+)
+
+2020-03-02 10:21:31 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Earn Page/earn_QR_imgKFCRoundRed' is NOT visible
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_101532/c. Regression Test - Home Page/20200302_101532/1583119291223.png]]
+
+2020-03-02 10:21:31 - [MESSAGE][FAILED] - Failed to check for element 'Object Repository/iOS/Earn Page/earn_QR_imgKFCRoundRed' visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/iOS/Earn Page/earn_QR_imgKFCRoundRed' is NOT visible
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:78)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:916)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at 1e - Verify bottom tab button.run(1e - Verify bottom tab button:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583118932069.run(TempTestSuite1583118932069.groovy:36)
+)
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_101532/c. Regression Test - Home Page/20200302_101532/1583119291389.png]]]]></system-out>
+         <system-err><![CDATA[2020-03-02 10:20:56 - [TEST_CASE][FAILED] - Test Cases/c. RegressioniOS - HomePage/1e - Verify bottom tab button: Test Cases/c. RegressioniOS - HomePage/1e - Verify bottom tab button FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/iOS/Earn Page/earn_QR_imgKFCRoundRed' is NOT visible
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:78)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:916)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at 1e - Verify bottom tab button.run(1e - Verify bottom tab button:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583118932069.run(TempTestSuite1583118932069.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/c. RegressioniOS - HomePage/2 - Open User Profile" time="4.787" classname="Test Cases/c. RegressioniOS - HomePage/2 - Open User Profile" status="FAILED">
+         <failure type="FAILED" message="Test Cases/c. RegressioniOS - HomePage/2 - Open User Profile FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/iOS/Home Page/home_topbar_btnProfile' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:640)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at 2 - Open User Profile.run(2 - Open User Profile:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583118932069.run(TempTestSuite1583118932069.groovy:36)
+"/>
+         <system-out><![CDATA[2020-03-02 10:21:31 - [TEST_CASE][FAILED] - Test Cases/c. RegressioniOS - HomePage/2 - Open User Profile: Test Cases/c. RegressioniOS - HomePage/2 - Open User Profile FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/iOS/Home Page/home_topbar_btnProfile' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:640)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at 2 - Open User Profile.run(2 - Open User Profile:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583118932069.run(TempTestSuite1583118932069.groovy:36)
+
+
+2020-03-02 10:21:31 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("iOS/Home Page/home_topbar_btnProfile"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_topbar_btnProfile' not found
+
+2020-03-02 10:21:34 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Home Page/home_topbar_btnProfile' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_101532/c. Regression Test - Home Page/20200302_101532/1583119294360.png]]
+
+2020-03-02 10:21:34 - [TEST_STEP][FAILED] - tap(findTestObject("iOS/Home Page/home_topbar_btnProfile"), 1, STOP_ON_FAILURE): Failed to tap on element 'Object Repository/iOS/Home Page/home_topbar_btnProfile' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/iOS/Home Page/home_topbar_btnProfile not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:506)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$7.call(Unknown Source)
+	at 2 - Open User Profile.run(2 - Open User Profile:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583118932069.run(TempTestSuite1583118932069.groovy:36)
+)
+
+2020-03-02 10:21:36 - [MESSAGE][FAILED] - Object Object Repository/iOS/Home Page/home_topbar_btnProfile not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_101532/c. Regression Test - Home Page/20200302_101532/1583119295967.png]]
+
+2020-03-02 10:21:36 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/iOS/Home Page/home_topbar_btnProfile' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/iOS/Home Page/home_topbar_btnProfile not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:506)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$7.call(Unknown Source)
+	at 2 - Open User Profile.run(2 - Open User Profile:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583118932069.run(TempTestSuite1583118932069.groovy:36)
+)
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_101532/c. Regression Test - Home Page/20200302_101532/1583119296090.png]]]]></system-out>
+         <system-err><![CDATA[2020-03-02 10:21:31 - [TEST_CASE][FAILED] - Test Cases/c. RegressioniOS - HomePage/2 - Open User Profile: Test Cases/c. RegressioniOS - HomePage/2 - Open User Profile FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/iOS/Home Page/home_topbar_btnProfile' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:640)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at 2 - Open User Profile.run(2 - Open User Profile:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583118932069.run(TempTestSuite1583118932069.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-02 10:15:40 - [TEST_SUITE][FAILED] - c. Regression Test - Home Page: Test Cases/c. RegressioniOS - HomePage/1b - Verify Earn, Pay and Redeem FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_redeem_desc' has attribute 'label' with actual value 'CHOOSE ACTION' instead of expected value 'You can redeem your KFC Points with DANA voucher'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:90)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:97)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementAttributeValue(MobileBuiltInKeywords.groovy:1114)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementAttributeValue$6.call(Unknown Source)
+	at 1b - Verify Earn, Pay and Redeem.run(1b - Verify Earn, Pay and Redeem:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583118932069.run(TempTestSuite1583118932069.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-03-02 10:15:40 - [TEST_SUITE][FAILED] - c. Regression Test - Home Page: Test Cases/c. RegressioniOS - HomePage/1b - Verify Earn, Pay and Redeem FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/iOS/Home Page/Choose Action Prompt/chaction_redeem_desc' has attribute 'label' with actual value 'CHOOSE ACTION' instead of expected value 'You can redeem your KFC Points with DANA voucher'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:90)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:97)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementAttributeValue(MobileBuiltInKeywords.groovy:1114)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementAttributeValue$6.call(Unknown Source)
+	at 1b - Verify Earn, Pay and Redeem.run(1b - Verify Earn, Pay and Redeem:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583118932069.run(TempTestSuite1583118932069.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

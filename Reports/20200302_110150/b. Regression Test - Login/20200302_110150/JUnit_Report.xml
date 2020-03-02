@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="b. Regression Test - Login" time="642.009" tests="6" failures="0" errors="0">
+   <testsuite name="b. Regression Test - Login" tests="6" failures="0" errors="0" time="642.009" timestamp="2020-03-02 11:01:59" hostname="bambangtripamungkas - 192.168.1.9" id="Test Suites/b. Regression Test - Login">
+      <properties>
+         <property name="deviceName" value="iPhone 8"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_110150/b. Regression Test - Login/20200302_110150"/>
+         <property name="logFiles" value="/Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_110150/b. Regression Test - Login/20200302_110150/execution0.log, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_110150/b. Regression Test - Login/20200302_110150/appium.log, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_110150/b. Regression Test - Login/20200302_110150/appium-proxy-server.log"/>
+         <property name="attachments" value="/Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_110150/b. Regression Test - Login/20200302_110150/1583121742196.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_110150/b. Regression Test - Login/20200302_110150/1583121860631.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_110150/b. Regression Test - Login/20200302_110150/1583121873765.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_110150/b. Regression Test - Login/20200302_110150/User Still in the Dana Page"/>
+         <property name="hostName" value="bambangtripamungkas - 192.168.1.9"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.15.1\&quot;}},\&quot;sessionId\&quot;:null,\&quot;status\&quot;:0}"/>
+         <property name="katalonVersion" value="7.1.1.1"/>
+         <property name="deviceOS" value="iOS"/>
+         <property name="appiumVersion" value="1.15.1"/>
+         <property name="deviceModel" value="Not available for Simulator"/>
+         <property name="hostAddress" value="192.168.1.9"/>
+         <property name="deviceManufacturer" value="Apple"/>
+         <property name="deviceId" value="null"/>
+         <property name="deviceName" value="iPhone 8"/>
+         <property name="deviceOSVersion" value="13.3"/>
+      </properties>
+      <testcase name="Test Cases/b. RegressioniOS - Login/1- Open The Login Page" time="89.806" classname="Test Cases/b. RegressioniOS - Login/1- Open The Login Page" status="PASSED">
+         <system-out><![CDATA[2020-03-02 11:01:59 - [TEST_CASE][PASSED] - Test Cases/b. RegressioniOS - Login/1- Open The Login Page: Test Cases/b. RegressioniOS - Login/1- Open The Login Page
+
+2020-03-02 11:02:00 - [TEST_STEP][PASSED] - startExistingApplication("com.kfcjv.staging", STOP_ON_FAILURE): Starting app with application ID: 'com.kfcjv.staging'
+
+2020-03-02 11:02:01 - [MESSAGE][INFO] - ios_webkit_debug_proxy server started on port 55811
+
+2020-03-02 11:02:03 - [MESSAGE][INFO] - Appium server started on port 55,813
+
+2020-03-02 11:02:19 - [MESSAGE][PASSED] - Starting app with application ID: 'com.kfcjv.staging'
+
+2020-03-02 11:02:19 - [TEST_STEP][PASSED] - comment("Login Test Started"): Login Test Started
+
+2020-03-02 11:02:19 - [MESSAGE][INFO] - Login Test Started
+
+2020-03-02 11:02:19 - [TEST_STEP][PASSED] - if (verifyElementExist(findTestObject("iOS/Login Page/Relogin Alert/reloginalert_alerttype"), 2, OPTIONAL) == true): Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_alerttype' not found
+
+2020-03-02 11:02:22 - [MESSAGE][WARNING] - Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_alerttype' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_110150/b. Regression Test - Login/20200302_110150/1583121742196.png]]
+
+2020-03-02 11:02:22 - [TEST_STEP][PASSED] - else: null
+
+2020-03-02 11:02:22 - [TEST_STEP][PASSED] - println = "Session is new": null
+
+2020-03-02 11:02:22 - [TEST_STEP][PASSED] - if (verifyElementExist(findTestObject("iOS/Login Page/Welcome Page/loginpage_logo_imgKfclogo"), 2, OPTIONAL) == false): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_logo_imgKfclogo' is exist
+
+2020-03-02 11:02:24 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_logo_imgKfclogo' is exist
+
+2020-03-02 11:02:24 - [TEST_STEP][PASSED] - else: null
+
+2020-03-02 11:02:24 - [TEST_STEP][PASSED] - println = "Log Out Needed": null
+
+2020-03-02 11:02:24 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed"), 3, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed' is present
+
+2020-03-02 11:02:26 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed' is present
+
+2020-03-02 11:02:26 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Welcome Page/loginpage_header_titletext_welcome"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_header_titletext_welcome' is exist
+
+2020-03-02 11:02:28 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_header_titletext_welcome' is exist
+
+2020-03-02 11:02:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Login Page/Welcome Page/loginpage_header_titletext_welcome"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_header_titletext_welcome' is visible
+
+2020-03-02 11:02:30 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_header_titletext_welcome' is visible
+
+2020-03-02 11:02:30 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Login Page/Welcome Page/loginpage_header_titletext_welcome"), 0, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_header_titletext_welcome' is: 'WELCOME'
+
+2020-03-02 11:02:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-02 11:02:31 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_header_titletext_welcome' is: 'WELCOME'
+
+2020-03-02 11:02:31 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed' is exist
+
+2020-03-02 11:02:33 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed' is exist
+
+2020-03-02 11:02:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed' is visible
+
+2020-03-02 11:02:35 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed' is visible
+
+2020-03-02 11:02:35 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Welcome Page/loginpage_btnLogin_text"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_btnLogin_text' is exist
+
+2020-03-02 11:02:37 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_btnLogin_text' is exist
+
+2020-03-02 11:02:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Login Page/Welcome Page/loginpage_btnLogin_text"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_btnLogin_text' is visible
+
+2020-03-02 11:02:39 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_btnLogin_text' is visible
+
+2020-03-02 11:02:39 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Login Page/Welcome Page/loginpage_btnLogin_text"), 0, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_btnLogin_text' is: 'Login'
+
+2020-03-02 11:02:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-02 11:02:40 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_btnLogin_text' is: 'Login'
+
+2020-03-02 11:02:40 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Welcome Page/loginpage_frgtpassw_button"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_frgtpassw_button' is exist
+
+2020-03-02 11:02:42 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_frgtpassw_button' is exist
+
+2020-03-02 11:02:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Login Page/Welcome Page/loginpage_frgtpassw_button"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_frgtpassw_button' is visible
+
+2020-03-02 11:02:44 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_frgtpassw_button' is visible
+
+2020-03-02 11:02:44 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Welcome Page/loginpage_frgtpassw_text"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_frgtpassw_text' is exist
+
+2020-03-02 11:02:46 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_frgtpassw_text' is exist
+
+2020-03-02 11:02:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Login Page/Welcome Page/loginpage_frgtpassw_text"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_frgtpassw_text' is visible
+
+2020-03-02 11:02:48 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_frgtpassw_text' is visible
+
+2020-03-02 11:02:48 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Login Page/Welcome Page/loginpage_frgtpassw_text"), 0, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_frgtpassw_text' is: 'Forgot Password'
+
+2020-03-02 11:02:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-02 11:02:49 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_frgtpassw_text' is: 'Forgot Password'
+
+2020-03-02 11:02:49 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Welcome Page/loginpage_imgThreeStripesRed"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_imgThreeStripesRed' is exist
+
+2020-03-02 11:02:51 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_imgThreeStripesRed' is exist
+
+2020-03-02 11:02:51 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Welcome Page/loginpage_logo_desctext_pleaselogin"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_logo_desctext_pleaselogin' is exist
+
+2020-03-02 11:02:53 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_logo_desctext_pleaselogin' is exist
+
+2020-03-02 11:02:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Login Page/Welcome Page/loginpage_logo_desctext_pleaselogin"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_logo_desctext_pleaselogin' is visible
+
+2020-03-02 11:02:55 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_logo_desctext_pleaselogin' is visible
+
+2020-03-02 11:02:55 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Login Page/Welcome Page/loginpage_logo_desctext_pleaselogin"), 0, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_logo_desctext_pleaselogin' is: 'PLEASE LOGIN TO YOUR ACCOUNT'
+
+2020-03-02 11:02:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-02 11:02:56 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_logo_desctext_pleaselogin' is: 'PLEASE LOGIN TO YOUR ACCOUNT'
+
+2020-03-02 11:02:56 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Welcome Page/loginpage_logo_imgKfclogo"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_logo_imgKfclogo' is exist
+
+2020-03-02 11:02:58 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_logo_imgKfclogo' is exist
+
+2020-03-02 11:02:58 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Welcome Page/loginpage_passw_icon"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_passw_icon' is exist
+
+2020-03-02 11:03:00 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_passw_icon' is exist
+
+2020-03-02 11:03:00 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Welcome Page/loginpage_passw_icon"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_passw_icon' is exist
+
+2020-03-02 11:03:02 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_passw_icon' is exist
+
+2020-03-02 11:03:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Login Page/Welcome Page/loginpage_passw_icon_show_enabled"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_passw_icon_show_enabled' is visible
+
+2020-03-02 11:03:03 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_passw_icon_show_enabled' is visible
+
+2020-03-02 11:03:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Login Page/Welcome Page/loginpage_passw_icon_show_enabled"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_passw_icon_show_enabled' is visible
+
+2020-03-02 11:03:05 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_passw_icon_show_enabled' is visible
+
+2020-03-02 11:03:05 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Welcome Page/loginpage_passw_textfield"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_passw_textfield' is exist
+
+2020-03-02 11:03:07 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_passw_textfield' is exist
+
+2020-03-02 11:03:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Login Page/Welcome Page/loginpage_passw_textfield"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_passw_textfield' is visible
+
+2020-03-02 11:03:09 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_passw_textfield' is visible
+
+2020-03-02 11:03:09 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Welcome Page/loginpage_phonenum_icon"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_phonenum_icon' is exist
+
+2020-03-02 11:03:10 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_phonenum_icon' is exist
+
+2020-03-02 11:03:10 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Welcome Page/loginpage_phonenum_textfield"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_phonenum_textfield' is exist
+
+2020-03-02 11:03:12 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_phonenum_textfield' is exist
+
+2020-03-02 11:03:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Login Page/Welcome Page/loginpage_phonenum_textfield"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_phonenum_textfield' is visible
+
+2020-03-02 11:03:14 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_phonenum_textfield' is visible
+
+2020-03-02 11:03:14 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Welcome Page/loginpage_register_button"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_register_button' is exist
+
+2020-03-02 11:03:16 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_register_button' is exist
+
+2020-03-02 11:03:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Login Page/Welcome Page/loginpage_register_button"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_register_button' is visible
+
+2020-03-02 11:03:18 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_register_button' is visible
+
+2020-03-02 11:03:18 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Welcome Page/loginpage_register_text_register"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_register_text_register' is exist
+
+2020-03-02 11:03:19 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_register_text_register' is exist
+
+2020-03-02 11:03:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Login Page/Welcome Page/loginpage_register_text_register"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_register_text_register' is visible
+
+2020-03-02 11:03:21 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_register_text_register' is visible
+
+2020-03-02 11:03:21 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Login Page/Welcome Page/loginpage_register_text_register"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_register_text_register' is: 'Register'
+
+2020-03-02 11:03:24 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_register_text_register' is: 'Register'
+
+2020-03-02 11:03:24 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Welcome Page/loginpage_TC-PP_buttontext_ByLogging"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_TC-PP_buttontext_ByLogging' is exist
+
+2020-03-02 11:03:25 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_TC-PP_buttontext_ByLogging' is exist
+
+2020-03-02 11:03:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Login Page/Welcome Page/loginpage_TC-PP_buttontext_ByLogging"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_TC-PP_buttontext_ByLogging' is visible
+
+2020-03-02 11:03:27 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_TC-PP_buttontext_ByLogging' is visible
+
+2020-03-02 11:03:27 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Login Page/Welcome Page/loginpage_TC-PP_buttontext_ByLogging"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_TC-PP_buttontext_ByLogging' is: 'By logging or registering, you agree to our Terms & Conditions and Privacy Policy.'
+
+2020-03-02 11:03:29 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_TC-PP_buttontext_ByLogging' is: 'By logging or registering, you agree to our Terms & Conditions and Privacy Policy.']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/b. RegressioniOS - Login/3 - Login with a valid phone number and password as DANA" time="144.492" classname="Test Cases/b. RegressioniOS - Login/3 - Login with a valid phone number and password as DANA" status="PASSED">
+         <system-out><![CDATA[2020-03-02 11:03:29 - [TEST_CASE][PASSED] - Test Cases/b. RegressioniOS - Login/3 - Login with a valid phone number and password as DANA: Test Cases/b. RegressioniOS - Login/3 - Login with a valid phone number and password as DANA
+
+2020-03-02 11:03:29 - [TEST_STEP][PASSED] - startExistingApplication("com.kfcjv.staging", STOP_ON_FAILURE): Starting app with application ID: 'com.kfcjv.staging'
+
+2020-03-02 11:03:43 - [MESSAGE][PASSED] - Starting app with application ID: 'com.kfcjv.staging'
+
+2020-03-02 11:03:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed"), 3): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed' is present
+
+2020-03-02 11:03:45 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed' is present
+
+2020-03-02 11:03:45 - [TEST_STEP][PASSED] - comment("Login USER 085643628232"): Login USER 085643628232
+
+2020-03-02 11:03:45 - [MESSAGE][INFO] - Login USER 085643628232
+
+2020-03-02 11:03:45 - [TEST_STEP][PASSED] - setText(findTestObject("iOS/Login Page/Welcome Page/loginpage_phonenum_textfield"), "085643628232", 1): Text '085643628232' has been set to element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_phonenum_textfield'
+
+2020-03-02 11:03:49 - [MESSAGE][PASSED] - Text '085643628232' has been set to element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_phonenum_textfield'
+
+2020-03-02 11:03:49 - [TEST_STEP][PASSED] - setText(findTestObject("iOS/Login Page/Welcome Page/loginpage_passw_textfield"), "111111", 0): Text '111111' has been set to element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_passw_textfield'
+
+2020-03-02 11:03:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-02 11:03:53 - [MESSAGE][PASSED] - Text '111111' has been set to element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_passw_textfield'
+
+2020-03-02 11:03:53 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed"), 2): Tapped on element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed'
+
+2020-03-02 11:03:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed'
+
+2020-03-02 11:03:57 - [TEST_STEP][PASSED] - comment("Redirect to DANA LOGIN PAGE"): Redirect to DANA LOGIN PAGE
+
+2020-03-02 11:03:57 - [MESSAGE][INFO] - Redirect to DANA LOGIN PAGE
+
+2020-03-02 11:03:57 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2020-03-02 11:04:17 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2020-03-02 11:04:17 - [TEST_STEP][PASSED] - comment("DANA PIN INPUT, Please input MANUALLY or WAIT to input automatically"): DANA PIN INPUT, Please input MANUALLY or WAIT to input automatically
+
+2020-03-02 11:04:17 - [MESSAGE][INFO] - DANA PIN INPUT, Please input MANUALLY or WAIT to input automatically
+
+2020-03-02 11:04:17 - [TEST_STEP][PASSED] - if (verifyElementExist(findTestObject("iOS/Login Page/Login to DANA Page/logtodana_desc_enteryour"), 2, OPTIONAL) == true): Element 'Object Repository/iOS/Login Page/Login to DANA Page/logtodana_errorfound' not found
+
+2020-03-02 11:04:30 - [MESSAGE][WARNING] - Element 'Object Repository/iOS/Login Page/Login to DANA Page/logtodana_desc_enteryour' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_110150/b. Regression Test - Login/20200302_110150/1583121860631.png]]
+
+2020-03-02 11:04:43 - [MESSAGE][WARNING] - Element 'Object Repository/iOS/Login Page/Login to DANA Page/logtodana_errorfound' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_110150/b. Regression Test - Login/20200302_110150/1583121873765.png]]
+
+2020-03-02 11:04:43 - [TEST_STEP][PASSED] - else if (verifyElementExist(findTestObject("iOS/Login Page/Login to DANA Page/logtodana_errorfound"), 2, OPTIONAL) == true): null
+
+2020-03-02 11:04:43 - [TEST_STEP][PASSED] - else: null
+
+2020-03-02 11:04:43 - [TEST_STEP][PASSED] - println = "Homepage ready": null
+
+2020-03-02 11:04:43 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2020-03-02 11:04:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-03-02 11:04:45 - [TEST_STEP][PASSED] - comment("Wait and Check Homepage redirection"): Wait and Check Homepage redirection
+
+2020-03-02 11:04:45 - [MESSAGE][INFO] - Wait and Check Homepage redirection
+
+2020-03-02 11:04:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Home Page/home_logo_imgKfclogo"), 2): Element 'Object Repository/iOS/Home Page/home_logo_imgKfclogo' is present
+
+2020-03-02 11:04:49 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_logo_imgKfclogo' is present
+
+2020-03-02 11:04:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Home Page/home_PNP_btnPNP"), 2): Element 'Object Repository/iOS/Home Page/home_PNP_btnPNP' is present
+
+2020-03-02 11:04:53 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_PNP_btnPNP' is present
+
+2020-03-02 11:04:53 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Home Page/home_delivorder_btnDelivorder"), 2): Element 'Object Repository/iOS/Home Page/home_delivorder_btnDelivorder' is present
+
+2020-03-02 11:04:56 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_delivorder_btnDelivorder' is present
+
+2020-03-02 11:04:56 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_points_btnRedeem"), 1): Element 'Object Repository/iOS/Home Page/home_points_btnRedeem' is exist
+
+2020-03-02 11:05:00 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_points_btnRedeem' is exist
+
+2020-03-02 11:05:00 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_delivorder_btnDelivorder"), 1): Element 'Object Repository/iOS/Home Page/home_delivorder_btnDelivorder' is exist
+
+2020-03-02 11:05:03 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_delivorder_btnDelivorder' is exist
+
+2020-03-02 11:05:03 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_PNP_btnPNP"), 1): Element 'Object Repository/iOS/Home Page/home_PNP_btnPNP' is exist
+
+2020-03-02 11:05:06 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_PNP_btnPNP' is exist
+
+2020-03-02 11:05:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("b. RegressioniOS - Login/Assist Test/Log Out"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/b. RegressioniOS - Login/Assist Test/Log Out' successfully
+
+2020-03-02 11:05:06 - [TEST_CASE][PASSED] - Test Cases/b. RegressioniOS - Login/Assist Test/Log Out: Test Cases/b. RegressioniOS - Login/Assist Test/Log Out
+
+2020-03-02 11:05:06 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Home Page/home_topbar_btnProfile"), 2): Tapped on element 'Object Repository/iOS/Home Page/home_topbar_btnProfile'
+
+2020-03-02 11:05:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Home Page/home_topbar_btnProfile'
+
+2020-03-02 11:05:10 - [TEST_STEP][PASSED] - scrollToText("Log Out", STOP_ON_FAILURE): Scrolling to text 'Log Out' successfully
+
+2020-03-02 11:05:31 - [MESSAGE][PASSED] - Scrolling to text 'Log Out' successfully
+
+2020-03-02 11:05:31 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Profile Page/profilepage_logout_btnLogout"), 1): Tapped on element 'Object Repository/iOS/Profile Page/profilepage_logout_btnLogout'
+
+2020-03-02 11:05:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Profile Page/profilepage_logout_btnLogout'
+
+2020-03-02 11:05:36 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Profile Page/Logout Confirmation/profilepage_logoutconf_desc"), 1): Element 'Object Repository/iOS/Profile Page/Logout Confirmation/profilepage_logoutconf_desc' is exist
+
+2020-03-02 11:05:39 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Profile Page/Logout Confirmation/profilepage_logoutconf_desc' is exist
+
+2020-03-02 11:05:39 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Profile Page/Logout Confirmation/profilepage_logoutconf_btnOk"), 1): Tapped on element 'Object Repository/iOS/Profile Page/Logout Confirmation/profilepage_logoutconf_btnOk'
+
+2020-03-02 11:05:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Profile Page/Logout Confirmation/profilepage_logoutconf_btnOk'
+
+2020-03-02 11:05:42 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-03-02 11:05:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-02 11:05:45 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Welcome Page/loginpage_header_titletext_welcome"), 1): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_header_titletext_welcome' is exist
+
+2020-03-02 11:05:47 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_header_titletext_welcome' is exist
+
+2020-03-02 11:05:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/b. RegressioniOS - Login/Assist Test/Log Out' successfully
+
+2020-03-02 11:05:47 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2020-03-02 11:05:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-03-02 11:05:52 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Welcome Page/loginpage_logo_desctext_pleaselogin"), 1): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_logo_desctext_pleaselogin' is exist
+
+2020-03-02 11:05:54 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_logo_desctext_pleaselogin' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/b. RegressioniOS - Login/4 - Login without any Login details" time="18.744" classname="Test Cases/b. RegressioniOS - Login/4 - Login without any Login details" status="PASSED">
+         <system-out><![CDATA[2020-03-02 11:05:54 - [TEST_CASE][PASSED] - Test Cases/b. RegressioniOS - Login/4 - Login without any Login details: Test Cases/b. RegressioniOS - Login/4 - Login without any Login details
+
+2020-03-02 11:05:54 - [TEST_STEP][PASSED] - comment("Empty Phone Number and Password"): Empty Phone Number and Password
+
+2020-03-02 11:05:54 - [MESSAGE][INFO] - Empty Phone Number and Password
+
+2020-03-02 11:05:54 - [TEST_STEP][PASSED] - clearText(findTestObject("iOS/Login Page/Welcome Page/loginpage_phonenum_textfield"), 2, STOP_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_phonenum_textfield' text is cleared
+
+2020-03-02 11:05:56 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_phonenum_textfield' text is cleared
+
+2020-03-02 11:05:56 - [TEST_STEP][PASSED] - clearText(findTestObject("iOS/Login Page/Welcome Page/loginpage_passw_textfield"), 2, STOP_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_passw_textfield' text is cleared
+
+2020-03-02 11:05:58 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_passw_textfield' text is cleared
+
+2020-03-02 11:05:58 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed"), 2): Tapped on element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed'
+
+2020-03-02 11:06:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed'
+
+2020-03-02 11:06:00 - [TEST_STEP][PASSED] - comment("Check Error Messages - Empty field"): Check Error Messages - Empty field
+
+2020-03-02 11:06:00 - [MESSAGE][INFO] - Check Error Messages - Empty field
+
+2020-03-02 11:06:00 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_general_title_error"), 1): Element 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_general_title_error' is exist
+
+2020-03-02 11:06:03 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_general_title_error' is exist
+
+2020-03-02 11:06:03 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_reqfield_desc_pleasefillin"), 1): Element 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_reqfield_desc_pleasefillin' is exist
+
+2020-03-02 11:06:05 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_reqfield_desc_pleasefillin' is exist
+
+2020-03-02 11:06:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_reqfield_desc_pleasefillin"), "Please fill in all of the required fields"): Actual text and expected text of test object 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_reqfield_desc_pleasefillin' are matched.
+
+2020-03-02 11:06:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_reqfield_desc_pleasefillin' are matched.
+
+2020-03-02 11:06:07 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_general_btnOk"), 1): Element 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_general_btnOk' is exist
+
+2020-03-02 11:06:10 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_general_btnOk' is exist
+
+2020-03-02 11:06:10 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_general_btnOk"), 2): Tapped on element 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_general_btnOk'
+
+2020-03-02 11:06:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_general_btnOk']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/b. RegressioniOS - Login/5 - Login with an unregistered phone number" time="38.442" classname="Test Cases/b. RegressioniOS - Login/5 - Login with an unregistered phone number" status="PASSED">
+         <system-out><![CDATA[2020-03-02 11:06:12 - [TEST_CASE][PASSED] - Test Cases/b. RegressioniOS - Login/5 - Login with an unregistered phone number: Test Cases/b. RegressioniOS - Login/5 - Login with an unregistered phone number
+
+2020-03-02 11:06:13 - [TEST_STEP][PASSED] - setText(findTestObject("iOS/Login Page/Welcome Page/loginpage_phonenum_textfield"), "08180181081081080", 1): Text '08180181081081080' has been set to element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_phonenum_textfield'
+
+2020-03-02 11:06:16 - [MESSAGE][PASSED] - Text '08180181081081080' has been set to element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_phonenum_textfield'
+
+2020-03-02 11:06:16 - [TEST_STEP][PASSED] - setText(findTestObject("iOS/Login Page/Welcome Page/loginpage_passw_textfield"), "111111", 0): Text '111111' has been set to element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_passw_textfield'
+
+2020-03-02 11:06:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-02 11:06:22 - [MESSAGE][PASSED] - Text '111111' has been set to element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_passw_textfield'
+
+2020-03-02 11:06:22 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed"), 2): Tapped on element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed'
+
+2020-03-02 11:06:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed'
+
+2020-03-02 11:06:26 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_general_title_error"), 1): Element 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_general_title_error' is present
+
+2020-03-02 11:06:29 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_general_title_error' is present
+
+2020-03-02 11:06:29 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_general_title_error"), 1): Element 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_general_title_error' is exist
+
+2020-03-02 11:06:31 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_general_title_error' is exist
+
+2020-03-02 11:06:31 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_validnum_desc_pleasefillin"), 1): Element 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_validnum_desc_pleasefillin' is exist
+
+2020-03-02 11:06:34 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_validnum_desc_pleasefillin' is exist
+
+2020-03-02 11:06:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_validnum_desc_pleasefillin"), "Please fill in a valid mobile number"): Actual text and expected text of test object 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_validnum_desc_pleasefillin' are matched.
+
+2020-03-02 11:06:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_validnum_desc_pleasefillin' are matched.
+
+2020-03-02 11:06:36 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_general_btnOk"), 1): Element 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_general_btnOk' is exist
+
+2020-03-02 11:06:38 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_general_btnOk' is exist
+
+2020-03-02 11:06:38 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_general_btnOk"), 2): Tapped on element 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_general_btnOk'
+
+2020-03-02 11:06:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_general_btnOk'
+
+2020-03-02 11:06:41 - [TEST_STEP][PASSED] - clearText(findTestObject("iOS/Login Page/Welcome Page/loginpage_passw_textfield"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_passw_textfield' text is cleared
+
+2020-03-02 11:06:45 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_passw_textfield' text is cleared
+
+2020-03-02 11:06:45 - [TEST_STEP][PASSED] - clearText(findTestObject("iOS/Login Page/Welcome Page/loginpage_phonenum_textfield"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_phonenum_textfield' text is cleared
+
+2020-03-02 11:06:51 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_phonenum_textfield' text is cleared]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/b. RegressioniOS - Login/6 - Login with invalid password" time="51.227" classname="Test Cases/b. RegressioniOS - Login/6 - Login with invalid password" status="PASSED">
+         <system-out><![CDATA[2020-03-02 11:06:51 - [TEST_CASE][PASSED] - Test Cases/b. RegressioniOS - Login/6 - Login with invalid password: Test Cases/b. RegressioniOS - Login/6 - Login with invalid password
+
+2020-03-02 11:06:51 - [TEST_STEP][PASSED] - startExistingApplication("com.kfcjv.staging", STOP_ON_FAILURE): Starting app with application ID: 'com.kfcjv.staging'
+
+2020-03-02 11:07:05 - [MESSAGE][PASSED] - Starting app with application ID: 'com.kfcjv.staging'
+
+2020-03-02 11:07:05 - [TEST_STEP][PASSED] - clearText(findTestObject("iOS/Login Page/Welcome Page/loginpage_phonenum_textfield"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_phonenum_textfield' text is cleared
+
+2020-03-02 11:07:07 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_phonenum_textfield' text is cleared
+
+2020-03-02 11:07:07 - [TEST_STEP][PASSED] - setText(findTestObject("iOS/Login Page/Welcome Page/loginpage_phonenum_textfield"), "085643628232", 1, CONTINUE_ON_FAILURE): Text '085643628232' has been set to element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_phonenum_textfield'
+
+2020-03-02 11:07:11 - [MESSAGE][PASSED] - Text '085643628232' has been set to element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_phonenum_textfield'
+
+2020-03-02 11:07:11 - [TEST_STEP][PASSED] - setText(findTestObject("iOS/Login Page/Welcome Page/loginpage_passw_textfield"), "hellobaby", 0, CONTINUE_ON_FAILURE): Text 'hellobaby' has been set to element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_passw_textfield'
+
+2020-03-02 11:07:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-02 11:07:15 - [MESSAGE][PASSED] - Text 'hellobaby' has been set to element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_passw_textfield'
+
+2020-03-02 11:07:15 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed"), 2, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed'
+
+2020-03-02 11:07:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed'
+
+2020-03-02 11:07:20 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_unmatchpassw_redText"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_unmatchpassw_redText' is present
+
+2020-03-02 11:07:22 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_unmatchpassw_redText' is present
+
+2020-03-02 11:07:22 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_unmatchpassw_redText"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_unmatchpassw_redText' is exist
+
+2020-03-02 11:07:24 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_unmatchpassw_redText' is exist
+
+2020-03-02 11:07:24 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_unmatchpassw_redText"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_unmatchpassw_redText' is: 'The password you type does not match'
+
+2020-03-02 11:07:26 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_unmatchpassw_redText' is: 'The password you type does not match'
+
+2020-03-02 11:07:26 - [TEST_STEP][PASSED] - clearText(findTestObject("iOS/Login Page/Welcome Page/loginpage_passw_textfield"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_passw_textfield' text is cleared
+
+2020-03-02 11:07:31 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_passw_textfield' text is cleared
+
+2020-03-02 11:07:31 - [TEST_STEP][PASSED] - verifyElementNotExist(findTestObject("iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_unmatchpassw_redText"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_unmatchpassw_redText' not found
+
+2020-03-02 11:07:34 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_unmatchpassw_redText' not found
+
+2020-03-02 11:07:34 - [TEST_STEP][PASSED] - clearText(findTestObject("iOS/Login Page/Welcome Page/loginpage_phonenum_textfield"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_phonenum_textfield' text is cleared
+
+2020-03-02 11:07:39 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_phonenum_textfield' text is cleared
+
+2020-03-02 11:07:39 - [TEST_STEP][PASSED] - verifyElementNotExist(findTestObject("iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_unmatchpassw_redText"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_unmatchpassw_redText' not found
+
+2020-03-02 11:07:42 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Error Handling Pop Up and Red Text/errhandl_unmatchpassw_redText' not found]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/b. RegressioniOS - Login/7 - Login with invalid DANA Pin" time="297.682" classname="Test Cases/b. RegressioniOS - Login/7 - Login with invalid DANA Pin" status="PASSED">
+         <system-out><![CDATA[2020-03-02 11:07:42 - [TEST_CASE][PASSED] - Test Cases/b. RegressioniOS - Login/7 - Login with invalid DANA Pin: Test Cases/b. RegressioniOS - Login/7 - Login with invalid DANA Pin
+
+2020-03-02 11:07:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed"), 3): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed' is present
+
+2020-03-02 11:07:45 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed' is present
+
+2020-03-02 11:07:45 - [TEST_STEP][PASSED] - comment("Login USER 085643628232"): Login USER 085643628232
+
+2020-03-02 11:07:45 - [MESSAGE][INFO] - Login USER 085643628232
+
+2020-03-02 11:07:45 - [TEST_STEP][PASSED] - setText(findTestObject("iOS/Login Page/Welcome Page/loginpage_phonenum_textfield"), "085643628232", 1): Text '085643628232' has been set to element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_phonenum_textfield'
+
+2020-03-02 11:07:50 - [MESSAGE][PASSED] - Text '085643628232' has been set to element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_phonenum_textfield'
+
+2020-03-02 11:07:50 - [TEST_STEP][PASSED] - setText(findTestObject("iOS/Login Page/Welcome Page/loginpage_passw_textfield"), "111111", 0): Text '111111' has been set to element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_passw_textfield'
+
+2020-03-02 11:07:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-02 11:07:54 - [MESSAGE][PASSED] - Text '111111' has been set to element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_passw_textfield'
+
+2020-03-02 11:07:54 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed"), 2): Tapped on element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed'
+
+2020-03-02 11:07:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_btnLogin_bgRed'
+
+2020-03-02 11:07:58 - [TEST_STEP][PASSED] - comment("Redirect to DANA LOGIN PAGE"): Redirect to DANA LOGIN PAGE
+
+2020-03-02 11:07:58 - [MESSAGE][INFO] - Redirect to DANA LOGIN PAGE
+
+2020-03-02 11:07:58 - [TEST_STEP][PASSED] - delay(20, STOP_ON_FAILURE): Delayed 20 second(s)
+
+2020-03-02 11:08:18 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2020-03-02 11:08:18 - [TEST_STEP][PASSED] - comment("DANA PIN INPUT"): DANA PIN INPUT
+
+2020-03-02 11:08:18 - [MESSAGE][INFO] - DANA PIN INPUT
+
+2020-03-02 11:08:18 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Login Page/Login to DANA Page/logtodana_desc_enteryour"), 3): Element 'Object Repository/iOS/Login Page/Login to DANA Page/logtodana_desc_enteryour' is present
+
+2020-03-02 11:08:55 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Login Page/Login to DANA Page/logtodana_desc_enteryour' is present
+
+2020-03-02 11:08:55 - [TEST_STEP][PASSED] - for ([i = 0, i <= 5, (i++)]): Tapped on element 'Object Repository/iOS/Login Page/Login to DANA Page/TypeKey - 5'
+
+2020-03-02 11:08:55 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Login Page/Login to DANA Page/TypeKey - 5"), 1): Tapped on element 'Object Repository/iOS/Login Page/Login to DANA Page/TypeKey - 5'
+
+2020-03-02 11:09:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Login Page/Login to DANA Page/TypeKey - 5'
+
+2020-03-02 11:09:31 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Login Page/Login to DANA Page/TypeKey - 5"), 1): Tapped on element 'Object Repository/iOS/Login Page/Login to DANA Page/TypeKey - 5'
+
+2020-03-02 11:10:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Login Page/Login to DANA Page/TypeKey - 5'
+
+2020-03-02 11:10:08 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Login Page/Login to DANA Page/TypeKey - 5"), 1): Tapped on element 'Object Repository/iOS/Login Page/Login to DANA Page/TypeKey - 5'
+
+2020-03-02 11:10:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Login Page/Login to DANA Page/TypeKey - 5'
+
+2020-03-02 11:10:45 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Login Page/Login to DANA Page/TypeKey - 5"), 1): Tapped on element 'Object Repository/iOS/Login Page/Login to DANA Page/TypeKey - 5'
+
+2020-03-02 11:11:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Login Page/Login to DANA Page/TypeKey - 5'
+
+2020-03-02 11:11:21 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Login Page/Login to DANA Page/TypeKey - 5"), 1): Tapped on element 'Object Repository/iOS/Login Page/Login to DANA Page/TypeKey - 5'
+
+2020-03-02 11:11:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Login Page/Login to DANA Page/TypeKey - 5'
+
+2020-03-02 11:11:58 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Login Page/Login to DANA Page/TypeKey - 5"), 1): Tapped on element 'Object Repository/iOS/Login Page/Login to DANA Page/TypeKey - 5'
+
+2020-03-02 11:12:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Login Page/Login to DANA Page/TypeKey - 5'
+
+2020-03-02 11:12:34 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2020-03-02 11:12:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-03-02 11:12:39 - [TEST_STEP][PASSED] - takeScreenshot("User Still in the Dana Page", STOP_ON_FAILURE): Screenshot is taken
+
+2020-03-02 11:12:40 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200302_110150/b. Regression Test - Login/20200302_110150/User Still in the Dana Page]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-02 11:01:59 - [TEST_SUITE][PASSED] - b. Regression Test - Login: Test Cases/b. RegressioniOS - Login/7 - Login with invalid DANA Pin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

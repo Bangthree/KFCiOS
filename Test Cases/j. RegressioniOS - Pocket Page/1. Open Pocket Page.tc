@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- User Able to access pocket page
+- Pocket page available to all user</description>
+   <name>1. Open Pocket Page</name>
+   <tag>Pocket Page, Dana, External</tag>
+   <comment>Pocket Page Test Started
+Pocket Page Tab Test Finished</comment>
+   <testCaseGuid>25d0b484-7cab-4c79-9c0a-53ee3904061f</testCaseGuid>
+</TestCaseEntity>

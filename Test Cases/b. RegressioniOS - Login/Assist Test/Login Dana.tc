@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Phone Number field Filling
+- Password field Filling
+- Using user non DANA</description>
+   <name>Login Dana</name>
+   <tag>DANA, Login, Phone Number, password</tag>
+   <comment>Login USER 085643628232
+Redirect to DANA LOGIN PAGE
+DANA PIN INPUT</comment>
+   <testCaseGuid>23509a71-160a-4104-b521-b8ddc2daef9f</testCaseGuid>
+</TestCaseEntity>

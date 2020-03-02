@@ -1,1 +1,1 @@
-# KFCiOS
+# KFC

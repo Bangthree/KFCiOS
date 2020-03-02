@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression Test - Loyality and Rewards" time="1046.022" tests="4" failures="2" errors="0">
+   <testsuite name="Regression Test - Loyality and Rewards" tests="4" failures="2" errors="0" time="1046.022" timestamp="2020-02-28 12:58:05" hostname="bambangtripamungkas - 192.168.1.5" id="Test Suites/Regression Test - Loyality and Rewards">
+      <properties>
+         <property name="deviceName" value="iPhone 8"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756"/>
+         <property name="logFiles" value="/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/execution0.log, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/appium.log, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/appium-proxy-server.log"/>
+         <property name="attachments" value="/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582869514195.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582869518505.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870213716.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870224061.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870236226.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870246297.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870255817.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870265818.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870277750.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870285133.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870292752.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870299956.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870307241.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870314475.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870322058.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870329617.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870337184.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870344533.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870344751.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870529816.png, /Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870529961.png"/>
+         <property name="hostName" value="bambangtripamungkas - 192.168.1.5"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.15.1\&quot;}},\&quot;sessionId\&quot;:null,\&quot;status\&quot;:0}"/>
+         <property name="katalonVersion" value="7.1.1.1"/>
+         <property name="deviceOS" value="iOS"/>
+         <property name="appiumVersion" value="1.15.1"/>
+         <property name="deviceModel" value="Not available for Simulator"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="deviceManufacturer" value="Apple"/>
+         <property name="deviceId" value="null"/>
+         <property name="deviceName" value="iPhone 8"/>
+         <property name="deviceOSVersion" value="13.3"/>
+      </properties>
+      <testcase name="Test Cases/RegressioniOS - Loyality and Rewards/1. Open Loyality Page" time="251.07" classname="Test Cases/RegressioniOS - Loyality and Rewards/1. Open Loyality Page" status="PASSED">
+         <system-out><![CDATA[2020-02-28 12:58:05 - [TEST_CASE][PASSED] - Test Cases/RegressioniOS - Loyality and Rewards/1. Open Loyality Page: Test Cases/RegressioniOS - Loyality and Rewards/1. Open Loyality Page
+
+2020-02-28 12:58:06 - [TEST_STEP][PASSED] - startExistingApplication("com.kfcjv.staging", STOP_ON_FAILURE): Starting app with application ID: 'com.kfcjv.staging'
+
+2020-02-28 12:58:07 - [MESSAGE][INFO] - ios_webkit_debug_proxy server started on port 51246
+
+2020-02-28 12:58:10 - [MESSAGE][INFO] - Appium server started on port 51,248
+
+2020-02-28 12:58:30 - [MESSAGE][PASSED] - Starting app with application ID: 'com.kfcjv.staging'
+
+2020-02-28 12:58:30 - [TEST_STEP][PASSED] - comment("Earn Page Components check started"): Earn Page Components check started
+
+2020-02-28 12:58:30 - [MESSAGE][INFO] - Earn Page Components check started
+
+2020-02-28 12:58:30 - [TEST_STEP][PASSED] - if (verifyElementExist(findTestObject("iOS/Login Page/Relogin Alert/reloginalert_alerttype"), 2, OPTIONAL) == true): Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_alerttype' not found
+
+2020-02-28 12:58:35 - [MESSAGE][WARNING] - Element 'Object Repository/iOS/Login Page/Relogin Alert/reloginalert_alerttype' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582869514195.png]]
+
+2020-02-28 12:58:35 - [TEST_STEP][PASSED] - else: null
+
+2020-02-28 12:58:35 - [TEST_STEP][PASSED] - println = "Session is new": null
+
+2020-02-28 12:58:35 - [TEST_STEP][PASSED] - if (verifyElementExist(findTestObject("iOS/Login Page/Welcome Page/loginpage_header_titletext_welcome"), 2, OPTIONAL) == true): Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_header_titletext_welcome' not found
+
+2020-02-28 12:58:38 - [MESSAGE][WARNING] - Element 'Object Repository/iOS/Login Page/Welcome Page/loginpage_header_titletext_welcome' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582869518505.png]]
+
+2020-02-28 12:58:38 - [TEST_STEP][PASSED] - else: null
+
+2020-02-28 12:58:38 - [TEST_STEP][PASSED] - println = "Logged in, Homepage ready": null
+
+2020-02-28 12:58:38 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Home Page/home_topbar_btnProfile"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Home Page/home_topbar_btnProfile' is exist
+
+2020-02-28 12:58:42 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Home Page/home_topbar_btnProfile' is exist
+
+2020-02-28 12:58:42 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Home Page/home_topbar_btnProfile"), 1, STOP_ON_FAILURE): Tapped on element 'Object Repository/iOS/Home Page/home_topbar_btnProfile'
+
+2020-02-28 12:58:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Home Page/home_topbar_btnProfile'
+
+2020-02-28 12:58:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-02-28 12:58:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-02-28 12:58:49 - [TEST_STEP][PASSED] - comment("Points Section"): Points Section
+
+2020-02-28 12:58:49 - [MESSAGE][INFO] - Points Section
+
+2020-02-28 12:58:49 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Profile Page/profilepage_points_btnHistory_text"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Profile Page/profilepage_points_btnHistory_text' is exist
+
+2020-02-28 12:58:56 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Profile Page/profilepage_points_btnHistory_text' is exist
+
+2020-02-28 12:58:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Profile Page/profilepage_points_btnHistory_text"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Profile Page/profilepage_points_btnHistory_text' is visible
+
+2020-02-28 12:59:06 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Profile Page/profilepage_points_btnHistory_text' is visible
+
+2020-02-28 12:59:06 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Profile Page/profilepage_points_btnHistory_text"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Profile Page/profilepage_points_btnHistory_text' is: 'Points History'
+
+2020-02-28 12:59:16 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Profile Page/profilepage_points_btnHistory_text' is: 'Points History'
+
+2020-02-28 12:59:16 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Profile Page/profilepage_points_btnHistory"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Profile Page/profilepage_points_btnHistory' is exist
+
+2020-02-28 12:59:21 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Profile Page/profilepage_points_btnHistory' is exist
+
+2020-02-28 12:59:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Profile Page/profilepage_points_btnHistory"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Profile Page/profilepage_points_btnHistory' is visible
+
+2020-02-28 12:59:26 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Profile Page/profilepage_points_btnHistory' is visible
+
+2020-02-28 12:59:26 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Profile Page/profilepage_points_btnRedeem_text"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Profile Page/profilepage_points_btnRedeem_text' is exist
+
+2020-02-28 12:59:31 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Profile Page/profilepage_points_btnRedeem_text' is exist
+
+2020-02-28 12:59:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Profile Page/profilepage_points_btnRedeem_text"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Profile Page/profilepage_points_btnRedeem_text' is visible
+
+2020-02-28 12:59:36 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Profile Page/profilepage_points_btnRedeem_text' is visible
+
+2020-02-28 12:59:36 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Profile Page/profilepage_points_btnRedeem_text"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Profile Page/profilepage_points_btnRedeem_text' is: 'Redeem'
+
+2020-02-28 12:59:41 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Profile Page/profilepage_points_btnRedeem_text' is: 'Redeem'
+
+2020-02-28 12:59:41 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Profile Page/profilepage_points_btnRedeem"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Profile Page/profilepage_points_btnRedeem' is exist
+
+2020-02-28 12:59:46 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Profile Page/profilepage_points_btnRedeem' is exist
+
+2020-02-28 12:59:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Profile Page/profilepage_points_btnRedeem"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Profile Page/profilepage_points_btnRedeem' is visible
+
+2020-02-28 12:59:51 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Profile Page/profilepage_points_btnRedeem' is visible
+
+2020-02-28 12:59:51 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Profile Page/profilepage_points_desc_dynamicexpire"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Profile Page/profilepage_points_desc_dynamicexpire' is exist
+
+2020-02-28 13:00:05 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Profile Page/profilepage_points_desc_dynamicexpire' is exist
+
+2020-02-28 13:00:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Profile Page/profilepage_points_desc_dynamicexpire"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Profile Page/profilepage_points_desc_dynamicexpire' is visible
+
+2020-02-28 13:00:26 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Profile Page/profilepage_points_desc_dynamicexpire' is visible
+
+2020-02-28 13:00:26 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Profile Page/profilepage_points_desc_dynamicexpire"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Profile Page/profilepage_points_desc_dynamicexpire' is: 'PROFILE'
+
+2020-02-28 13:00:47 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Profile Page/profilepage_points_desc_dynamicexpire' is: 'PROFILE'
+
+2020-02-28 13:00:47 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Profile Page/profilepage_points_desc_dynamicpoints"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Profile Page/profilepage_points_desc_dynamicpoints' is exist
+
+2020-02-28 13:01:06 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Profile Page/profilepage_points_desc_dynamicpoints' is exist
+
+2020-02-28 13:01:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Profile Page/profilepage_points_desc_dynamicpoints"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Profile Page/profilepage_points_desc_dynamicpoints' is visible
+
+2020-02-28 13:01:26 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Profile Page/profilepage_points_desc_dynamicpoints' is visible
+
+2020-02-28 13:01:26 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Profile Page/profilepage_points_desc_dynamicpoints"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Profile Page/profilepage_points_desc_dynamicpoints' is: 'PROFILE'
+
+2020-02-28 13:01:45 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Profile Page/profilepage_points_desc_dynamicpoints' is: 'PROFILE'
+
+2020-02-28 13:01:45 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Profile Page/profilepage_points_imgBgPoints"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Profile Page/profilepage_points_imgBgPoints' is exist
+
+2020-02-28 13:01:51 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Profile Page/profilepage_points_imgBgPoints' is exist
+
+2020-02-28 13:01:51 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Profile Page/profilepage_points_imgInfoIcon"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Profile Page/profilepage_points_imgInfoIcon' is exist
+
+2020-02-28 13:01:57 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Profile Page/profilepage_points_imgInfoIcon' is exist
+
+2020-02-28 13:01:57 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Profile Page/profilepage_points_title_myKFC"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Profile Page/profilepage_points_title_myKFC' is exist
+
+2020-02-28 13:02:03 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Profile Page/profilepage_points_title_myKFC' is exist
+
+2020-02-28 13:02:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Profile Page/profilepage_points_title_myKFC"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Profile Page/profilepage_points_title_myKFC' is visible
+
+2020-02-28 13:02:10 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Profile Page/profilepage_points_title_myKFC' is visible
+
+2020-02-28 13:02:10 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Profile Page/profilepage_points_title_myKFC"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Profile Page/profilepage_points_title_myKFC' is: 'My KFC Points'
+
+2020-02-28 13:02:16 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Profile Page/profilepage_points_title_myKFC' is: 'My KFC Points'
+
+2020-02-28 13:02:16 - [TEST_STEP][PASSED] - comment("Points section done checking"): Points section done checking
+
+2020-02-28 13:02:16 - [MESSAGE][INFO] - Points section done checking]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RegressioniOS - Loyality and Rewards/2. View Vouchers List" time="412.963" classname="Test Cases/RegressioniOS - Loyality and Rewards/2. View Vouchers List" status="PASSED">
+         <system-out><![CDATA[2020-02-28 13:02:16 - [TEST_CASE][PASSED] - Test Cases/RegressioniOS - Loyality and Rewards/2. View Vouchers List: Test Cases/RegressioniOS - Loyality and Rewards/2. View Vouchers List
+
+2020-02-28 13:02:17 - [TEST_STEP][PASSED] - comment("Voucher List Page Check"): Voucher List Page Check
+
+2020-02-28 13:02:17 - [MESSAGE][INFO] - Voucher List Page Check
+
+2020-02-28 13:02:17 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Profile Page/profilepage_points_btnRedeem"), 0): Tapped on element 'Object Repository/iOS/Profile Page/profilepage_points_btnRedeem'
+
+2020-02-28 13:02:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-28 13:02:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Profile Page/profilepage_points_btnRedeem'
+
+2020-02-28 13:02:24 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_title"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title' is present
+
+2020-02-28 13:02:36 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title' is present
+
+2020-02-28 13:02:36 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher List Page/vouchlist_header_btnBack"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_header_btnBack' is exist
+
+2020-02-28 13:02:45 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_header_btnBack' is exist
+
+2020-02-28 13:02:45 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher List Page/vouchlist_header_title_voucher"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_header_title_voucher' is exist
+
+2020-02-28 13:02:53 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_header_title_voucher' is exist
+
+2020-02-28 13:02:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher List Page/vouchlist_header_title_voucher"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_header_title_voucher' is visible
+
+2020-02-28 13:03:01 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_header_title_voucher' is visible
+
+2020-02-28 13:03:01 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Voucher List Page/vouchlist_header_title_voucher"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Voucher List Page/vouchlist_header_title_voucher' is: 'VOUCHER'
+
+2020-02-28 13:03:10 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Voucher List Page/vouchlist_header_title_voucher' is: 'VOUCHER'
+
+2020-02-28 13:03:10 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher List Page/vouchlist_points_title"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_points_title' is exist
+
+2020-02-28 13:03:19 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_points_title' is exist
+
+2020-02-28 13:03:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher List Page/vouchlist_points_title"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_points_title' is visible
+
+2020-02-28 13:03:29 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_points_title' is visible
+
+2020-02-28 13:03:29 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Voucher List Page/vouchlist_points_title"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Voucher List Page/vouchlist_points_title' is: 'KFC Points'
+
+2020-02-28 13:03:38 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Voucher List Page/vouchlist_points_title' is: 'KFC Points'
+
+2020-02-28 13:03:38 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher List Page/vouchlist_points_desc_pointexpired"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_points_desc_pointexpired' is exist
+
+2020-02-28 13:03:47 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_points_desc_pointexpired' is exist
+
+2020-02-28 13:03:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher List Page/vouchlist_points_desc_pointexpired"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_points_desc_pointexpired' is visible
+
+2020-02-28 13:03:56 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_points_desc_pointexpired' is visible
+
+2020-02-28 13:03:56 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Voucher List Page/vouchlist_points_desc_pointexpired"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Voucher List Page/vouchlist_points_desc_pointexpired' is: '26 KFC Points will be expired on Jun 30, 2020'
+
+2020-02-28 13:04:05 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Voucher List Page/vouchlist_points_desc_pointexpired' is: '26 KFC Points will be expired on Jun 30, 2020'
+
+2020-02-28 13:04:05 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher List Page/vouchlist_points_desc_dynamicpoint"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_points_desc_dynamicpoint' is exist
+
+2020-02-28 13:04:14 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_points_desc_dynamicpoint' is exist
+
+2020-02-28 13:04:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher List Page/vouchlist_points_desc_dynamicpoint"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_points_desc_dynamicpoint' is visible
+
+2020-02-28 13:04:23 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_points_desc_dynamicpoint' is visible
+
+2020-02-28 13:04:23 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Voucher List Page/vouchlist_points_desc_dynamicpoint"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Voucher List Page/vouchlist_points_desc_dynamicpoint' is: '26'
+
+2020-02-28 13:04:33 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Voucher List Page/vouchlist_points_desc_dynamicpoint' is: '26'
+
+2020-02-28 13:04:33 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher List Page/vouchlist_title_redeemyour"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_title_redeemyour' is exist
+
+2020-02-28 13:04:41 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_title_redeemyour' is exist
+
+2020-02-28 13:04:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher List Page/vouchlist_title_redeemyour"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_title_redeemyour' is visible
+
+2020-02-28 13:04:50 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_title_redeemyour' is visible
+
+2020-02-28 13:04:50 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Voucher List Page/vouchlist_title_redeemyour"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Voucher List Page/vouchlist_title_redeemyour' is: 'Redeem your KFC Points!'
+
+2020-02-28 13:04:59 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Voucher List Page/vouchlist_title_redeemyour' is: 'Redeem your KFC Points!'
+
+2020-02-28 13:04:59 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher List Page/vouchlist_desc_youcan"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_desc_youcan' is exist
+
+2020-02-28 13:05:08 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_desc_youcan' is exist
+
+2020-02-28 13:05:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher List Page/vouchlist_desc_youcan"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_desc_youcan' is visible
+
+2020-02-28 13:05:17 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_desc_youcan' is visible
+
+2020-02-28 13:05:17 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Voucher List Page/vouchlist_desc_youcan"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Voucher List Page/vouchlist_desc_youcan' is: 'Your can redeem your KFC points and enjoy a selection of KFC Vouchers'
+
+2020-02-28 13:05:27 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Voucher List Page/vouchlist_desc_youcan' is: 'Your can redeem your KFC points and enjoy a selection of KFC Vouchers'
+
+2020-02-28 13:05:27 - [TEST_STEP][PASSED] - comment("Voucher 1 Check"): Voucher 1 Check
+
+2020-02-28 13:05:27 - [MESSAGE][INFO] - Voucher 1 Check
+
+2020-02-28 13:05:27 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_title"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title' is exist
+
+2020-02-28 13:05:44 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title' is exist
+
+2020-02-28 13:05:44 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_title"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title' is exist
+
+2020-02-28 13:05:55 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title' is exist
+
+2020-02-28 13:05:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_title"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title' is visible
+
+2020-02-28 13:06:04 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title' is visible
+
+2020-02-28 13:06:04 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_redeemamt"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_redeemamt' is: 'Redeemed 0/10'
+
+2020-02-28 13:06:13 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_redeemamt' is: 'Redeemed 0/10'
+
+2020-02-28 13:06:13 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_redeemamt"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_redeemamt' is: 'Redeemed 0/10'
+
+2020-02-28 13:06:23 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_redeemamt' is: 'Redeemed 0/10'
+
+2020-02-28 13:06:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_redeemamt"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_redeemamt' is visible
+
+2020-02-28 13:06:33 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_redeemamt' is visible
+
+2020-02-28 13:06:33 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_desc_price"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_desc_price' is: '10 KFC Points'
+
+2020-02-28 13:06:41 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_desc_price' is: '10 KFC Points'
+
+2020-02-28 13:06:41 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_desc_price"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_desc_price' is: '10 KFC Points'
+
+2020-02-28 13:06:55 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_desc_price' is: '10 KFC Points'
+
+2020-02-28 13:06:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_desc_price"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_desc_price' is visible
+
+2020-02-28 13:07:06 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_desc_price' is visible
+
+2020-02-28 13:07:06 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_btnRedeem_text"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_btnRedeem_text' is: 'REDEEM'
+
+2020-02-28 13:07:18 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_btnRedeem_text' is: 'REDEEM'
+
+2020-02-28 13:07:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_btnRedeem_text"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_btnRedeem_text' is visible
+
+2020-02-28 13:07:34 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_btnRedeem_text' is visible
+
+2020-02-28 13:07:34 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_btnRedeem_text"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_btnRedeem_text' is: 'REDEEM'
+
+2020-02-28 13:07:46 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_btnRedeem_text' is: 'REDEEM'
+
+2020-02-28 13:07:46 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_btnRedeem"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_btnRedeem' is: 'REDEEM'
+
+2020-02-28 13:07:58 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_btnRedeem' is: 'REDEEM'
+
+2020-02-28 13:07:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_btnRedeem"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_btnRedeem' is visible
+
+2020-02-28 13:08:13 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_btnRedeem' is visible
+
+2020-02-28 13:08:13 - [TEST_STEP][PASSED] - swipe(100, 600, 100, 50, CONTINUE_ON_FAILURE): Swiped from 100,600 to 100,50
+
+2020-02-28 13:08:14 - [MESSAGE][PASSED] - Swiped from 100,600 to 100,50
+
+2020-02-28 13:08:14 - [TEST_STEP][PASSED] - swipe(100, 600, 100, 50, CONTINUE_ON_FAILURE): Swiped from 100,600 to 100,50
+
+2020-02-28 13:08:15 - [MESSAGE][PASSED] - Swiped from 100,600 to 100,50
+
+2020-02-28 13:08:15 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Voucher List Page/vouchlist_unbuyablevouch_text_550KFC"), 2, STOP_ON_FAILURE): Tapped on element 'Object Repository/iOS/Voucher List Page/vouchlist_unbuyablevouch_text_550KFC'
+
+2020-02-28 13:08:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Voucher List Page/vouchlist_unbuyablevouch_text_550KFC'
+
+2020-02-28 13:08:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-02-28 13:08:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-02-28 13:08:27 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher Detail Page/vouchdet_header_btnBack"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_header_btnBack' is exist
+
+2020-02-28 13:08:31 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_header_btnBack' is exist
+
+2020-02-28 13:08:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher Detail Page/vouchdet_header_btnBack"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_header_btnBack' is visible
+
+2020-02-28 13:08:33 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_header_btnBack' is visible
+
+2020-02-28 13:08:33 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher Detail Page/vouchdet_header_title"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_header_title' is exist
+
+2020-02-28 13:08:37 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_header_title' is exist
+
+2020-02-28 13:08:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher Detail Page/vouchdet_header_title"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_header_title' is visible
+
+2020-02-28 13:08:40 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_header_title' is visible
+
+2020-02-28 13:08:40 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher Detail Page/vouchdet_btnConfirm_text"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm_text' is exist
+
+2020-02-28 13:08:43 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm_text' is exist
+
+2020-02-28 13:08:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher Detail Page/vouchdet_btnConfirm_text"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm_text' is visible
+
+2020-02-28 13:08:46 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm_text' is visible
+
+2020-02-28 13:08:46 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Voucher Detail Page/vouchdet_btnConfirm_text"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm_text' is: 'Confirm'
+
+2020-02-28 13:08:49 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm_text' is: 'Confirm'
+
+2020-02-28 13:08:49 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher Detail Page/vouchdet_btnConfirm"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm' is exist
+
+2020-02-28 13:08:51 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm' is exist
+
+2020-02-28 13:08:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher Detail Page/vouchdet_btnConfirm"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm' is visible
+
+2020-02-28 13:08:55 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm' is visible
+
+2020-02-28 13:08:55 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Voucher Detail Page/vouchdet_btnConfirm"), 1, STOP_ON_FAILURE): Tapped on element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm'
+
+2020-02-28 13:08:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm'
+
+2020-02-28 13:08:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-02-28 13:09:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-02-28 13:09:01 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher Detail Page/vouchdet_btnCancel"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel' is exist
+
+2020-02-28 13:09:03 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel' is exist
+
+2020-02-28 13:09:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher Detail Page/vouchdet_btnCancel"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel' is visible
+
+2020-02-28 13:09:06 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel' is visible
+
+2020-02-28 13:09:06 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Voucher Detail Page/vouchdet_btnCancel"), 1, STOP_ON_FAILURE): Tapped on element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel'
+
+2020-02-28 13:09:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RegressioniOS - Loyality and Rewards/3. Verify all buttons on the rewards page" time="195.065" classname="Test Cases/RegressioniOS - Loyality and Rewards/3. Verify all buttons on the rewards page" status="FAILED">
+         <failure type="FAILED" message="Test Cases/RegressioniOS - Loyality and Rewards/3. Verify all buttons on the rewards page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel_text' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:640)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at 3. Verify all buttons on the rewards page.run(3. Verify all buttons on the rewards page:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582869476469.run(TempTestSuite1582869476469.groovy:36)
+"/>
+         <system-out><![CDATA[2020-02-28 13:09:09 - [TEST_CASE][FAILED] - Test Cases/RegressioniOS - Loyality and Rewards/3. Verify all buttons on the rewards page: Test Cases/RegressioniOS - Loyality and Rewards/3. Verify all buttons on the rewards page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel_text' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:640)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at 3. Verify all buttons on the rewards page.run(3. Verify all buttons on the rewards page:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582869476469.run(TempTestSuite1582869476469.groovy:36)
+
+
+2020-02-28 13:09:11 - [TEST_STEP][PASSED] - comment("Voucher Detail Page Check"): Voucher Detail Page Check
+
+2020-02-28 13:09:11 - [MESSAGE][INFO] - Voucher Detail Page Check
+
+2020-02-28 13:09:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-02-28 13:09:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-02-28 13:09:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_title"), 1, STOP_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title' is present
+
+2020-02-28 13:09:23 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title' is present
+
+2020-02-28 13:09:23 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_title"), 1, STOP_ON_FAILURE): Tapped on element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title'
+
+2020-02-28 13:09:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title'
+
+2020-02-28 13:09:31 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-02-28 13:09:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-02-28 13:09:36 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Voucher Detail Page/vouchdet_info_title"), 1): Object Object Repository/iOS/Voucher Detail Page/vouchdet_info_title not found
+
+2020-02-28 13:09:46 - [MESSAGE][WARNING] - Object Object Repository/iOS/Voucher Detail Page/vouchdet_info_title not found
+
+2020-02-28 13:09:46 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher Detail Page/vouchdet_header_btnBack"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_header_btnBack' is exist
+
+2020-02-28 13:09:55 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_header_btnBack' is exist
+
+2020-02-28 13:09:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher Detail Page/vouchdet_header_btnBack"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_header_btnBack' is visible
+
+2020-02-28 13:10:04 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_header_btnBack' is visible
+
+2020-02-28 13:10:04 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("iOS/Voucher Detail Page/vouchdet_btnCancel_text"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel_text' not found
+
+2020-02-28 13:10:14 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel_text' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870213716.png]]
+
+2020-02-28 13:10:14 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("iOS/Voucher Detail Page/vouchdet_btnCancel_text"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel_text' not found
+
+2020-02-28 13:10:24 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel_text' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870224061.png]]
+
+2020-02-28 13:10:24 - [TEST_STEP][FAILED] - getText(findTestObject("iOS/Voucher Detail Page/vouchdet_btnCancel_text"), 1, CONTINUE_ON_FAILURE): Object Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel_text not found
+
+2020-02-28 13:10:36 - [MESSAGE][FAILED] - Object Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel_text not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870236226.png]]
+
+2020-02-28 13:10:36 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("iOS/Voucher Detail Page/vouchdet_btnCancel"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel' not found
+
+2020-02-28 13:10:46 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870246297.png]]
+
+2020-02-28 13:10:46 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("iOS/Voucher Detail Page/vouchdet_btnCancel"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel' not found
+
+2020-02-28 13:10:56 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870255817.png]]
+
+2020-02-28 13:10:56 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("iOS/Voucher Detail Page/vouchdet_btnConfirm_text"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm_text' not found
+
+2020-02-28 13:11:06 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm_text' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870265818.png]]
+
+2020-02-28 13:11:06 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("iOS/Voucher Detail Page/vouchdet_btnConfirm_text"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm_text' not found
+
+2020-02-28 13:11:17 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm_text' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870277750.png]]
+
+2020-02-28 13:11:17 - [TEST_STEP][FAILED] - getText(findTestObject("iOS/Voucher Detail Page/vouchdet_btnConfirm_text"), 1, CONTINUE_ON_FAILURE): Object Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm_text not found
+
+2020-02-28 13:11:25 - [MESSAGE][FAILED] - Object Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm_text not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870285133.png]]
+
+2020-02-28 13:11:25 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("iOS/Voucher Detail Page/vouchdet_btnConfirm"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm' not found
+
+2020-02-28 13:11:32 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870292752.png]]
+
+2020-02-28 13:11:32 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("iOS/Voucher Detail Page/vouchdet_btnConfirm"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm' not found
+
+2020-02-28 13:11:40 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870299956.png]]
+
+2020-02-28 13:11:40 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("iOS/Voucher Detail Page/vouchdet_TC_btnTC_text"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_TC_btnTC_text' not found
+
+2020-02-28 13:11:47 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_TC_btnTC_text' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870307241.png]]
+
+2020-02-28 13:11:47 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("iOS/Voucher Detail Page/vouchdet_TC_btnTC_text"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_TC_btnTC_text' not found
+
+2020-02-28 13:11:54 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_TC_btnTC_text' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870314475.png]]
+
+2020-02-28 13:11:54 - [TEST_STEP][FAILED] - getText(findTestObject("iOS/Voucher Detail Page/vouchdet_TC_btnTC_text"), 1, CONTINUE_ON_FAILURE): Object Object Repository/iOS/Voucher Detail Page/vouchdet_TC_btnTC_text not found
+
+2020-02-28 13:12:02 - [MESSAGE][FAILED] - Object Object Repository/iOS/Voucher Detail Page/vouchdet_TC_btnTC_text not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870322058.png]]
+
+2020-02-28 13:12:02 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("iOS/Voucher Detail Page/vouchdet_TC_btnTC"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_TC_btnTC' not found
+
+2020-02-28 13:12:09 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_TC_btnTC' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870329617.png]]
+
+2020-02-28 13:12:09 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("iOS/Voucher Detail Page/vouchdet_TC_btnTC"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_TC_btnTC' not found
+
+2020-02-28 13:12:17 - [MESSAGE][FAILED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_TC_btnTC' not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870337184.png]]
+
+2020-02-28 13:12:17 - [TEST_STEP][FAILED] - tap(findTestObject("iOS/Voucher Detail Page/vouchdet_howto_btnHowto"), 1, STOP_ON_FAILURE): Failed to tap on element 'Object Repository/iOS/Voucher Detail Page/vouchdet_howto_btnHowto' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/iOS/Voucher Detail Page/vouchdet_howto_btnHowto not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:506)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at 3. Verify all buttons on the rewards page.run(3. Verify all buttons on the rewards page:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582869476469.run(TempTestSuite1582869476469.groovy:36)
+)
+
+2020-02-28 13:12:24 - [MESSAGE][FAILED] - Object Object Repository/iOS/Voucher Detail Page/vouchdet_howto_btnHowto not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870344533.png]]
+
+2020-02-28 13:12:24 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/iOS/Voucher Detail Page/vouchdet_howto_btnHowto' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/iOS/Voucher Detail Page/vouchdet_howto_btnHowto not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:506)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at 3. Verify all buttons on the rewards page.run(3. Verify all buttons on the rewards page:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582869476469.run(TempTestSuite1582869476469.groovy:36)
+)
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870344751.png]]]]></system-out>
+         <system-err><![CDATA[2020-02-28 13:09:09 - [TEST_CASE][FAILED] - Test Cases/RegressioniOS - Loyality and Rewards/3. Verify all buttons on the rewards page: Test Cases/RegressioniOS - Loyality and Rewards/3. Verify all buttons on the rewards page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel_text' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:640)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at 3. Verify all buttons on the rewards page.run(3. Verify all buttons on the rewards page:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582869476469.run(TempTestSuite1582869476469.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RegressioniOS - Loyality and Rewards/4. Verify Rewards Detail Page" time="185.206" classname="Test Cases/RegressioniOS - Loyality and Rewards/4. Verify Rewards Detail Page" status="FAILED">
+         <failure type="FAILED" message="Test Cases/RegressioniOS - Loyality and Rewards/4. Verify Rewards Detail Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:520)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$4.call(Unknown Source)
+	at 4. Verify Rewards Detail Page.run(4. Verify Rewards Detail Page:122)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582869476469.run(TempTestSuite1582869476469.groovy:36)
+"/>
+         <system-out><![CDATA[2020-02-28 13:12:24 - [TEST_CASE][FAILED] - Test Cases/RegressioniOS - Loyality and Rewards/4. Verify Rewards Detail Page: Test Cases/RegressioniOS - Loyality and Rewards/4. Verify Rewards Detail Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:520)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$4.call(Unknown Source)
+	at 4. Verify Rewards Detail Page.run(4. Verify Rewards Detail Page:122)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582869476469.run(TempTestSuite1582869476469.groovy:36)
+
+
+2020-02-28 13:12:25 - [TEST_STEP][PASSED] - comment("Voucher Detail Page Check"): Voucher Detail Page Check
+
+2020-02-28 13:12:25 - [MESSAGE][INFO] - Voucher Detail Page Check
+
+2020-02-28 13:12:25 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-02-28 13:12:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-02-28 13:12:30 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_title"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title' is exist
+
+2020-02-28 13:12:38 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title' is exist
+
+2020-02-28 13:12:38 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Voucher List Page/vouchlist_vouch1_title"), 1, STOP_ON_FAILURE): Tapped on element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title'
+
+2020-02-28 13:12:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Voucher List Page/vouchlist_vouch1_title'
+
+2020-02-28 13:12:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("iOS/Voucher Detail Page/vouchdet_info_title"), 1): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_info_title' is present
+
+2020-02-28 13:12:49 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_info_title' is present
+
+2020-02-28 13:12:49 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher Detail Page/vouchdet_header_btnBack"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_header_btnBack' is exist
+
+2020-02-28 13:12:51 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_header_btnBack' is exist
+
+2020-02-28 13:12:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher Detail Page/vouchdet_header_btnBack"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_header_btnBack' is visible
+
+2020-02-28 13:12:53 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_header_btnBack' is visible
+
+2020-02-28 13:12:53 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher Detail Page/vouchdet_header_title"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_header_title' is exist
+
+2020-02-28 13:12:55 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_header_title' is exist
+
+2020-02-28 13:12:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher Detail Page/vouchdet_header_title"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_header_title' is visible
+
+2020-02-28 13:12:58 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_header_title' is visible
+
+2020-02-28 13:12:58 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Voucher Detail Page/vouchdet_header_title"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Voucher Detail Page/vouchdet_header_title' is: 'VOUCHER DETAIL'
+
+2020-02-28 13:13:00 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Voucher Detail Page/vouchdet_header_title' is: 'VOUCHER DETAIL'
+
+2020-02-28 13:13:00 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher Detail Page/vouchdet_info_imgCoupon"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_info_imgCoupon' is exist
+
+2020-02-28 13:13:02 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_info_imgCoupon' is exist
+
+2020-02-28 13:13:02 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher Detail Page/vouchdet_info_title"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_info_title' is exist
+
+2020-02-28 13:13:06 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_info_title' is exist
+
+2020-02-28 13:13:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher Detail Page/vouchdet_info_title"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_info_title' is visible
+
+2020-02-28 13:13:11 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_info_title' is visible
+
+2020-02-28 13:13:11 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Voucher Detail Page/vouchdet_info_title"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Voucher Detail Page/vouchdet_info_title' is: 'voucher for new user'
+
+2020-02-28 13:13:14 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Voucher Detail Page/vouchdet_info_title' is: 'voucher for new user'
+
+2020-02-28 13:13:14 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher Detail Page/vouchdet_info_desc"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_info_desc' is exist
+
+2020-02-28 13:13:17 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_info_desc' is exist
+
+2020-02-28 13:13:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher Detail Page/vouchdet_info_desc"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_info_desc' is visible
+
+2020-02-28 13:13:22 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_info_desc' is visible
+
+2020-02-28 13:13:22 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Voucher Detail Page/vouchdet_info_desc"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Voucher Detail Page/vouchdet_info_desc' is: 'check max min'
+
+2020-02-28 13:13:26 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Voucher Detail Page/vouchdet_info_desc' is: 'check max min'
+
+2020-02-28 13:13:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher Detail Page/vouchdet_info_desc_price"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_info_desc_price' is visible
+
+2020-02-28 13:13:29 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_info_desc_price' is visible
+
+2020-02-28 13:13:29 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Voucher Detail Page/vouchdet_info_desc_price"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Voucher Detail Page/vouchdet_info_desc_price' is: '10 KFC Points'
+
+2020-02-28 13:13:32 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Voucher Detail Page/vouchdet_info_desc_price' is: '10 KFC Points'
+
+2020-02-28 13:13:32 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher Detail Page/vouchdet_info_desc_price"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_info_desc_price' is exist
+
+2020-02-28 13:13:35 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_info_desc_price' is exist
+
+2020-02-28 13:13:35 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher Detail Page/vouchdet_voucherimage"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_voucherimage' is exist
+
+2020-02-28 13:13:39 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_voucherimage' is exist
+
+2020-02-28 13:13:39 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher Detail Page/vouchdet_info_desc_redeemamt"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_info_desc_redeemamt' is exist
+
+2020-02-28 13:13:43 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_info_desc_redeemamt' is exist
+
+2020-02-28 13:13:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher Detail Page/vouchdet_info_desc_redeemamt"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_info_desc_redeemamt' is visible
+
+2020-02-28 13:13:46 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_info_desc_redeemamt' is visible
+
+2020-02-28 13:13:46 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Voucher Detail Page/vouchdet_info_desc_redeemamt"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Voucher Detail Page/vouchdet_info_desc_redeemamt' is: 'Redeemed 0/10'
+
+2020-02-28 13:13:48 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Voucher Detail Page/vouchdet_info_desc_redeemamt' is: 'Redeemed 0/10'
+
+2020-02-28 13:13:48 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher Detail Page/vouchdet_btnCancel_text"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel_text' is exist
+
+2020-02-28 13:13:52 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel_text' is exist
+
+2020-02-28 13:13:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher Detail Page/vouchdet_btnCancel_text"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel_text' is visible
+
+2020-02-28 13:13:55 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel_text' is visible
+
+2020-02-28 13:13:55 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Voucher Detail Page/vouchdet_btnCancel_text"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel_text' is: 'Cancel'
+
+2020-02-28 13:13:59 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel_text' is: 'Cancel'
+
+2020-02-28 13:13:59 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher Detail Page/vouchdet_btnCancel"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel' is exist
+
+2020-02-28 13:14:02 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel' is exist
+
+2020-02-28 13:14:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher Detail Page/vouchdet_btnCancel"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel' is visible
+
+2020-02-28 13:14:05 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel' is visible
+
+2020-02-28 13:14:05 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher Detail Page/vouchdet_btnConfirm_text"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm_text' is exist
+
+2020-02-28 13:14:08 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm_text' is exist
+
+2020-02-28 13:14:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher Detail Page/vouchdet_btnConfirm_text"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm_text' is visible
+
+2020-02-28 13:14:10 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm_text' is visible
+
+2020-02-28 13:14:10 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Voucher Detail Page/vouchdet_btnConfirm_text"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm_text' is: 'Confirm'
+
+2020-02-28 13:14:13 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm_text' is: 'Confirm'
+
+2020-02-28 13:14:13 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher Detail Page/vouchdet_btnConfirm"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm' is exist
+
+2020-02-28 13:14:15 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm' is exist
+
+2020-02-28 13:14:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher Detail Page/vouchdet_btnConfirm"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm' is visible
+
+2020-02-28 13:14:18 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnConfirm' is visible
+
+2020-02-28 13:14:18 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher Detail Page/vouchdet_TC_btnTC_text"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_TC_btnTC_text' is exist
+
+2020-02-28 13:14:20 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_TC_btnTC_text' is exist
+
+2020-02-28 13:14:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher Detail Page/vouchdet_TC_btnTC_text"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_TC_btnTC_text' is visible
+
+2020-02-28 13:14:22 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_TC_btnTC_text' is visible
+
+2020-02-28 13:14:22 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Voucher Detail Page/vouchdet_TC_btnTC_text"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Voucher Detail Page/vouchdet_TC_btnTC_text' is: 'Terms & Conditions'
+
+2020-02-28 13:14:25 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Voucher Detail Page/vouchdet_TC_btnTC_text' is: 'Terms & Conditions'
+
+2020-02-28 13:14:25 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher Detail Page/vouchdet_TC_btnTC"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_TC_btnTC' is exist
+
+2020-02-28 13:14:27 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_TC_btnTC' is exist
+
+2020-02-28 13:14:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher Detail Page/vouchdet_TC_btnTC"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_TC_btnTC' is visible
+
+2020-02-28 13:14:29 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_TC_btnTC' is visible
+
+2020-02-28 13:14:29 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher Detail Page/vouchdet_TC_desc"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_TC_desc' is exist
+
+2020-02-28 13:14:35 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_TC_desc' is exist
+
+2020-02-28 13:14:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher Detail Page/vouchdet_TC_desc"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_TC_desc' is visible
+
+2020-02-28 13:14:41 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_TC_desc' is visible
+
+2020-02-28 13:14:41 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Voucher Detail Page/vouchdet_TC_desc"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Voucher Detail Page/vouchdet_TC_desc' is: 'VOUCHER DETAIL'
+
+2020-02-28 13:14:47 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Voucher Detail Page/vouchdet_TC_desc' is: 'VOUCHER DETAIL'
+
+2020-02-28 13:14:47 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Voucher Detail Page/vouchdet_howto_btnHowto"), 1, STOP_ON_FAILURE): Tapped on element 'Object Repository/iOS/Voucher Detail Page/vouchdet_howto_btnHowto'
+
+2020-02-28 13:14:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Voucher Detail Page/vouchdet_howto_btnHowto'
+
+2020-02-28 13:14:50 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher Detail Page/vouchdet_howto_btnHowto_text"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_howto_btnHowto_text' is exist
+
+2020-02-28 13:14:52 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_howto_btnHowto_text' is exist
+
+2020-02-28 13:14:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher Detail Page/vouchdet_howto_btnHowto_text"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_howto_btnHowto_text' is visible
+
+2020-02-28 13:14:54 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_howto_btnHowto_text' is visible
+
+2020-02-28 13:14:54 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Voucher Detail Page/vouchdet_howto_btnHowto_text"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Voucher Detail Page/vouchdet_howto_btnHowto_text' is: 'How To Use'
+
+2020-02-28 13:14:57 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Voucher Detail Page/vouchdet_howto_btnHowto_text' is: 'How To Use'
+
+2020-02-28 13:14:57 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher Detail Page/vouchdet_howto_btnHowto"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_howto_btnHowto' is exist
+
+2020-02-28 13:14:59 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_howto_btnHowto' is exist
+
+2020-02-28 13:14:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher Detail Page/vouchdet_howto_btnHowto"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_howto_btnHowto' is visible
+
+2020-02-28 13:15:01 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_howto_btnHowto' is visible
+
+2020-02-28 13:15:01 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("iOS/Voucher Detail Page/vouchdet_howto_desc"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_howto_desc' is exist
+
+2020-02-28 13:15:07 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_howto_desc' is exist
+
+2020-02-28 13:15:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("iOS/Voucher Detail Page/vouchdet_howto_desc"), 1, CONTINUE_ON_FAILURE): Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_howto_desc' is visible
+
+2020-02-28 13:15:12 - [MESSAGE][PASSED] - Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_howto_desc' is visible
+
+2020-02-28 13:15:12 - [TEST_STEP][PASSED] - getText(findTestObject("iOS/Voucher Detail Page/vouchdet_howto_desc"), 1, CONTINUE_ON_FAILURE): Text of element 'Object Repository/iOS/Voucher Detail Page/vouchdet_howto_desc' is: 'VOUCHER DETAIL'
+
+2020-02-28 13:15:18 - [MESSAGE][PASSED] - Text of element 'Object Repository/iOS/Voucher Detail Page/vouchdet_howto_desc' is: 'VOUCHER DETAIL'
+
+2020-02-28 13:15:18 - [TEST_STEP][PASSED] - tap(findTestObject("iOS/Voucher List Page/vouchlist_header_btnBack"), 1): Tapped on element 'Object Repository/iOS/Voucher List Page/vouchlist_header_btnBack'
+
+2020-02-28 13:15:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/iOS/Voucher List Page/vouchlist_header_btnBack'
+
+2020-02-28 13:15:21 - [TEST_STEP][FAILED] - tap(findTestObject("iOS/Voucher Detail Page/vouchdet_btnCancel"), 1): Failed to tap on element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:520)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$4.call(Unknown Source)
+	at 4. Verify Rewards Detail Page.run(4. Verify Rewards Detail Page:122)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582869476469.run(TempTestSuite1582869476469.groovy:36)
+)
+
+2020-02-28 13:15:29 - [MESSAGE][FAILED] - Object Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel not found
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870529816.png]]
+
+2020-02-28 13:15:30 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:520)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$4.call(Unknown Source)
+	at 4. Verify Rewards Detail Page.run(4. Verify Rewards Detail Page:122)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582869476469.run(TempTestSuite1582869476469.groovy:36)
+)
+[[ATTACHMENT|/Users/bambangtripamungkas/git/KFCiOS/Reports/20200228_125756/Regression Test - Loyality and Rewards/20200228_125756/1582870529961.png]]]]></system-out>
+         <system-err><![CDATA[2020-02-28 13:12:24 - [TEST_CASE][FAILED] - Test Cases/RegressioniOS - Loyality and Rewards/4. Verify Rewards Detail Page: Test Cases/RegressioniOS - Loyality and Rewards/4. Verify Rewards Detail Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:520)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$4.call(Unknown Source)
+	at 4. Verify Rewards Detail Page.run(4. Verify Rewards Detail Page:122)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582869476469.run(TempTestSuite1582869476469.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-28 12:58:05 - [TEST_SUITE][FAILED] - Regression Test - Loyality and Rewards: Test Cases/RegressioniOS - Loyality and Rewards/3. Verify all buttons on the rewards page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel_text' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:640)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at 3. Verify all buttons on the rewards page.run(3. Verify all buttons on the rewards page:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582869476469.run(TempTestSuite1582869476469.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-02-28 12:58:05 - [TEST_SUITE][FAILED] - Regression Test - Loyality and Rewards: Test Cases/RegressioniOS - Loyality and Rewards/3. Verify all buttons on the rewards page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/iOS/Voucher Detail Page/vouchdet_btnCancel_text' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:640)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at 3. Verify all buttons on the rewards page.run(3. Verify all buttons on the rewards page:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582869476469.run(TempTestSuite1582869476469.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

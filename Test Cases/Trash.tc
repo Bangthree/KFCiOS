@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login using 085643628232</description>
+   <name>Trash</name>
+   <tag>Login</tag>
+   <comment></comment>
+   <testCaseGuid>86c4fdd3-628b-46c8-b4b9-ac4410b05127</testCaseGuid>
+</TestCaseEntity>

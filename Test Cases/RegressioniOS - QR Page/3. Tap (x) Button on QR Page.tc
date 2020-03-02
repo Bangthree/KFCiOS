@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- info dismissed</description>
+   <name>3. Tap (x) Button on QR Page</name>
+   <tag>QR</tag>
+   <comment></comment>
+   <testCaseGuid>5bc3bb72-d138-4ccf-b084-f0926c62af62</testCaseGuid>
+</TestCaseEntity>

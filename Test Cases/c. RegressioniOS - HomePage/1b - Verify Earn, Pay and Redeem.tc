@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Earn, Pay and Redeem
+- Title
+- Desc
+- Button</description>
+   <name>1b - Verify Earn, Pay and Redeem</name>
+   <tag>Verify Earn, Pay and Redeem</tag>
+   <comment>Check Choose Action Header
+Check Earn on Choose Action
+Check Redeem on Choose Action
+Earn and Redeem Done</comment>
+   <testCaseGuid>c4f44ad4-4526-495a-b696-dfdd38903b50</testCaseGuid>
+</TestCaseEntity>

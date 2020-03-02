@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Voucher shop redirection
+- Voucher shop list</description>
+   <name>1. Open Voucher Shop Page</name>
+   <tag>Voucher, Redirection, shop, list</tag>
+   <comment>Earn Page Components check started
+Loyalty page Test Started
+Voucher 1 Check
+Voucher 2 Check</comment>
+   <testCaseGuid>4fa48ce3-c627-44d6-a2da-b18b9f0deea3</testCaseGuid>
+</TestCaseEntity>
