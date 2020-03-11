@@ -11,13 +11,13 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'ANDROID REGRESSION TEST'</initValue>
+      <initValue>'iOS REGRESSION TEST'</initValue>
       <name>G_NotificationMessage</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'com.kfc.mobile.hkStaging'</initValue>
-      <name>AndroidID</name>
+      <initValue>'com.kfcjv.staging'</initValue>
+      <name>iOSID</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

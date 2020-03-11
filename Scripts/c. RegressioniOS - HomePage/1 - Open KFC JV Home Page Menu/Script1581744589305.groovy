@@ -28,81 +28,81 @@ true) {
     println = 'Logged in'
 }
 
-Mobile.waitForElementPresent(findTestObject('Android/Home Screen/img_kfc_jago'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('iOS/Home Page - New Sprnt 25B/home_logo_imgKFC'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.comment('Quick Check on Delivery Order Button')
 
-Mobile.verifyElementExist(findTestObject('iOS/Home Page/home_delivorder_btnDelivorder'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('iOS/Home Page - New Sprnt 25B/home_delivorder_btnDeliv'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('iOS/Home Page/home_delivorder_btnDelivorder'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('iOS/Home Page - New Sprnt 25B/home_delivorder_btnDeliv'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('iOS/Home Page/home_delivorder_title'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('iOS/Home Page - New Sprnt 25B/home_delivorder_txtPesan'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('iOS/Home Page/home_delivorder_title'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.getText(findTestObject('iOS/Home Page - New Sprnt 25B/home_delivorder_txtPesan'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.getText(findTestObject('iOS/Home Page/home_delivorder_title'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('iOS/Home Page - New Sprnt 25B/home_delivorder_txtAntar'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.getText(findTestObject('iOS/Home Page - New Sprnt 25B/home_delivorder_txtAntar'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.comment('Quick Check on Pay & Pick Button')
 
-Mobile.verifyElementExist(findTestObject('iOS/Home Page/home_PNP_btnPNP'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('iOS/Home Page - New Sprnt 25B/home_PNP_btnPNP'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('iOS/Home Page/home_PNP_btnPNP'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('iOS/Home Page - New Sprnt 25B/home_PNP_btnPNP'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('iOS/Home Page/home_PNP_title'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('iOS/Home Page - New Sprnt 25B/home_PNP_txtPay'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.getText(findTestObject('iOS/Home Page/home_PNP_title'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.getText(findTestObject('iOS/Home Page - New Sprnt 25B/home_PNP_txtPay'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.verifyElementExist(findTestObject('iOS/Home Page - New Sprnt 25B/home_PNP_txtPick'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.getText(findTestObject('iOS/Home Page - New Sprnt 25B/home_PNP_txtPick'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.comment('Quick Check on KFC Points Button')
 
-Mobile.verifyElementExist(findTestObject('iOS/Home Page/home_points_imgBackgroundRed'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('iOS/Home Page - New Sprnt 25B/home_points_btnRedeem'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('iOS/Home Page/home_points_btnRedeem'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('iOS/Home Page - New Sprnt 25B/home_points_btnRedeem'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('iOS/Home Page/home_points_btnRedeem'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('iOS/Home Page - New Sprnt 25B/home_points_txtPointsAmt'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('iOS/Home Page/home_points_dynamictext_pointsamount'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.getText(findTestObject('iOS/Home Page - New Sprnt 25B/home_points_txtPointsAmt'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.getText(findTestObject('iOS/Home Page/home_points_dynamictext_pointsamount'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('iOS/Home Page - New Sprnt 25B/home_points_txtPoints'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('iOS/Home Page/home_points_title_KFCPoints'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.getText(findTestObject('iOS/Home Page - New Sprnt 25B/home_points_txtPoints'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.getText(findTestObject('iOS/Home Page/home_points_title_KFCPoints'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('iOS/Home Page - New Sprnt 25B/home_points_txtKFC'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('iOS/Home Page/home_points_imgKFCCup'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.getText(findTestObject('iOS/Home Page - New Sprnt 25B/home_points_txtKFC'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.comment('Quick Check on History Button')
 
-Mobile.verifyElementExist(findTestObject('iOS/Home Page/home_topbar_btnHistory'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('iOS/Home Page - New Sprnt 25B/home_topbar_btnHistory'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('iOS/Home Page/home_topbar_btnHistory'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('iOS/Home Page - New Sprnt 25B/home_topbar_btnHistory'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('iOS/Home Page/home_topbar_btnHistory_newHistory'), 2, FailureHandling.OPTIONAL)
+Mobile.verifyElementExist(findTestObject('iOS/Home Page - New Sprnt 25B/home_topbar_btnHistory_newHistory'), 2, FailureHandling.OPTIONAL)
 
 WebUI.comment('Quick Check on Profile Button')
 
-Mobile.verifyElementExist(findTestObject('iOS/Home Page/home_topbar_btnProfile'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('iOS/Home Page - New Sprnt 25B/home_topbar_btnProfile'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('iOS/Home Page/home_topbar_btnProfile'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('iOS/Home Page - New Sprnt 25B/home_topbar_btnProfile'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.comment('Quick Check on KFC Logo on Homepage')
 
-Mobile.verifyElementExist(findTestObject('iOS/Home Page/home_logo_imgKfclogo'), 2, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.verifyElementExist(findTestObject('iOS/Home Page/home_logo_imgHandwrite'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('iOS/Home Page - New Sprnt 25B/home_logo_imgKFC'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.comment('Quick Check on Ongoing Promo')
 
-Mobile.verifyElementExist(findTestObject('iOS/Home Page/home_promo_title_ongoingpromo'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('iOS/Home Page - New Sprnt 25B/home_promo_txtOngoingPromo'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('iOS/Home Page/home_promo_title_ongoingpromo'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.getText(findTestObject('iOS/Home Page - New Sprnt 25B/home_promo_txtOngoingPromo'), 1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementText(findTestObject('iOS/Home Page/home_promo_title_ongoingpromo'), 'ONGOING PROMO', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('iOS/Home Page - New Sprnt 25B/home_promo_btnViewAll'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('iOS/Home Page/home_promo_btnViewall'), 2, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.verifyElementVisible(findTestObject('iOS/Home Page/home_promo_btnViewall'), 2, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.verifyElementText(findTestObject('iOS/Home Page/home_promo_btnViewall_text'), 'View All', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('iOS/Home Page - New Sprnt 25B/home_promo_btnViewAll'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.verifyElementExist(findTestObject('iOS/Home Page/home_promo_activepromo_imgPromo'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -124,15 +124,15 @@ Mobile.verifyElementExist(findTestObject('iOS/Home Page/home_imgBgLong'), 2, Fai
 
 WebUI.comment('Quick Check on Bottom Bar')
 
-Mobile.verifyElementExist(findTestObject('iOS/Home Page/home_bottombar_btnHome'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('iOS/Home Page - New Sprnt 25B/home_bottombar_btnHome'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('iOS/Home Page/home_bottombar_btnHome'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('iOS/Home Page - New Sprnt 25B/home_bottombar_btnHome'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('iOS/Home Page/home_bottombar_btnEarn'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('iOS/Home Page - New Sprnt 25B/home_bottombar_btnEarn'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('iOS/Home Page/home_bottombar_btnEarn'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('iOS/Home Page - New Sprnt 25B/home_bottombar_btnEarn'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('iOS/Home Page/home_bottombar_btnVoucher'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('iOS/Home Page - New Sprnt 25B/home_bottombar_btnVoucher'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('iOS/Home Page/home_bottombar_btnVoucher'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('iOS/Home Page - New Sprnt 25B/home_bottombar_btnVoucher'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 

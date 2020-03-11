@@ -1,25 +1,25 @@
 [35m[Appium][39m Welcome to Appium v1.15.1
 [35m[Appium][39m Non-default server args:
-[35m[Appium][39m   port: 59384
+[35m[Appium][39m   port: 63818
 [35m[Appium][39m   loglevel: info
-[35m[Appium][39m   chromeDriverPort: 59385
-[35m[Appium][39m   tmpDir: /var/folders/5x/xgrvn9_j439fxnt_sf6vk2sw0000gq/T//Katalon/Appium/Temp1582843370661
-[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:59384
+[35m[Appium][39m   chromeDriverPort: 63820
+[35m[Appium][39m   tmpDir: /var/folders/5x/xgrvn9_j439fxnt_sf6vk2sw0000gq/T//Katalon/Appium/Temp1583895421552
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:63818
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m8 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m6 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
-[35m[HTTP][39m [90m{"desiredCapabilities":{"newCommandTimeout":1800,"realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","platformVersion":"13.3","automationName":"XCUITest","bundleId":"com.kfcjv.staging","waitForAppScript":"true;","platformName":"iOS","deviceName":"iPhone 8","platform":"IOS","wdaLocalPort":59398},"capabilities":{"firstMatch":[{"appium:automationName":"XCUITest","appium:bundleId":"com.kfcjv.staging","appium:deviceName":"iPhone 8","appium:newCommandTimeout":1800,"platform":"IOS","platformName":"ios","appium:platformVersion":"13.3","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","appium:waitForAppScript":"true;","appium:wdaLocalPort":59398}]}}[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"newCommandTimeout":1800,"realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","platformVersion":"13.3","automationName":"XCUITest","bundleId":"com.kfcjv.staging","waitForAppScript":"true;","platformName":"iOS","deviceName":"iPhone 8","platform":"IOS","wdaLocalPort":63837},"capabilities":{"firstMatch":[{"appium:automationName":"XCUITest","appium:bundleId":"com.kfcjv.staging","appium:deviceName":"iPhone 8","appium:newCommandTimeout":1800,"platform":"IOS","platformName":"ios","appium:platformVersion":"13.3","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","appium:waitForAppScript":"true;","appium:wdaLocalPort":63837}]}}[39m
 [35m[BaseDriver][39m The capabilities ["platform","realDeviceLogger"] are not standard capabilities and should have an extension prefix
 [35m[Appium][39m Appium v1.15.1 creating new XCUITestDriver (v2.133.1) session
 [35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
 [35m[BaseDriver][39m   platform
-[35m[BaseDriver][39m Session created with session id: 7fa101e4-d4c8-4ce8-8597-cb37013a37be
+[35m[BaseDriver][39m Session created with session id: a328a57a-2877-470b-987e-d9bd94bd53ec
 [35m[XCUITest][39m iOS SDK Version set to '13.2'
 [35m[iOSSim][39m Constructing iOS simulator for Xcode version 11.3.1 with udid '6A6E4FBE-0C14-4933-955B-2AC434E45FAC'
 [35m[XCUITest][39m Determining device to run tests on: udid: '6A6E4FBE-0C14-4933-955B-2AC434E45FAC', real device: false
@@ -28,66 +28,56 @@
 [35m[XCUITest][39m idb will not be used for Simulator interaction. Original error: 'idb' has not been found in PATH. Is it installed? Read https://www.fbidb.io for more details
 [35m[XCUITest][39m Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent'
 [35m[XCUITest][39m Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
-[35m[DevCon Factory][39m Requesting connection for device 6A6E4FBE-0C14-4933-955B-2AC434E45FAC on local port 59398, device port 59398
-[35m[DevCon Factory][39m Successfully requested the connection for 6A6E4FBE-0C14-4933-955B-2AC434E45FAC:59398
-[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":59398}
+[35m[DevCon Factory][39m Requesting connection for device 6A6E4FBE-0C14-4933-955B-2AC434E45FAC on local port 63837, device port 63837
+[35m[DevCon Factory][39m Successfully requested the connection for 6A6E4FBE-0C14-4933-955B-2AC434E45FAC:63837
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":63837}
 [35m[XCUITest][39m Launching WebDriverAgent on the device
 [35m[WebDriverAgent][39m Fetching dependencies
 [35m[WebDriverAgent][39m Dependencies up-to-date
-[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":59398}
-[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":59398}
-[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":59398}
-[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":59398}
-[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":59398}
-[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":59398}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":63837}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":63837}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":63837}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":63837}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":63837}
 [35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
 [35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
-[35m[Appium][39m New XCUITestDriver session created successfully, session 7fa101e4-d4c8-4ce8-8597-cb37013a37be added to master session list
-[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m17793 ms - 638[39m
+[35m[Appium][39m New XCUITestDriver session created successfully, session a328a57a-2877-470b-987e-d9bd94bd53ec added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m17649 ms - 638[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7fa101e4-d4c8-4ce8-8597-cb37013a37be[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a328a57a-2877-470b-987e-d9bd94bd53ec[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[XCUITest][39m Merging WDA caps over Appium caps for session detail response
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/7fa101e4-d4c8-4ce8-8597-cb37013a37be [39m[32m200[39m [90m739 ms - 595[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a328a57a-2877-470b-987e-d9bd94bd53ec [39m[32m200[39m [90m400 ms - 595[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7fa101e4-d4c8-4ce8-8597-cb37013a37be[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a328a57a-2877-470b-987e-d9bd94bd53ec[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[XCUITest][39m Merging WDA caps over Appium caps for session detail response
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/7fa101e4-d4c8-4ce8-8597-cb37013a37be [39m[32m200[39m [90m7 ms - 595[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a328a57a-2877-470b-987e-d9bd94bd53ec [39m[32m200[39m [90m5 ms - 595[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7fa101e4-d4c8-4ce8-8597-cb37013a37be/timeouts[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a328a57a-2877-470b-987e-d9bd94bd53ec/timeouts[39m
 [35m[HTTP][39m [90m{"implicit":60000}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/7fa101e4-d4c8-4ce8-8597-cb37013a37be/timeouts [39m[32m200[39m [90m15 ms - 14[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a328a57a-2877-470b-987e-d9bd94bd53ec/timeouts [39m[32m200[39m [90m7 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7fa101e4-d4c8-4ce8-8597-cb37013a37be/appium/device/activate_app[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a328a57a-2877-470b-987e-d9bd94bd53ec/appium/device/activate_app[39m
 [35m[HTTP][39m [90m{"bundleId":"com.kfcjv.staging"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/7fa101e4-d4c8-4ce8-8597-cb37013a37be/appium/device/activate_app [39m[32m200[39m [90m127 ms - 14[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a328a57a-2877-470b-987e-d9bd94bd53ec/appium/device/activate_app [39m[32m200[39m [90m166 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7fa101e4-d4c8-4ce8-8597-cb37013a37be/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a328a57a-2877-470b-987e-d9bd94bd53ec/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/7fa101e4-d4c8-4ce8-8597-cb37013a37be/source [39m[32m200[39m [90m1861 ms - 6688[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a328a57a-2877-470b-987e-d9bd94bd53ec/source [39m[32m200[39m [90m3379 ms - 11350[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7fa101e4-d4c8-4ce8-8597-cb37013a37be/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a328a57a-2877-470b-987e-d9bd94bd53ec/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/7fa101e4-d4c8-4ce8-8597-cb37013a37be/screenshot [39m[32m200[39m [90m156 ms - 671844[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a328a57a-2877-470b-987e-d9bd94bd53ec/screenshot [39m[32m200[39m [90m305 ms - 2154260[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7fa101e4-d4c8-4ce8-8597-cb37013a37be/source[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/a328a57a-2877-470b-987e-d9bd94bd53ec[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/7fa101e4-d4c8-4ce8-8597-cb37013a37be/source [39m[32m200[39m [90m2032 ms - 9091[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7fa101e4-d4c8-4ce8-8597-cb37013a37be/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/7fa101e4-d4c8-4ce8-8597-cb37013a37be/screenshot [39m[32m200[39m [90m132 ms - 345528[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/7fa101e4-d4c8-4ce8-8597-cb37013a37be[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[Appium][39m Removing session 7fa101e4-d4c8-4ce8-8597-cb37013a37be from our master session list
+[35m[Appium][39m Removing session a328a57a-2877-470b-987e-d9bd94bd53ec from our master session list
 [35m[DevCon Factory][39m Releasing connections for 6A6E4FBE-0C14-4933-955B-2AC434E45FAC device on any port number
-[35m[DevCon Factory][39m Found cached connections to release: ["6A6E4FBE-0C14-4933-955B-2AC434E45FAC:59398"]
-[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/7fa101e4-d4c8-4ce8-8597-cb37013a37be [39m[32m200[39m [90m1105 ms - 14[39m
+[35m[DevCon Factory][39m Found cached connections to release: ["6A6E4FBE-0C14-4933-955B-2AC434E45FAC:63837"]
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/a328a57a-2877-470b-987e-d9bd94bd53ec [39m[32m200[39m [90m1121 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-                                                                                 [35m[Appium][39m Received SIGTERM - shutting down
